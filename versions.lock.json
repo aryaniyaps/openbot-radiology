@@ -1,0 +1,14 @@
+{
+  "updated": "2026-09-30",
+  "openmausbot": "0.1.91",
+  "codex": "0.159.2",
+  "weasis": "4.7.3",
+  "ohif": "3.12.18",
+  "dcm4chee": "5.35.0",
+  "bahmni_web": "1.1.0",
+  "bahmni_openmrs": "1.1.2",
+  "immutable_images": "config/server/images.lock.json",
+  "codex_default_model": "gpt-6.1-sol",
+  "codex_effort": "medium",
+  "cua_driver": "0.20.0"
+}

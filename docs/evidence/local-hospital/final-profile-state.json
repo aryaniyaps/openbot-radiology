@@ -1,0 +1,74 @@
+{
+  "normal_launch": true,
+  "temporary_debug_listener": false,
+  "paired_maintenance_session_survived_restart": true,
+  "bots": [
+    {
+      "name": "Clinical Assistant",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "computer": "vm",
+      "approvalMode": "ask",
+      "busy": false
+    },
+    {
+      "name": "Workflow Steward",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "computer": "vm",
+      "approvalMode": "ask",
+      "busy": false
+    },
+    {
+      "name": "Report Check",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "computer": "vm",
+      "approvalMode": "ask",
+      "busy": false
+    },
+    {
+      "name": "Report Draft",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "computer": "vm",
+      "approvalMode": "ask",
+      "busy": false
+    },
+    {
+      "name": "Image Assistant",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "computer": "vm",
+      "approvalMode": "ask",
+      "busy": false
+    },
+    {
+      "name": "Case Prep",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "computer": "vm",
+      "approvalMode": "ask",
+      "busy": false
+    }
+  ],
+  "desktop_login_autostart_configured": true
+}

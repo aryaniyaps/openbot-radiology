@@ -1,0 +1,9 @@
+{
+  "patient": "ABC200010",
+  "accession": "ORD-20",
+  "physician_account": "radiologist",
+  "report": "Technical report draft — public demonstration\n\nPatient ABC200010 · Accession ORD-20. Bahmni lists “Demo bilateral mammography,” ordered 30 September 2026 at 10:57 am. The viewer lists four MG instances with DICOM view labels right CC, left CC, left MLO, and right MLO; one image was observed rendering. Clinical indication and relevant history were not visible in the reviewed chart. Findings and impression require clinician review. The viewer study date, 18 July 2010, differs from the order date; the discrepancy remains unexplained. Calibration and diagnostic image quality have not been verified.\n\nPhysician demonstration review: synthetic patient/order identifiers match the public-source MG study. Source: TCIA CMMD, CC BY 4.0, https://doi.org/10.7937/tcia.eqde-4b16. The source image date is retained from the public case; the local demonstration order was created on 30 September 2026. The date difference is expected provenance in this public demonstration, not a new clinical acquisition. This technical text has been reviewed and saved; no diagnostic interpretation, signature or locked status is asserted.",
+  "native_save_reopen": true,
+  "review_scope": "Technical public demonstration only; no diagnostic interpretation",
+  "at": "2026-09-30T13:06:25.297Z"
+}

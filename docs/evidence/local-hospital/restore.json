@@ -1,0 +1,21 @@
+{
+  "restored_studies": 17,
+  "restored_instances": 1016,
+  "restored_reports": 7,
+  "external_network_interfaces": 0,
+  "native_profiles_restored": 6,
+  "restored_profile_models": {
+    "Clinical Assistant": "gpt-6.1-sol",
+    "Workflow Steward": "gpt-6.1-sol",
+    "Report Check": "gpt-6.1-sol",
+    "Report Draft": "gpt-6.1-sol",
+    "Image Assistant": "gpt-6.1-sol",
+    "Case Prep": "gpt-6.1-sol"
+  },
+  "browser_preferences_restored": 6,
+  "native_message_database_restored": true,
+  "codex_auth_file_restored": true,
+  "config_sha256": "476b6eeaa25f92af4f6ae41ea89e951487842fa93e955a6b7ab961701330a4a2",
+  "duration_seconds": 114,
+  "status": "passed"
+}

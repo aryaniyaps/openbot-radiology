@@ -1,0 +1,82 @@
+[
+  {
+    "modality": "DX",
+    "file": "docs/evidence/local-hospital/videos/DX-complete.mp4",
+    "duration_seconds": 151.2,
+    "chapters": [
+      "Registration, order, scanner emulator, real images, native technical report",
+      "Actual OpenMausBot Codex draft",
+      "Physician review, native save and reopen"
+    ],
+    "edited": true,
+    "raw_clips": [
+      "docs/evidence/local-hospital/videos/DX.webm",
+      "docs/evidence/local-hospital/videos/DX-assistant.webm",
+      "docs/evidence/local-hospital/videos/DX-physician-review.webm"
+    ]
+  },
+  {
+    "modality": "CT",
+    "file": "docs/evidence/local-hospital/videos/CT-complete.mp4",
+    "duration_seconds": 86.9,
+    "chapters": [
+      "Registration, order, scanner emulator, real images, native technical report",
+      "Actual OpenMausBot Codex draft",
+      "Physician review, native save and reopen"
+    ],
+    "edited": true,
+    "raw_clips": [
+      "docs/evidence/local-hospital/videos/CT.webm",
+      "docs/evidence/local-hospital/videos/CT-assistant.webm",
+      "docs/evidence/local-hospital/videos/CT-physician-review.webm"
+    ]
+  },
+  {
+    "modality": "MR",
+    "file": "docs/evidence/local-hospital/videos/MR-complete.mp4",
+    "duration_seconds": 82.2,
+    "chapters": [
+      "Registration, order, scanner emulator, real images, native technical report",
+      "Actual OpenMausBot Codex draft",
+      "Physician review, native save and reopen"
+    ],
+    "edited": true,
+    "raw_clips": [
+      "docs/evidence/local-hospital/videos/MR.webm",
+      "docs/evidence/local-hospital/videos/MR-assistant.webm",
+      "docs/evidence/local-hospital/videos/MR-physician-review.webm"
+    ]
+  },
+  {
+    "modality": "US",
+    "file": "docs/evidence/local-hospital/videos/US-complete.mp4",
+    "duration_seconds": 73.8,
+    "chapters": [
+      "Registration, order, scanner emulator, real images, native technical report",
+      "Actual OpenMausBot Codex draft",
+      "Physician review, native save and reopen"
+    ],
+    "edited": true,
+    "raw_clips": [
+      "docs/evidence/local-hospital/videos/US.webm",
+      "docs/evidence/local-hospital/videos/US-assistant.webm",
+      "docs/evidence/local-hospital/videos/US-physician-review.webm"
+    ]
+  },
+  {
+    "modality": "MG",
+    "file": "docs/evidence/local-hospital/videos/MG-complete.mp4",
+    "duration_seconds": 72.7,
+    "chapters": [
+      "Registration, order, scanner emulator, real images, native technical report",
+      "Actual OpenMausBot Codex draft",
+      "Physician review, native save and reopen"
+    ],
+    "edited": true,
+    "raw_clips": [
+      "docs/evidence/local-hospital/videos/MG.webm",
+      "docs/evidence/local-hospital/videos/MG-assistant.webm",
+      "docs/evidence/local-hospital/videos/MG-physician-review.webm"
+    ]
+  }
+]

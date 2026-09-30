@@ -1,0 +1,32 @@
+[
+  {
+    "role": "clinical",
+    "username": "assistant_clinical",
+    "authenticated_native_browser_session": true
+  },
+  {
+    "role": "workflow",
+    "username": "assistant_workflow",
+    "authenticated_native_browser_session": true
+  },
+  {
+    "role": "reportcheck",
+    "username": "assistant_reportcheck",
+    "authenticated_native_browser_session": true
+  },
+  {
+    "role": "reportdraft",
+    "username": "assistant_reportdraft",
+    "authenticated_native_browser_session": true
+  },
+  {
+    "role": "image",
+    "username": "assistant_image",
+    "authenticated_native_browser_session": true
+  },
+  {
+    "role": "caseprep",
+    "username": "assistant_caseprep",
+    "authenticated_native_browser_session": true
+  }
+]

@@ -1,0 +1,10 @@
+[Unit]
+Description=Reconcile local radiology desktop applications and trust
+After=network.target user@1001.service
+Wants=user@1001.service
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/python3 /home/aryan/ai-projects/openbot-radiology/scripts/server/prewarm-on-boot.py
+ExecStart=/usr/bin/python3 /home/aryan/ai-projects/openbot-radiology/scripts/server/provision-workstations.py
+ExecStartPost=/usr/bin/python3 /home/aryan/ai-projects/openbot-radiology/scripts/server/reconcile-sessions.py
+TimeoutStartSec=10min

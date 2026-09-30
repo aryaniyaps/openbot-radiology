@@ -1,0 +1,46 @@
+{
+  "vm": "running",
+  "disk_free_gib": 88.6,
+  "backup_timer": "active",
+  "last_backup": "2026-09-30T13:32:19.382614+00:00",
+  "external_copy": false,
+  "backup_overdue": false,
+  "hospital_http": 200,
+  "studies": 17,
+  "instances": 1016,
+  "assistants": [
+    {
+      "name": "Clinical Assistant",
+      "busy": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Workflow Steward",
+      "busy": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Report Check",
+      "busy": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Report Draft",
+      "busy": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Image Assistant",
+      "busy": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Case Prep",
+      "busy": false,
+      "computer": "vm"
+    }
+  ],
+  "workstation_timer": "inactive",
+  "workstation_recovery_result": "signal",
+  "maintenance_needed": true
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "native_hl7_ack": "AA",
+  "accession": "ORD-4",
+  "scheduled_procedure_step_id": "ORD-4",
+  "requested_procedure_id": "ORD-4",
+  "modality": "CT",
+  "overlong_incoming_id_fallback": true,
+  "study_uid_preserved": true,
+  "matching_worklist_entries": 1
+}

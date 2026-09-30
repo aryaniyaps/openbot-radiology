@@ -1,0 +1,25 @@
+{
+  "at": "2026-09-30T11:14:32.856877+00:00",
+  "removed_containers": [
+    "kauvery-radiology-openbot-1",
+    "kauvery-radiology-supervisor-1",
+    "kauvery-radiology-openbot-db-1",
+    "kauvery-radiology-agent-pydantic-1",
+    "kauvery-radiology-ohif-1",
+    "kauvery-radiology-pacs-1",
+    "kauvery-radiology-pacs-db-1",
+    "kauvery-radiology-pacs-ldap-1",
+    "kauvery-radiology-openemr-1",
+    "kauvery-radiology-hindsight-1",
+    "kauvery-radiology-hms-db-1",
+    "kauvery-radiology-litellm-1",
+    "kauvery-demo-computer-workflow-steward",
+    "kauvery-demo-computer-report-check",
+    "kauvery-demo-computer-report-draft",
+    "kauvery-demo-computer-image-assistant",
+    "kauvery-demo-computer-case-prep"
+  ],
+  "volumes_preserved": true,
+  "images_preserved": true,
+  "unrelated_projects_untouched": true
+}

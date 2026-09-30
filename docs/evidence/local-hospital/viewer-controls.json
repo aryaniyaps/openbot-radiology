@@ -1,0 +1,37 @@
+[
+  {
+    "modality": "DX",
+    "case": "xray-01",
+    "control": "Zoom and reset",
+    "viewport_count": 1,
+    "visible_text": "19-Jan-1901\nAP\n1/1\nW:\n4096\nL:\n2048\nZoom:\n1.00x"
+  },
+  {
+    "modality": "CT",
+    "case": "ct-01",
+    "control": "Axial, sagittal and coronal MPR",
+    "viewport_count": 3,
+    "visible_text": "31-Dec-1900\nLUNG HR 1.25 MM\nI:115 (115/229)\nW:\n1500\nL:\n-600\nA\nR\n31-Dec-1900\nLUNG HR 1.25 MM\n257/512\nW:\n1500\nL:\n-600\nH\nA\n31-Dec-1900\nLUNG HR 1.25 MM\n257/512\nW:\n1500\nL:\n-600\nH\nR"
+  },
+  {
+    "modality": "MR",
+    "case": "mr-01",
+    "control": "Three source MR series displayed side by side",
+    "viewport_count": 3,
+    "visible_text": "07-Jul-2011\nt2_tse_tra\nI:1 (1/19)\nW:\n1145\nL:\n579\nAH\nRHP\nFPS\n07-Jul-2011\nep2d_diff_tra_DYNDIST\nI:10 (10/19)\nW:\n192\nL:\n72\nAH\nRHP\n1 /3\nSiemensPrivateBValue\nFPS\n07-Jul-2011\nep2d_diff_tra_DYNDIST_ADC\nI:1 (1/19)\nW:\n2915\nL:\n1277\nAH\nRHP\nFPS"
+  },
+  {
+    "modality": "US",
+    "case": "us-01",
+    "control": "Spatial sweep frame navigation; not temporal cine",
+    "viewport_count": 1,
+    "visible_text": "17-Jul-2009\nI:633 (2/227)\nW:\n256\nL:\n128\nFPS"
+  },
+  {
+    "modality": "MG",
+    "case": "mg-01",
+    "control": "Four left/right CC/MLO views in 2x2 layout",
+    "viewport_count": 4,
+    "visible_text": "18-Jul-2010\n1/1\nW:\n256\nL:\n128\n18-Jul-2010\n1/1\nW:\n256\nL:\n128\n18-Jul-2010\n1/1\nW:\n256\nL:\n128\n18-Jul-2010\n1/1\nW:\n256\nL:\n128"
+  }
+]

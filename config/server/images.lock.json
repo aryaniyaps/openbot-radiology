@@ -1,0 +1,42 @@
+{
+  "openmrs": {
+    "image": "bahmni/openmrs:1.1.2",
+    "digest": "bahmni/openmrs@sha256:3b0c29f1192b8a772175352eae5ebb94ae3f67a20c992fff3b6e36664bdb3fbb"
+  },
+  "openmrsdb": {
+    "image": "bahmni/openmrs-db:1.0.0-standard",
+    "digest": "bahmni/openmrs-db@sha256:5a637cd997c404e2c425d918a6520c82538ebfc6675e43b3b9826d1859683eb0"
+  },
+  "bahmni-web": {
+    "image": "bahmni/bahmni-web:1.1.0",
+    "digest": "bahmni/bahmni-web@sha256:026146cb7a0377e1b70f0e68c6d5a53e51da23f33b6ebf7806e8f4648eca3b89"
+  },
+  "patient-documents": {
+    "image": "bahmni/patient-documents:1.1.1",
+    "digest": "bahmni/patient-documents@sha256:c3edffcab2725c2c99537ac3836961b5475bf169c0473289f18ff0b238b1fb2f"
+  },
+  "dcm4chee5-ldap": {
+    "image": "dcm4che/slapd-dcm4chee:2.6.13-35.0",
+    "digest": "dcm4che/slapd-dcm4chee@sha256:3020bb025cbd90a8df13cb7c0520cff87d26df361709b5d07ae52da90619b4fc"
+  },
+  "dcm4chee5-db": {
+    "image": "dcm4che/postgres-dcm4chee:17.9-35",
+    "digest": "dcm4che/postgres-dcm4chee@sha256:28bcc74f4fe0328563d41b8468465b78d10ffc53166bb7f7ca34530e42421791"
+  },
+  "dcm4chee5": {
+    "image": "dcm4che/dcm4chee-arc-psql:5.35.0",
+    "digest": "dcm4che/dcm4chee-arc-psql@sha256:aa423daf3602fc15bd0c7cbce70aafd000c290a8607da8ad3e45bce7ff109279"
+  },
+  "pacs-integration-dcm5": {
+    "image": "bahmni/pacs-integration:latest",
+    "digest": "bahmni/pacs-integration@sha256:dec7e7fa9f98629480f7a10a17d2be59472a6b5c0aab5f52d4aa307a23c4576b"
+  },
+  "pacs-integration5-db": {
+    "image": "postgres:16-alpine",
+    "digest": "postgres@sha256:721873c34ceb9f8d8fc265984940dc982404c105f19ad51be9fdc5970a6080ea"
+  },
+  "ohif": {
+    "image": "ohif/app@sha256:5a572fddbdbf7e834c3b840fe0b5340abcc36ef29c3ee8a338e88f4231d85389",
+    "digest": "ohif/app@sha256:5a572fddbdbf7e834c3b840fe0b5340abcc36ef29c3ee8a338e88f4231d85389"
+  }
+}

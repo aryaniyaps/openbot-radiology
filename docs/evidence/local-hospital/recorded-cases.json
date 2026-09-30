@@ -1,0 +1,62 @@
+[
+  {
+    "patient": "b5bd7f4c-9d1b-431d-8e12-a69fb2485220",
+    "patient_id": "ABC200006",
+    "accession": "ORD-16",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790765565000.1955465039",
+    "source_case": "xray-01",
+    "modality": "DX",
+    "instances": 1,
+    "order": "22a288d6-0972-4522-99ba-d98dd36926f6",
+    "mwl_modality": "DX",
+    "scanner": "public-source acquisition emulator"
+  },
+  {
+    "patient": "f24f6033-bc31-46eb-8502-d389b1f61749",
+    "patient_id": "ABC200007",
+    "accession": "ORD-17",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790765688000.1955465038",
+    "source_case": "ct-02",
+    "modality": "CT",
+    "instances": 241,
+    "order": "63736db5-50af-40ec-92c3-9ed00e3309cb",
+    "mwl_modality": "CT",
+    "scanner": "public-source acquisition emulator"
+  },
+  {
+    "patient": "fe893b47-e2b1-488a-be35-fe8df6e2dc6c",
+    "patient_id": "ABC200008",
+    "accession": "ORD-18",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790765740000.1955465037",
+    "source_case": "mr-01",
+    "modality": "MR",
+    "instances": 95,
+    "order": "fcc68d06-28a3-4db7-90c9-116240210297",
+    "mwl_modality": "MR",
+    "scanner": "public-source acquisition emulator"
+  },
+  {
+    "patient": "064fc2e3-4a41-4150-8361-dc63a14728fd",
+    "patient_id": "ABC200009",
+    "accession": "ORD-19",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790765792000.1955465036",
+    "source_case": "us-01",
+    "modality": "US",
+    "instances": 1,
+    "order": "5cc6a9e0-5d72-428a-bdb1-5578c44ea746",
+    "mwl_modality": "US",
+    "scanner": "public-source acquisition emulator"
+  },
+  {
+    "patient": "661878e1-7aaf-41dd-8abc-16e20f1ec6aa",
+    "patient_id": "ABC200010",
+    "accession": "ORD-20",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790765834000.1955465014",
+    "source_case": "mg-01",
+    "modality": "MG",
+    "instances": 4,
+    "order": "423d67dd-55e7-4b90-8ab7-15c871b0b56d",
+    "mwl_modality": "MG",
+    "scanner": "public-source acquisition emulator"
+  }
+]

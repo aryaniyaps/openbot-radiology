@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "native_pairing_exchange": true,
+  "replacement_session_authenticated": true,
+  "previous_session_revoked": true,
+  "root_private_file_mode": "0o600"
+}

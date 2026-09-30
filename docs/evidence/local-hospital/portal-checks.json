@@ -1,0 +1,30 @@
+[
+  {
+    "label": "matched",
+    "status": "DEMO-003 · ORD-4",
+    "links_visible": true
+  },
+  {
+    "label": "mismatch",
+    "status": "The patient and radiology order do not match. Verify both identifiers.",
+    "links_visible": false
+  },
+  {
+    "label": "unknown",
+    "status": "No unique patient record matches that ID. Verify the identifier.",
+    "links_visible": false
+  },
+  {
+    "label": "offline",
+    "status": "The hospital or imaging service is unavailable. Contact the operator.",
+    "links_visible": false
+  },
+  {
+    "label": "direct-viewer-mismatch",
+    "status": "Opening the matching study\n\nThe patient and order do not match. Return to the patient record and verify both identifiers."
+  },
+  {
+    "label": "missing-images",
+    "status": "Opening the matching study\n\nImages have not arrived for this order yet. Return to the worklist or try again after acquisition."
+  }
+]

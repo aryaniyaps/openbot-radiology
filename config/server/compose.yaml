@@ -1,0 +1,404 @@
+name: kauvery-hospital
+services:
+  openmrs:
+    command: null
+    depends_on:
+      openmrsdb:
+        condition: service_started
+        required: true
+    entrypoint: null
+    environment:
+      DOCUMENT_MAX_SIZE_MB: ''
+      HEIGHT_CONCEPT_UUID: 5090AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      LUCENE_MATCH_TYPE: START
+      MAIL_DEBUG: 'false'
+      MAIL_FROM: ''
+      MAIL_PASSWORD: ''
+      MAIL_SMTP_AUTH: 'true'
+      MAIL_SMTP_HOST: ''
+      MAIL_SMTP_PORT: ''
+      MAIL_SMTP_SSL_ENABLE: 'true'
+      MAIL_SMTP_STARTTLS_ENABLE: 'true'
+      MAIL_TRANSPORT_PROTOCOL: smtps
+      MAIL_USER: ''
+      OMRS_AUTO_UPDATE_DATABASE: 'true'
+      OMRS_C3P0_MAX_SIZE: '50'
+      OMRS_CREATE_TABLES: 'false'
+      OMRS_DB_EXTRA_ARGS: '&zeroDateTimeBehavior=convertToNull'
+      OMRS_DB_HOSTNAME: openmrsdb
+      OMRS_DB_NAME: openmrs
+      OMRS_DB_PASSWORD: ${OPENMRS_OMRS_DB_PASSWORD:?Required private deployment secret}
+      OMRS_DB_USERNAME: openmrs-user
+      OMRS_DOCKER_ENV: 'true'
+      OMRS_JAVA_MEMORY_OPTS: -Xms512m -Xmx2g
+      OMRS_JAVA_SERVER_OPTS: -Duser.timezone=Asia/Kolkata
+      OMRS_MODULE_WEB_ADMIN: 'false'
+      OPENELIS_ATOMFEED_PASSWORD: ${OPENMRS_OPENELIS_ATOMFEED_PASSWORD:?Required private
+        deployment secret}
+      OPENELIS_ATOMFEED_USER: atomfeed
+      OPENELIS_HOST: openelis
+      OPENELIS_PORT: '8052'
+      SEND_MAIL: 'false'
+      TZ: Asia/Kolkata
+      WEIGHT_CONCEPT_UUID: 5089AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    image: bahmni/openmrs@sha256:3b0c29f1192b8a772175352eae5ebb94ae3f67a20c992fff3b6e36664bdb3fbb
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: ./bahmni-config
+      target: /etc/bahmni_config
+      read_only: true
+      volume: {}
+    - type: volume
+      source: bahmni-lab-results
+      target: /home/bahmni/uploaded_results
+      volume: {}
+    - type: volume
+      source: bahmni-uploaded-files
+      target: /home/bahmni/uploaded-files
+      volume: {}
+    - type: volume
+      source: bahmni-patient-images
+      target: /home/bahmni/patient_images
+      volume: {}
+    - type: volume
+      source: bahmni-document-images
+      target: /home/bahmni/document_images
+      volume: {}
+    - type: volume
+      source: bahmni-clinical-forms
+      target: /home/bahmni/clinical_forms
+      volume: {}
+    - type: volume
+      source: configuration_checksums
+      target: /openmrs/data/configuration_checksums
+      volume: {}
+    - type: volume
+      source: sms-token
+      target: /openmrs/data/sms-token
+      volume: {}
+    - type: volume
+      source: openmrs-data
+      target: /openmrs/data
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    ports:
+    - target: 8080
+      published: '8082'
+      host_ip: 127.0.0.1
+      protocol: tcp
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  openmrsdb:
+    command:
+    - --sql-mode=STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+    entrypoint: null
+    environment:
+      MYSQL_DATABASE: openmrs
+      MYSQL_PASSWORD: ${OPENMRS_OMRS_DB_PASSWORD:?Required private deployment secret}
+      MYSQL_ROOT_PASSWORD: ${OPENMRSDB_MYSQL_ROOT_PASSWORD:?Required private deployment
+        secret}
+      MYSQL_USER: openmrs-user
+      TZ: Asia/Kolkata
+    image: bahmni/openmrs-db@sha256:5a637cd997c404e2c425d918a6520c82538ebfc6675e43b3b9826d1859683eb0
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: openmrsdbdata
+      target: /var/lib/mysql
+      volume: {}
+    - type: volume
+      source: configuration_checksums
+      target: /configuration_checksums
+      volume: {}
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  bahmni-web:
+    command: null
+    entrypoint: null
+    image: bahmni/bahmni-web@sha256:026146cb7a0377e1b70f0e68c6d5a53e51da23f33b6ebf7806e8f4648eca3b89
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: ./bahmni-config
+      target: /usr/local/apache2/htdocs/bahmni_config
+      read_only: true
+      volume: {}
+    - type: bind
+      source: ./httpd.conf
+      target: /usr/local/apache2/conf/httpd.conf
+      read_only: true
+    - type: bind
+      source: ./systemdate
+      target: /usr/local/apache2/cgi-bin/systemdate
+      read_only: true
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    ports:
+    - target: 8091
+      published: '8081'
+      host_ip: 127.0.0.1
+      protocol: tcp
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  patient-documents:
+    command: null
+    depends_on:
+      openmrs:
+        condition: service_started
+        required: true
+    entrypoint: null
+    environment:
+      OPENMRS_HOST: openmrs
+      TZ: Asia/Kolkata
+    image: bahmni/patient-documents@sha256:c3edffcab2725c2c99537ac3836961b5475bf169c0473289f18ff0b238b1fb2f
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: bahmni-document-images
+      target: /usr/share/nginx/html/document_images
+      volume: {}
+    - type: volume
+      source: bahmni-lab-results
+      target: /usr/share/nginx/html/uploaded_results
+      volume: {}
+    - type: volume
+      source: bahmni-uploaded-files
+      target: /usr/share/nginx/html/uploaded-files
+      volume: {}
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    ports:
+    - target: 80
+      published: '8083'
+      host_ip: 127.0.0.1
+      protocol: tcp
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  dcm4chee5-ldap:
+    command: null
+    entrypoint: null
+    environment:
+      IMPORT_LDIF: ''
+      STORAGE_DIR: /storage/fs1
+      TZ: Asia/Kolkata
+    image: dcm4che/slapd-dcm4chee@sha256:3020bb025cbd90a8df13cb7c0520cff87d26df361709b5d07ae52da90619b4fc
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: dcm4chee5_ldap_data
+      target: /var/lib/openldap/openldap-data
+      volume: {}
+    - type: volume
+      source: dcm4chee5_slapd_data
+      target: /etc/openldap/slapd.d
+      volume: {}
+    - type: bind
+      source: ./bahmni-config
+      target: /etc/bahmni_config
+      read_only: true
+      volume: {}
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  dcm4chee5-db:
+    command: null
+    entrypoint: null
+    environment:
+      POSTGRES_DB: pacs_db
+      POSTGRES_PASSWORD: ${DCM4CHEE5-DB_POSTGRES_PASSWORD:?Required private deployment
+        secret}
+      POSTGRES_USER: pacs_user
+      TZ: Asia/Kolkata
+    image: dcm4che/postgres-dcm4chee@sha256:28bcc74f4fe0328563d41b8468465b78d10ffc53166bb7f7ca34530e42421791
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: dcm4chee5_db_data
+      target: /var/lib/postgresql/data
+      volume: {}
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  dcm4chee5:
+    command: null
+    depends_on:
+      dcm4chee5-db:
+        condition: service_started
+        required: true
+      dcm4chee5-ldap:
+        condition: service_started
+        required: true
+    entrypoint: null
+    environment:
+      LDAP_URL: ldap://dcm4chee5-ldap:389
+      POSTGRES_DB: pacs_db
+      POSTGRES_HOST: dcm4chee5-db
+      POSTGRES_PASSWORD: ${DCM4CHEE5-DB_POSTGRES_PASSWORD:?Required private deployment
+        secret}
+      POSTGRES_USER: pacs_user
+      SSL_REQUIRED: none
+      TZ: Asia/Kolkata
+      WILDFLY_CHOWN: /storage
+      WILDFLY_WAIT_FOR: dcm4chee5-ldap:389 dcm4chee5-db:5432
+    image: dcm4che/dcm4chee-arc-psql@sha256:aa423daf3602fc15bd0c7cbce70aafd000c290a8607da8ad3e45bce7ff109279
+    ports:
+    - target: 8080
+      published: '8080'
+      host_ip: 127.0.0.1
+      protocol: tcp
+    - target: 11112
+      published: '11112'
+      host_ip: 192.168.178.10
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: dcm4chee5_wildfly_data
+      target: /opt/wildfly/standalone
+      volume: {}
+    - type: volume
+      source: dcm4chee5_storage_data
+      target: /storage
+      volume: {}
+    - type: bind
+      source: ./pacs-xsl
+      target: /opt/kauvery-pacs-xsl
+      read_only: true
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  pacs-integration-dcm5:
+    command: null
+    entrypoint: null
+    environment:
+      CONCEPT_CODE_RESOLVER_SOURCE_PRIORITY: PACS Procedure Code,SNOMED-CT,CIEL
+      CREATE_IMAGING_STUDY_ENABLED: 'false'
+      DB_HOST: pacs-integration5-db
+      DB_NAME: pacs_integration_db
+      DB_PASSWORD: ${PACS-INTEGRATION-DCM5_DB_PASSWORD:?Required private deployment
+        secret}
+      DB_PORT: '5432'
+      DB_USERNAME: pacs_integration_user
+      OPENMRS_ATOMFEED_PASSWORD: ${PACS-INTEGRATION-DCM5_OPENMRS_ATOMFEED_PASSWORD:?Required
+        private deployment secret}
+      OPENMRS_ATOMFEED_USER: pacs_service
+      OPENMRS_HOST: openmrs
+      OPENMRS_PORT: '8080'
+      TZ: Asia/Kolkata
+    image: bahmni/pacs-integration@sha256:dec7e7fa9f98629480f7a10a17d2be59472a6b5c0aab5f52d4aa307a23c4576b
+    restart: unless-stopped
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    depends_on:
+      pacs-integration5-db:
+        condition: service_healthy
+      openmrs:
+        condition: service_started
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  pacs-integration5-db:
+    command: null
+    entrypoint: null
+    environment:
+      POSTGRES_DB: pacs_integration_db
+      POSTGRES_PASSWORD: ${PACS-INTEGRATION-DCM5_DB_PASSWORD:?Required private deployment
+        secret}
+      POSTGRES_USER: pacs_integration_user
+      TZ: Asia/Kolkata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - pg_isready -U pacs_integration_user -d pacs_integration_db
+      timeout: 5s
+      interval: 10s
+      retries: 5
+      start_period: 30s
+    image: postgres@sha256:721873c34ceb9f8d8fc265984940dc982404c105f19ad51be9fdc5970a6080ea
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: pacs_integration_postgres_data
+      target: /var/lib/postgresql/data
+      volume: {}
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+  ohif:
+    image: ohif/app@sha256:5a572fddbdbf7e834c3b840fe0b5340abcc36ef29c3ee8a338e88f4231d85389
+    ports:
+    - 127.0.0.1:8084:80
+    volumes:
+    - ./ohif.js:/usr/share/nginx/html/app-config.js:ro
+    restart: unless-stopped
+    labels:
+      com.kauvery.demo: 'true'
+      com.kauvery.owner: local-hospital
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+volumes:
+  bahmni-lab-results: {}
+  bahmni-uploaded-files: {}
+  bahmni-patient-images: {}
+  bahmni-document-images: {}
+  bahmni-clinical-forms: {}
+  configuration_checksums: {}
+  sms-token: {}
+  openmrs-data: {}
+  openmrsdbdata: {}
+  dcm4chee5_ldap_data: {}
+  dcm4chee5_slapd_data: {}
+  dcm4chee5_db_data: {}
+  dcm4chee5_wildfly_data: {}
+  dcm4chee5_storage_data: {}
+  pacs_integration_postgres_data: {}
+networks:
+  default:
+    ipam:
+      config:
+      - subnet: 10.239.178.0/24

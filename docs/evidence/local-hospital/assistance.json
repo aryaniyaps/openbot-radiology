@@ -1,0 +1,42 @@
+[
+  {
+    "patient_id": "ABC200006",
+    "accession": "ORD-16",
+    "modality": "DX",
+    "assistant": "OpenMausBot native Codex provider",
+    "draft": "**Technical report draft — public demonstration**\n\nPatient **ABC200006** · Accession **ORD-16**  \nModality: **DX** · **1 DICOM instance**  \nSource: **TCIA COVID-19-NY-SBU (CC BY 4.0)**. Demographics are synthetic.\n\n**Findings:** Require clinician interpretation.  \n**Impression:** Require clinician interpretation.",
+    "physician_save_reopened": true
+  },
+  {
+    "patient_id": "ABC200007",
+    "accession": "ORD-17",
+    "modality": "CT",
+    "assistant": "OpenMausBot native Codex provider",
+    "draft": "**Technical report draft — public demonstration**\n\nPatient **ABC200007** · Accession **ORD-17**  \nCT · **241 DICOM instances**  \nSource: **TCIA COVID-19-NY-SBU (CC BY 4.0)**. Demographics are synthetic.\n\n**Findings:** Require clinician interpretation.  \n**Impression:** Require clinician interpretation.\n\nThe physician reports verifying the identifiers in Bahmni and the viewer; I have not independently checked them.",
+    "physician_save_reopened": true
+  },
+  {
+    "patient_id": "ABC200008",
+    "accession": "ORD-18",
+    "modality": "MR",
+    "assistant": "OpenMausBot native Codex provider",
+    "draft": "**Technical report draft — public demonstration**\n\nPatient **ABC200008** · Accession **ORD-18**  \nMR · **95 DICOM instances**  \nSource: **TCIA PROSTATEx (CC BY 3.0)**. Demographics are synthetic.\n\n**Findings:** Require clinician interpretation.  \n**Impression:** Require clinician interpretation.\n\nThe physician reports verifying the identifiers in Bahmni and the viewer.",
+    "physician_save_reopened": true
+  },
+  {
+    "patient_id": "ABC200009",
+    "accession": "ORD-19",
+    "modality": "US",
+    "assistant": "OpenMausBot native Codex provider",
+    "draft": "**Technical report draft — public demonstration**\n\nPatient **ABC200009** · Accession **ORD-19**  \n**US:** 1 DICOM instance containing 227 spatial sweep frames; these are not temporal cine.  \n**Source:** TCIA Prostate-MRI-US-Biopsy (CC BY 4.0). Demographics are synthetic.\n\n**Findings:** Require clinician interpretation.  \n**Impression:** Require clinician interpretation.\n\nThe physician reports verifying the patient and accession in Bahmni and the viewer.",
+    "physician_save_reopened": true
+  },
+  {
+    "patient_id": "ABC200010",
+    "accession": "ORD-20",
+    "modality": "MG",
+    "assistant": "OpenMausBot native Codex provider",
+    "draft": "**Technical report draft — public demonstration**\n\n**Patient:** ABC200010 · **Accession:** ORD-20  \n**Modality:** MG · **Images:** 4 DICOM instances, comprising left and right CC and MLO views. Detector spacing is preserved; patient-plane calibration is not asserted. Demographics are synthetic.\n\n**Source:** TCIA CMMD (CC BY 4.0).\n\n**Findings and impression:** Require clinician image interpretation.",
+    "physician_save_reopened": true
+  }
+]

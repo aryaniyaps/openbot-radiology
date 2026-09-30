@@ -1,0 +1,11 @@
+<network>
+  <name>kauvery-hospital</name>
+  <forward mode='nat'/>
+  <bridge name='kauverybr0' stp='on' delay='0'/>
+  <ip address='192.168.178.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='192.168.178.100' end='192.168.178.150'/>
+      <host mac='52:54:00:ca:00:10' name='kauvery-hospital' ip='192.168.178.10'/>
+    </dhcp>
+  </ip>
+</network>

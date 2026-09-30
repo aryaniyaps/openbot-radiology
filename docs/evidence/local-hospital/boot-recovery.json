@@ -1,0 +1,10 @@
+{
+  "role": "Case Prep",
+  "native_stop_then_recreate": true,
+  "native_api_preparation": true,
+  "persistent_firefox_preferences": true,
+  "weasis_preserved": true,
+  "graphics_reprovisioned": true,
+  "trusted_portal_https": true,
+  "status": "passed"
+}

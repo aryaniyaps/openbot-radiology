@@ -1,0 +1,10 @@
+[Unit]
+Description=Restrict DICOM writes to the local scanner emulator
+After=docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+ExecStart=/opt/kauvery-hospital/scanner-firewall.sh
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

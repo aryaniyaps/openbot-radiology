@@ -1,0 +1,7 @@
+[Unit]
+Description=Provision recreated OpenMausBot desktops
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+{
+  "role": "Report Check",
+  "container_replaced": true,
+  "workspace_marker_preserved": true,
+  "weasis_preserved": true,
+  "firefox_profile_preserved": true,
+  "graphics_reprovisioned": true,
+  "https_trust_verified": true
+}

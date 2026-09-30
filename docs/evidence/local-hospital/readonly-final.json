@@ -1,0 +1,38 @@
+[
+  {
+    "role": "clinical",
+    "native_authentication": true,
+    "native_obs_write_status": 403,
+    "valid_synthetic_observation_payload": true
+  },
+  {
+    "role": "workflow",
+    "native_authentication": true,
+    "native_obs_write_status": 403,
+    "valid_synthetic_observation_payload": true
+  },
+  {
+    "role": "reportcheck",
+    "native_authentication": true,
+    "native_obs_write_status": 403,
+    "valid_synthetic_observation_payload": true
+  },
+  {
+    "role": "reportdraft",
+    "native_authentication": true,
+    "native_obs_write_status": 403,
+    "valid_synthetic_observation_payload": true
+  },
+  {
+    "role": "image",
+    "native_authentication": true,
+    "native_obs_write_status": 403,
+    "valid_synthetic_observation_payload": true
+  },
+  {
+    "role": "caseprep",
+    "native_authentication": true,
+    "native_obs_write_status": 403,
+    "valid_synthetic_observation_payload": true
+  }
+]

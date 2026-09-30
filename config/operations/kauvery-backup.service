@@ -1,0 +1,13 @@
+[Unit]
+Description=Encrypted local hospital and workstation backup
+After=libvirtd.service
+StartLimitIntervalSec=3h
+StartLimitBurst=12
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/aryan/ai-projects/openbot-radiology/scripts/operations/backup.py
+TimeoutStartSec=2h
+UMask=0077
+Restart=on-failure
+RestartSec=15min
+RestartPreventExitStatus=1

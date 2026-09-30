@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Open imaging study</title>
+<style>body{font:20px system-ui;max-width:700px;margin:15vh auto;padding:25px;color:#182f45}p{line-height:1.6}</style>
+<h1>Opening the matching study</h1><p id="status">Checking patient and order…</p>
+<script>
+const params=new URLSearchParams(location.search), patient=params.get('patientID'), accession=params.get('accessionNumber');
+const status=document.getElementById('status');
+async function openStudy(){
+  if(!patient||!accession){status.textContent='Open images from a patient’s radiology order.';return;}
+  try{
+    const query=new URLSearchParams({PatientID:patient,AccessionNumber:accession});
+    const response=await fetch('/dicomweb/studies?'+query);
+    if(!response.ok&&response.status!==204)throw Error('Study lookup unavailable');
+    const studies=response.status===204?[]:await response.json();
+    if(studies.length===0){const other=await fetch('/dicomweb/studies?'+new URLSearchParams({AccessionNumber:accession}));if(other.status===200){const matches=await other.json();if(matches.length&&matches.some(x=>x['00100020']?.Value?.[0]!==patient)){status.textContent='The patient and order do not match. Return to the patient record and verify both identifiers.';return;}}status.textContent='Images have not arrived for this order yet. Return to the worklist or try again after acquisition.';return;}
+    if(studies.length!==1||studies[0]['00100020']?.Value?.[0]!==patient||studies[0]['00080050']?.Value?.[0]!==accession){status.textContent='The patient and order could not be matched unambiguously. Contact the operator.';return;}
+    const uid=studies[0]['0020000D'].Value[0];
+    location.replace('/viewer/viewer?StudyInstanceUIDs='+encodeURIComponent(uid));
+  }catch(error){status.textContent='Imaging is temporarily unavailable. Contact the operator.';}
+}
+openStudy();
+</script></html>
