@@ -24,4 +24,6 @@ The encrypted nightly Restic backup described in the operations guide is the ful
 
 ## Completed imaging benchmark
 
+Start with the [executive PDF report](output/pdf/Imaging-Benchmark-Executive-Report.pdf): seven pages covering the decisions, core results, uncertainty, specialist value, limitations and research agenda.
+
 Read the [decision report](benchmark/runs/20260930T1418Z-graysby/DECISION-REPORT.md) and [requirement audit](benchmark/runs/20260930T1418Z-graysby/REQUIREMENT-AUDIT.md). The [delivery guide](benchmark/README.md) explains the curated artifacts, integrity checks and locally retained evidence.
