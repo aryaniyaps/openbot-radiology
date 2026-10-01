@@ -32,6 +32,9 @@ def main():
  try:
   override={'modelSelection':{'instanceId':'codex','model':'gpt-6.1-sol','effort':'low'}}
   probe('doctor thread execution override denied','doctor',route,'PATCH',override,403)
+  probe('doctor Full access override denied','doctor',route,'PATCH',{'approvalMode':'full'},403)
+  probe('doctor bot approval policy override denied','doctor','/api/bots/'+bot['id'],'PATCH',{'approvalMode':'full'},403)
+  probe('doctor external peer grant denied','doctor','/api/bots/'+bot['id'],'PATCH',{'peers':['unapproved-recipient']},403)
   probe('normalized dot path execution override denied','doctor','/api/bots/'+bot['id']+'/tasks/../tasks/'+tid,'PATCH',override,403)
   probe('doctor permanent approval denied','doctor','/api/bots/'+bot['id']+'/always-allow','POST',{'tool':'test'},403)
   probe('doctor always-approve response denied','doctor','/api/bots/'+bot['id']+'/respond','POST',{'threadId':tid,'requestId':'not-issued','behavior':'allow','always':True},403)

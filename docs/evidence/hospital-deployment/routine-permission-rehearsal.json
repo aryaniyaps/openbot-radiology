@@ -1,0 +1,119 @@
+{
+  "thread_id": "4e81d96e-b137-4f12-ac97-38dd739c3fb7",
+  "seconds": 302.0,
+  "approval_cards": [],
+  "tools": [
+    {
+      "role": "Clinical Assistant",
+      "name": "list_bots",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "coordinate_bots",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "Sent to Image Assistant",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "Image Assistant replied",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "Resumed with Image Assistant results, reviewing",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "coordinate_bots",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "Sent to Report Check",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "Report Check replied",
+      "ok": true
+    },
+    {
+      "role": "Clinical Assistant",
+      "name": "Resumed with Image Assistant, Report Check results, reviewing",
+      "ok": true
+    },
+    {
+      "role": "Report Check",
+      "name": "error: Reconnecting... 2/5",
+      "ok": false
+    },
+    {
+      "role": "Report Check",
+      "name": "error: Reconnecting... 3/5",
+      "ok": false
+    },
+    {
+      "role": "Report Check",
+      "name": "error: Reconnecting... 4/5",
+      "ok": false
+    },
+    {
+      "role": "Report Check",
+      "name": "error: Reconnecting... 5/5",
+      "ok": false
+    },
+    {
+      "role": "Image Assistant",
+      "name": "error: Reconnecting... 2/5",
+      "ok": false
+    },
+    {
+      "role": "Image Assistant",
+      "name": "error: Reconnecting... 3/5",
+      "ok": false
+    },
+    {
+      "role": "Image Assistant",
+      "name": "error: Reconnecting... 4/5",
+      "ok": false
+    },
+    {
+      "role": "Image Assistant",
+      "name": "error: Reconnecting... 5/5",
+      "ok": false
+    }
+  ],
+  "busy": false,
+  "waiting": false,
+  "observation_seconds": 376.0,
+  "status": "passed",
+  "case_id": "PRACTICE001",
+  "accession": "ORD-22",
+  "human_tool_approvals": 0,
+  "observer_approval_responses_sent": 0,
+  "models": {
+    "coordinator": {
+      "instanceId": "codex",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    "Report Check": {
+      "instanceId": "codex",
+      "model": "gpt-6-astra",
+      "effort": "high"
+    },
+    "Image Assistant": {
+      "instanceId": "codex",
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  },
+  "clinical_record_writes_requested": false,
+  "scope": "One public practice-case integration check; not clinical validation"
+}

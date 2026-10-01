@@ -32,6 +32,7 @@ def main():
             raise RuntimeError(f'Native API {method} {route}: {e.code}: {e.read().decode()[:300]}') from None
 
     guidance = json.loads((ROOT / 'config/openmausbot/role-guidance.json').read_text())
+    permissions = json.loads((ROOT / 'config/openmausbot/routine-permissions.json').read_text())
     state = api('bots')
     bots = state['bots']
     roles = guidance['roles']
@@ -48,6 +49,7 @@ def main():
         installation = next((line[line.index('Hospital:'):] for line in bot.get('soul', '').splitlines()
             if 'Hospital:' in line), '')
         soul = spec['instructions'] + '\n\n' + guidance['shared']
+        soul += '\n\nRoutine permission policy:\n' + permissions['instructions']
         if installation:
             soul += '\n\nOperator-configured application locations: ' + installation
         soul += '\n\nLoad the enabled role procedures: ' + ', '.join(spec['skills']) + '.'

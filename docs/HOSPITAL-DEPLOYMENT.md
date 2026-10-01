@@ -7,7 +7,7 @@ The doctor client and IT management server are running on this machine. They use
 1. Open **Radiology Assistant** in the application launcher, or [the doctor worklist](https://doctor.radiology.demo/worklist/).
 2. Read `.private/HOSPITAL-DEMO-ACCESS.txt` for the doctor gateway and hospital-record logins. The IT login is separate. Credentials are intentionally excluded from Git.
 3. Choose a case. Open **Patient record** and **Review images** to verify the patient, accession and full supplied study.
-4. Inspect the visible assistant image packet and its coverage limits, then choose **Prepare this case**. A new native Clinical Assistant conversation opens. Allow the requested teammate handoffs once. The assistant reads the assigned packet, obtains a real independent image read and report check, and returns a provisional report.
+4. Inspect the visible assistant image packet and its coverage limits, then choose **Prepare this case**. A new native Clinical Assistant conversation opens. Teammate handoffs use automatic permission review. The assistant reads the assigned packet, obtains a real independent image read and report check, and returns a provisional report.
 5. Review and edit the proposal against the full images. Open **Write / save report**, expand the order, enter the reviewed text in **Radiology Notes**, and choose **Save**. Reload to confirm it persisted. Saving this practice note does not demonstrate electronic signing or release.
 
 Keep one case active at a time. The client refuses to replace a working coordinator conversation. Closing the assistant tab does not cancel native work. Use the native conversation controls if you need to stop your own case.
@@ -25,6 +25,8 @@ Demographics and orders are synthetic. Images are deidentified public TCIA data 
 ## IT ownership
 
 Open [IT operations](https://it.radiology.demo/operations/) to view availability, image archive counts, role/model configuration, working/waiting status, disk reserve and session-expiry alerts. **Manage OpenMausBot** opens the native administrator interface for configuration. Doctors cannot mutate models, SOULs, profiles, permanent approvals or administrator sessions through their gateway.
+
+All six roles use native **Approve for me** (`approvalMode: auto`), with the existing explicit teammate lists and read-only clinical sessions. The provider reviews tool requests automatically; this retains its sandbox and denial rules. Clinical decisions, identity discrepancies and essential missing clinical information go to the doctor. Record writes, signing, release and orders remain in the doctor's separate session; technical configuration belongs to IT. A provider or access failure can still require operator intervention. The policy is in `config/openmausbot/routine-permissions.json`; while the team is idle, install it with `sudo -n python3 scripts/operations/apply-routine-permissions.py --apply`. Existing active and unarchived internal handoff threads are updated without deleting history.
 
 | System | Actual location | Responsibility |
 |---|---|---|

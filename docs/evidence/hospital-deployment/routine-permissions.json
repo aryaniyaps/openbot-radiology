@@ -1,0 +1,69 @@
+{
+  "status": "installed",
+  "native_version": "0.1.91",
+  "native_auto_review": true,
+  "full_access": false,
+  "roles": [
+    {
+      "name": "Clinical Assistant",
+      "bot_id": "95a37fc7-2fe8-48d1-a726-069310d5a9b7",
+      "approval_mode": "auto",
+      "updated_threads": [
+        "387ae16b-2b3a-4911-b591-960dff53629f"
+      ],
+      "soul_sha256": "d7aa2b8f53193c909f4cccc9dace92537d4bb56b54a5301663ec26d893939bd0",
+      "models_peers_computers_and_history_preserved": true
+    },
+    {
+      "name": "Workflow Steward",
+      "bot_id": "84b8a991-1927-46b9-a7e0-14b54f697db9",
+      "approval_mode": "auto",
+      "updated_threads": [
+        "a8dc557c-260c-4de8-9f17-7b38291db66b"
+      ],
+      "soul_sha256": "fce1da90db2548c4e42ff37e55f91af983306a5997aa9a61d8d7fb9de42fca4d",
+      "models_peers_computers_and_history_preserved": true
+    },
+    {
+      "name": "Report Check",
+      "bot_id": "3888d9d0-3a86-4828-9ddb-59dad45df2f2",
+      "approval_mode": "auto",
+      "updated_threads": [
+        "1ba87ed9-fd4d-4e68-8057-543685a2e339"
+      ],
+      "soul_sha256": "99bb69d6c80eeed772aa484e8ba216849613d5089c8f3bacb041c85e034c9f6d",
+      "models_peers_computers_and_history_preserved": true
+    },
+    {
+      "name": "Report Draft",
+      "bot_id": "7ec73ffc-27da-4655-a710-8a4946197596",
+      "approval_mode": "auto",
+      "updated_threads": [
+        "d25adac1-94ce-42d7-b099-63929e5fe2af",
+        "138ec4b9-4cad-45dd-a9f0-2af767462a16"
+      ],
+      "soul_sha256": "5274a15f9ea453ec99840e7d50703c49293593650b08e58841d1ae761f9664ad",
+      "models_peers_computers_and_history_preserved": true
+    },
+    {
+      "name": "Image Assistant",
+      "bot_id": "89606f1f-398c-4b93-914d-61f6547345dd",
+      "approval_mode": "auto",
+      "updated_threads": [
+        "9acc6130-c2d1-4ed5-baa2-4218d55ca822"
+      ],
+      "soul_sha256": "d4c23336c74ec9b266752ce1bffedd09a6ddd8e93a09d18fa93cb4b2eb92db1e",
+      "models_peers_computers_and_history_preserved": true
+    },
+    {
+      "name": "Case Prep",
+      "bot_id": "30ec7c65-14a1-4a09-8b56-b29d90fc1633",
+      "approval_mode": "auto",
+      "updated_threads": [
+        "5f7a6fdb-c1ed-400c-8578-5f8942f7ac3a"
+      ],
+      "soul_sha256": "450975419d316370120918a9248caded5505705f9cf8570a7e57e5f4fbc42b0b",
+      "models_peers_computers_and_history_preserved": true
+    }
+  ]
+}
