@@ -1,0 +1,4 @@
+{
+  "guest_agent_public_host_key_matches_pinned_ssh": true,
+  "strict_host_key_checking": true
+}

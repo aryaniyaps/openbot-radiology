@@ -1,0 +1,15 @@
+{
+  "file": "https://doctor.radiology.demo/worklist/Hospital-Doctor-Workflow.mp4",
+  "edited": true,
+  "chapters": [
+    "Actual doctor worklist, native checked draft, physician login, native chest viewer and practice-note Save",
+    "Subsequent native UI reload verifies saved practice-note history"
+  ],
+  "raw_sources": [
+    ".private/doctor-browser-video/page@341f99e51dbc30ed07e13dc96253ba0d.webm",
+    ".private/doctor-browser-video/page@21acdf422ca3b6a80ec968e89e66f376.webm"
+  ],
+  "professional_clinical_validation": false,
+  "https_range_playback_verified": true,
+  "sha256": "81e0ca99bfa799a910e53033c736a31e7fdde1346a11ea23264495ca2b0e8a18"
+}

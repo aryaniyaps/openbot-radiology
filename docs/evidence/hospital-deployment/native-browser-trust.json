@@ -1,0 +1,6 @@
+{
+  "hospital_ca_sha256": "1850fec75de26f43eed232244257db0d2e8008dc6bf86bcce024ed82ef84b563",
+  "native_account_nss_import_passed": true,
+  "certificate_verification_not_bypassed": true,
+  "runtime_navigation_verification": "passed: packaged native agent-browser and chrome-headless-shell under kauvery-demo opened https://radiology.demo/ with hospital CA, in separate owned hospital-tls-check session"
+}

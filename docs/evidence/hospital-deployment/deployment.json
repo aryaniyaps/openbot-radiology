@@ -1,0 +1,17 @@
+{
+  "it_vm": "kauvery-it",
+  "ip": "192.168.178.11",
+  "doctor_origin": "https://doctor.radiology.demo",
+  "it_origin": "https://it.radiology.demo",
+  "native_execution": "existing restricted kauvery-demo host workstations",
+  "transport": "SSH key restricted to two loopback native endpoints",
+  "doctor_native_scopes": [
+    "client"
+  ],
+  "it_native_scopes": [
+    "admin",
+    "client"
+  ],
+  "telemetry_excludes_patient_text": true,
+  "private_handout": ".private/HOSPITAL-DEMO-ACCESS.txt"
+}

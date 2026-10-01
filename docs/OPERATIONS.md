@@ -1,5 +1,7 @@
 # Local hospital operations
 
+The separate IT management guest and current doctor client are documented in [Hospital deployment](HOSPITAL-DEPLOYMENT.md). Current practice additions bring the archive to 22 studies and 1358 instances; older restore receipts below describe their historical snapshots.
+
 The current system is the KVM VM `kauvery-hospital` at 192.168.178.10 and six native OpenMausBot rootless Podman workstations. The VM and its network autostart. Docker services restart inside the VM. The host workstation timer recreates stopped native desktops once per host boot through the supported paired OpenMausBot API, repairs application/trust/graphics assets, and renews read-only browser sessions after hospital restart or desktop recreation while assistants are idle. Its operator pairing credential is root-only and renews through native pairing before expiry. The app must be running for native desktop preparation; the timer retries when it becomes available.
 
 Run `python3 scripts/demo-stack.py status` for readiness, image counts, disk reserve and backup age. The configured app opens automatically when Aryan signs into the Linux desktop. You can also start it with `scripts/launch-packaged-demo.sh` from that desktop. Package installation is an operator task: `kauvery-demo` deliberately cannot run sudo apt. The original sudo denial was a privilege boundary, not a package lock held by another process.

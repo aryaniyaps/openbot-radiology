@@ -1,0 +1,17 @@
+{
+  "status": "terminal",
+  "case": "PRACTICE001",
+  "accession": "ORD-22",
+  "model_generated_reply": "**PRACTICE001 / ORD-22 \u2014 provisional practice-case report for radiologist review**\n\nDev Shah, male approximately 50; synthetic administrative demographics. Identity verification is supplied by the read-only integration; identifiers are not visible on the image.\n\n**Indication/comparison:** No clinical history or priors supplied.  \n**Technique:** One rendered frontal portable semi-erect chest image, marked R; AP/PA is not explicitly labeled.\n\n**Findings:** On [Image #1](/home/kauvery-demo/.openmausbot/attachments/01f6486f-4210-4554-af17-d0da7142a28a.png), lung volumes are low. Patchy bilateral mid-to-lower lung interstitial and airspace opacities are most conspicuous in the right mid/lower and left lower lungs. No visible pneumothorax or large pleural effusion. The cardiac silhouette is prominent, with size assessment limited by technique. A right-sided catheter tip projects near the expected SVC region; its precise endpoint is uncertain.\n\n**Impression:**\n\n1. Bilateral multifocal pulmonary opacities. Infection/inflammatory pneumonitis and pulmonary edema are considerations; basal atelectasis may contribute. Cause remains indeterminate without clinical context.\n2. Confirm catheter-tip position on the original study.\n\n**Prompt human review:** Correlate the pulmonary opacities with symptoms and oxygenation. No definite immediately life-threatening finding was identified on this view, but clinical urgency cannot be assessed without patient status.\n\nImage Assistant interpreted the actual pixels; Report Check independently reinspected them and found no material correction necessary. Coverage remains one rendered view, which may obscure small findings. No lateral view, priors, or verified acquisition date were supplied; shifted source dates do not establish the order date.\n\n[Original supplied study for radiologist review](https://radiology.demo/open-study.html?patientID=PRACTICE001&accessionNumber=ORD-22). This draft remains pending radiologist review and has not been saved, signed, or released.",
+  "native_image_attachment_count": 1,
+  "one_shot_review_count": 2,
+  "one_shot_tools": [
+    "coordinate_bots",
+    "coordinate_bots"
+  ],
+  "elapsed_observed_seconds": 303.8,
+  "gui_comparator_review_count": 67,
+  "gui_elapsed_observed_seconds": 2664.9,
+  "diagnostic_validation": false,
+  "physician_time_savings_measured": false
+}

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Operator-only scanner emulator: native MWL C-FIND, pixel-preserving DICOM C-STORE."""
-import importlib.util,json,pathlib,sys,subprocess,urllib.request,time,shlex
+import importlib.util,json,pathlib,sys,subprocess,urllib.request,time,shlex,os,io,tarfile
 import pydicom
 from pydicom.uid import generate_uid
-ROOT=pathlib.Path(__file__).resolve().parents[2]
-sp=importlib.util.spec_from_file_location('h',pathlib.Path(__file__).with_name('configure-hospital.py'));h=importlib.util.module_from_spec(sp);sp.loader.exec_module(h)
+ROOT=pathlib.Path(os.environ.get('HOSPITAL_PROJECT',pathlib.Path(__file__).resolve().parents[2]))
+sp=importlib.util.spec_from_file_location('h',ROOT/'scripts/server/configure-hospital.py');h=importlib.util.module_from_spec(sp);sp.loader.exec_module(h)
 from guest import SSH
 patient,source,key=sys.argv[1:4];c=h.state['cases'][source]
 p=h.request('patient/'+patient+'?v=full');ident=next(i['identifier'] for i in p['identifiers'] if i['preferred']);orders=h.request('order?patient='+patient+'&v=full')['results'];orders=[o for o in orders if o['concept']['uuid']==h.state['concepts'][c['modality']]]
@@ -33,7 +33,14 @@ for i,file in enumerate(sorted((ROOT/'.private/dicom/replay'/source).glob('*.dcm
  if target.exists():continue
  d=pydicom.dcmread(file);pixels=d.PixelData;sop=d.SOPClassUID;remap(d);d.file_meta.MediaStorageSOPInstanceUID=d.SOPInstanceUID;d.PatientID=ident;d.PatientName=p['person']['display'].replace(' ','^');d.AccessionNumber=acc;d.StudyInstanceUID=uid;d.DeidentificationMethod=['Public deidentified source; synthetic demo identity','UID remapping; original geometry and pixels preserved'];assert d.PixelData==pixels and d.SOPClassUID==sop;d.save_as(out/f'{i:04}.dcm',enforce_file_format=True)
 remote='/opt/kauvery-hospital/scanner/new/'+key
-subprocess.run(SSH+['mkdir -p '+shlex.quote(remote)],check=True);subprocess.run(['scp','-q','-i',str(ROOT/'.private/server/operator-key'),*map(str,out.glob('*.dcm')),'operator@192.168.178.10:'+remote+'/'],check=True)
+subprocess.run(SSH+['mkdir -p '+shlex.quote(remote)],check=True)
+# The pinned operator channel is authoritative; scp otherwise uses a second
+# host-key policy and assumes an available SFTP subsystem. Send owned files
+# over the same verified SSH connection instead.
+stream=io.BytesIO()
+with tarfile.open(fileobj=stream,mode='w') as archive:
+ for file in sorted(out.glob('*.dcm')):archive.add(file,arcname=file.name)
+subprocess.run(SSH+['tar -xf - -C '+shlex.quote(remote)],input=stream.getvalue(),check=True)
 subprocess.run(SSH+['storescu -q -aet SCHEDULEDSTATION -aec DCM4CHEE --scan-directories --recurse 192.168.178.10 11112 '+shlex.quote(remote)],check=True)
 for _ in range(30):
  response=urllib.request.urlopen('https://radiology.demo/dicomweb/studies?PatientID='+ident+'&AccessionNumber='+acc)

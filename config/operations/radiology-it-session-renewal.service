@@ -1,0 +1,7 @@
+[Unit]
+Description=Renew hospital gateway native sessions before expiry while idle
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/radiology-deployment/scripts/operations/deploy-it-services.py --rotate-if-due

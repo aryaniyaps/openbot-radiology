@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "modality": "DX",
+      "patient": "PRACTICE001",
+      "accession": "ORD-22",
+      "packet_visible": true,
+      "native_viewer_loaded": true,
+      "canvas_nonblack": true
+    },
+    {
+      "modality": "CT",
+      "patient": "PRACTICE002",
+      "accession": "ORD-23",
+      "packet_visible": true,
+      "native_viewer_loaded": true,
+      "canvas_nonblack": true
+    },
+    {
+      "modality": "MR",
+      "patient": "PRACTICE003",
+      "accession": "ORD-24",
+      "packet_visible": true,
+      "native_viewer_loaded": true,
+      "canvas_nonblack": true
+    },
+    {
+      "modality": "US",
+      "patient": "PRACTICE004",
+      "accession": "ORD-25",
+      "packet_visible": true,
+      "native_viewer_loaded": true,
+      "canvas_nonblack": true
+    },
+    {
+      "modality": "MG",
+      "patient": "PRACTICE005",
+      "accession": "ORD-26",
+      "packet_visible": true,
+      "native_viewer_loaded": true,
+      "canvas_nonblack": true
+    }
+  ],
+  "missing_packet_refused_without_submission": true,
+  "tls_bypass": false
+}

@@ -1,0 +1,118 @@
+{
+  "native_version": "0.1.91",
+  "doctor_url": "http://localhost:8798",
+  "checks": [
+    {
+      "route": "auth/session",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "scopes": [
+        "client"
+      ]
+    },
+    {
+      "route": "bots",
+      "method": "GET",
+      "status": 200,
+      "error": null,
+      "scopes": null
+    },
+    {
+      "route": "config",
+      "method": "PATCH",
+      "status": 403,
+      "error": "forbidden: this session lacks the admin scope",
+      "scopes": null
+    },
+    {
+      "route": "auth/sessions",
+      "method": "GET",
+      "status": 403,
+      "error": "forbidden: this session lacks the admin scope",
+      "scopes": null
+    },
+    {
+      "route": "auth/pairing",
+      "method": "POST",
+      "status": 403,
+      "error": "forbidden: this session lacks the admin scope",
+      "scopes": null
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7",
+      "method": "PATCH",
+      "status": 403,
+      "error": "forbidden: this session may change how a bot looks, not \"soul\" (needs the admin scope)",
+      "scopes": null
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7",
+      "method": "PATCH",
+      "status": 403,
+      "error": "forbidden: this session may change how a bot looks, not \"modelSelection\" (needs the admin scope)",
+      "scopes": null
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7/skill-template",
+      "method": "POST",
+      "status": 403,
+      "error": "forbidden: this session lacks the admin scope",
+      "scopes": null
+    },
+    {
+      "route": "mcp/servers",
+      "method": "POST",
+      "status": 403,
+      "error": "forbidden: this session lacks the admin scope",
+      "scopes": null
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7/tasks/c95db46e-385b-45da-ad7a-aa2ad5709788",
+      "method": "PATCH",
+      "fields": [
+        "modelSelection"
+      ],
+      "status": 403,
+      "error": "Doctor workspace: execution settings are managed by your administrator"
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7/tasks/c95db46e-385b-45da-ad7a-aa2ad5709788",
+      "method": "PATCH",
+      "fields": [
+        "approvalMode"
+      ],
+      "status": 403,
+      "error": "Doctor workspace: execution settings are managed by your administrator"
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7/tasks/c95db46e-385b-45da-ad7a-aa2ad5709788",
+      "method": "PATCH",
+      "fields": [
+        "surface"
+      ],
+      "status": 403,
+      "error": "Doctor workspace: execution settings are managed by your administrator"
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7/tasks/c95db46e-385b-45da-ad7a-aa2ad5709788",
+      "method": "PATCH",
+      "fields": [
+        "autoApprove"
+      ],
+      "status": 403,
+      "error": "Doctor workspace: execution settings are managed by your administrator"
+    },
+    {
+      "route": "bots/95a37fc7-2fe8-48d1-a726-069310d5a9b7/tasks/c95db46e-385b-45da-ad7a-aa2ad5709788",
+      "method": "PATCH",
+      "fields": [
+        "title"
+      ],
+      "status": 200,
+      "error": null
+    }
+  ],
+  "audit_session_revoked": true,
+  "thread_execution_filter": "Doctor proxy: native 0.1.91 alone does not restrict these thread fields"
+}

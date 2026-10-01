@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "patient_id": "PRACTICE001",
+  "accession": "ORD-22",
+  "via": "Bahmni native physician-role browser UI",
+  "saved_note_content_equal_after_display_entity_decoding": true,
+  "raw_display_ampersands_are_entity_encoded": true,
+  "new_save_this_run": false,
+  "professional_clinical_review": false,
+  "signed_or_released": false,
+  "remaining_four_cases_unsaved": true,
+  "read_only_reopen_after_hospital_restart": true
+}

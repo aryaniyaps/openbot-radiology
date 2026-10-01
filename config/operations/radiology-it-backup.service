@@ -1,0 +1,9 @@
+[Unit]
+Description=Encrypted hospital IT configuration backup
+After=network-online.target
+
+[Service]
+Type=oneshot
+UMask=0077
+ExecStart=/usr/bin/python3 /opt/radiology-deployment/scripts/operations/backup-it-server.py
+TimeoutStartSec=15min

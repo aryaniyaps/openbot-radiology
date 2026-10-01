@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "transport": "Trusted HTTPS without certificate bypass",
+  "checks": [
+    {
+      "check": "anonymous doctor denied",
+      "status": 401,
+      "expected": 401
+    },
+    {
+      "check": "authenticated doctor can read native workspace",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "doctor IT operations denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "doctor native sessions denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "doctor configuration mutation denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "doctor SOUL mutation denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "doctor may create a case thread",
+      "status": 201,
+      "expected": 201
+    },
+    {
+      "check": "doctor thread execution override denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "normalized dot path execution override denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "doctor permanent approval denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "doctor always-approve response denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "cross-origin mutation denied",
+      "status": 403,
+      "expected": 403
+    },
+    {
+      "check": "owned verification thread deleted",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "IT can read native configuration",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "IT can manage a role through native API",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "IT can manage native SOUL without changing its value",
+      "status": 200,
+      "expected": 200
+    },
+    {
+      "check": "IT operational monitoring healthy",
+      "status": 200,
+      "expected": 200
+    }
+  ],
+  "native_soul_and_model_unchanged": true,
+  "telemetry_has_no_patient_text": true
+}

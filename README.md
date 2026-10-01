@@ -1,6 +1,6 @@
 # Local radiology workspace
 
-Operational files for the installed OpenMausBot, Bahmni HMS, DCM4CHEE PACS/worklist, OHIF and Weasis environment. Start at **https://radiology.demo/**; recorded modality demonstrations are at **https://radiology.demo/demos/** on the hospital VM.
+Operational files for the installed OpenMausBot, Bahmni HMS, DCM4CHEE PACS/worklist, OHIF and Weasis environment. Start as a doctor at **https://doctor.radiology.demo/worklist/** ([deployment and login guide](docs/HOSPITAL-DEPLOYMENT.md)). IT management is at **https://it.radiology.demo/operations/**. Hospital applications remain at **https://radiology.demo/**; recorded modality demonstrations are at **https://radiology.demo/demos/** on the hospital VM.
 
 - [Doctor quick start](docs/DOCTOR_QUICK_START.md)
 - [Operations and full-system restore](docs/OPERATIONS.md)

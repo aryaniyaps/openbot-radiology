@@ -1,0 +1,10 @@
+{
+  "encrypted_cold_snapshot_created": true,
+  "snapshot": "0c4fe554",
+  "last_success": "2026-10-01T11:05:34.870515+00:00",
+  "native_workstations_quiesced_and_resumed": true,
+  "hospital_gracefully_stopped_and_restarted": true,
+  "contains_current_practice_cases_and_note": true,
+  "new_full_vm_restore_rehearsed": false,
+  "external_copy": false
+}

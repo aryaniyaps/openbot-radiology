@@ -1,18 +1,13 @@
 # Doctor quick start
 
-Open **https://radiology.demo/** from the local machine or the Radiology workspace desktop shortcut.
+Open **Radiology Assistant** from the local application launcher or [the practice worklist](https://doctor.radiology.demo/worklist/). Read `.private/HOSPITAL-DEMO-ACCESS.txt` for the separate gateway and hospital-record logins.
 
-1. Sign in to Hospital records with your physician account. Assistants use their own read-only accounts.
-2. Enter the patient ID and accession on the portal. It verifies that the order belongs to the patient before opening images.
-3. Use Open images for OHIF, or Open Weasis for the desktop viewer. Use the mouse wheel to move through slices or ultrasound frames. MRI contains separate series; mammography contains four CC/MLO images.
-4. Start a new case thread with **Clinical Assistant**, supplying the patient ID, accession and desired result. Ask it to prepare the history, review available images, propose findings and a differential, draft the report, and obtain an independent check. It uses GPT-6.1-Sol for preparation/drafting and GPT-6-Astra for image reading/checking.
-5. Review the proposed findings, examined series/views, urgent concerns and unresolved questions. Missing coverage must remain explicit. Approve read-only actions when prompted; keep clinical decisions with the radiologist.
-6. Review and edit the draft yourself, then save through your authenticated Bahmni consultation. Reopen it to verify the saved report.
+1. Choose a DX, CT, MRI, ultrasound or mammography case.
+2. Open **Patient record** and **Review images**. Confirm the patient and accession and review the full supplied series.
+3. Inspect the assistant packet and its stated sampling limits. Choose **Prepare this case** to start a fresh native Clinical Assistant conversation.
+4. Allow the requested teammate handoffs once. Sol prepares the draft; Astra reads the assigned images and checks the proposal. Keep uncertainty and missing coverage explicit.
+5. Review and edit the proposal yourself. Open **Write / save report**, expand the order, enter the reviewed text in **Radiology Notes**, and choose **Save**. Reload to verify persistence.
 
-Example: patient **DEMO-003**, accession **ORD-4** opens the first CT case. The recorded demonstration patients are listed in [recorded-cases.json](evidence/local-hospital/recorded-cases.json).
+Start with **PRACTICE002 / ORD-23** for a fresh CT case. **PRACTICE001 / ORD-22** is used for the recorded save/reload rehearsal and may already contain a clearly labelled provisional practice note. Native assistant history is shared in this practice workspace. No clinician certification, report signing/release or complete-examination reliability is claimed.
 
-Example request: “For DEMO-003, accession ORD-4, prepare the case, review every available CT series, propose an evidence-linked interpretation, draft the report and have Report Check review it independently. Show me the draft, urgent concerns and missing evidence.”
-
-Public image pixels are real; patient identifiers and demographics are synthetic. Earlier recordings demonstrate technical workflow. Current assistant proposals need radiologist review; a supplied subset of images cannot establish a complete normal examination. Report saving does not implement a signature or report-locking workflow.
-
-Watch all five demonstrations at **https://radiology.demo/demos/**. Videos are served from the hospital VM and excluded from Git. Capture and validation metadata remain in `docs/evidence/local-hospital/`.
+[Full deployment guide](HOSPITAL-DEPLOYMENT.md) explains all five cases, IT management and recovery. Earlier five-modality workflow videos remain at [hospital demonstrations](https://radiology.demo/demos/).

@@ -1,0 +1,77 @@
+{
+  "at_unix": 1790852443.0417485,
+  "status": "passed",
+  "doctor_client_ready": true,
+  "it_management_and_observability_ready": true,
+  "native_case_handoff_terminal": true,
+  "physician_role_practice_note_save_and_reopen_passed": true,
+  "five_modality_viewers_rendered": true,
+  "encrypted_it_config_restore_passed": true,
+  "it_reboot_and_telemetry_persistence_passed": true,
+  "native_backend_preserved": true,
+  "cases": 5,
+  "unsaved_cases": 4,
+  "studies": 22,
+  "instances": 1358,
+  "roles": [
+    {
+      "name": "Clinical Assistant",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "auto_approve": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Workflow Steward",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "auto_approve": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Report Check",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "auto_approve": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Report Draft",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "auto_approve": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Image Assistant",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "auto_approve": false,
+      "computer": "vm"
+    },
+    {
+      "name": "Case Prep",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "auto_approve": false,
+      "computer": "vm"
+    }
+  ],
+  "vm_states": {
+    "kauvery-it": "running",
+    "kauvery-hospital": "running"
+  },
+  "host_free_gib": 33.84,
+  "report_pdf_sha256": "224cf57d8b7a32a3b1fe3fdfceef2a9dc696c440a19925a89b2c21c831fcacf4",
+  "limits": [
+    "synthetic local practice deployment",
+    "shared native history, no per-patient isolation",
+    "not professional clinical validation",
+    "sampled packet coverage",
+    "no signing/release implementation",
+    "no external backup replica"
+  ],
+  "hospital_cold_backup_snapshot": "0c4fe554",
+  "hospital_healthy_after_cold_backup_restart": true,
+  "practice_note_persisted_across_hospital_restart": true
+}

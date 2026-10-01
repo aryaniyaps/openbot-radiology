@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "transport_failure_detected": true,
+  "hospital_and_pacs_remained_up_during_it_transport_failure": true,
+  "transport_recovery_passed": true,
+  "it_guest_new_boot_observed": true,
+  "services_active_after_reboot": [
+    "active",
+    "active",
+    "active"
+  ],
+  "tls_origins_healthy_after_reboot": true,
+  "telemetry_history_survived": true,
+  "native_role_thread_and_model_state_preserved": true,
+  "hospital_vm_remained_running": true,
+  "study_count": 22,
+  "instance_count": 1358,
+  "session_days_remaining": 30.0,
+  "tls_days_remaining": 179.9
+}

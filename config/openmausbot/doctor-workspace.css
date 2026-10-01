@@ -1,0 +1,27 @@
+/* Presentation only. Native client scopes enforce configuration permissions. */
+[data-tour="model"],
+[data-testid="place-chip"],
+[data-testid="usage-chip"],
+button[aria-label="Inspector"],
+button[aria-label="Tools"],
+button[aria-label="You"],
+button[aria-label="New or share"],
+button[aria-label="Choose sidebar density"],
+button[aria-label^="New folder under"],
+button[aria-label^="Actions for"],
+button[aria-label^="Rename "],
+button[aria-label^="Calls need"],
+button[aria-label^="Add an ElevenLabs"],
+button[title="Rename agent"],
+button[title="Choose sidebar density"],
+[title="Chief of Staff"],
+button:has([data-model-effort]),
+button[title*="uncached ctx"] { display: none !important; }
+
+/* Keep the name and avatar, without opening technical profile editors. */
+button[title="Open agent profile"] { pointer-events: none; }
+
+/* Setup dialogs can also be invoked by keyboard shortcuts. */
+[role="dialog"][aria-label="Choose model"],
+[role="dialog"][aria-label*="Settings"],
+[role="dialog"][aria-label*="profile"] { display: none !important; }

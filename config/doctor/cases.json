@@ -1,0 +1,142 @@
+[
+  {
+    "patient": "3f3a2787-c3d0-43aa-8019-ad1341de884a",
+    "patient_id": "PRACTICE001",
+    "name": "Dev Shah",
+    "accession": "ORD-22",
+    "modality": "DX",
+    "source_case": "xray-01",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790847146000.1955465012",
+    "instances": 1,
+    "frames": 1,
+    "coverage_note": "Released source series; confirm coverage in the viewer",
+    "packet_views": [
+      {
+        "url": "/worklist/packets/PRACTICE001/view-01.png",
+        "filename": "view-01.png",
+        "sha256": "d68785e8c3fed3c137ffa47b4c0c69a3bfe87c284ec587a5828b59e86d3fc0e0"
+      }
+    ],
+    "assistant_coverage": "1 supplied source views, rendered for display",
+    "clinical_context": "Native patient PRACTICE001, Dev Shah, M, approximately 50 years. Synthetic administrative demographics. Radiology order ORD-22. No clinical indication or symptom history was added to this practice encounter. Do not infer a diagnosis from the public collection. Source study dates are deidentification-shifted and do not establish the current order date.",
+    "assistant_limits": "Rendered images may hide small findings. CT/MRI/ultrasound are sampled presentations, not complete examination review. Full original supplied series remain available in the native viewer. Mammography display resizing limits fine calcification assessment. No prior report or diagnostic reference is supplied."
+  },
+  {
+    "patient": "f90644d2-deb8-48ce-bbba-f4a141cdea81",
+    "patient_id": "PRACTICE002",
+    "name": "Arun Kumar",
+    "accession": "ORD-23",
+    "modality": "CT",
+    "source_case": "ct-02",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790847261000.1955465011",
+    "instances": 241,
+    "frames": 241,
+    "coverage_note": "Released source series; confirm coverage in the viewer",
+    "packet_views": [
+      {
+        "url": "/worklist/packets/PRACTICE002/series-1-lung.png",
+        "filename": "series-1-lung.png",
+        "sha256": "4bdaf4fd651828139b05ab49ed73763829b380fccc7b2bc663d2ba471044969d"
+      },
+      {
+        "url": "/worklist/packets/PRACTICE002/series-1-mediastinal.png",
+        "filename": "series-1-mediastinal.png",
+        "sha256": "0f36599ee35ec046d227c43038ff1f568cb4ca30f79b59461dc897142cc6a0e0"
+      }
+    ],
+    "assistant_coverage": "16 of 241 axial positions, lung and mediastinal windows",
+    "clinical_context": "Native patient PRACTICE002, Arun Kumar, M, approximately 50 years. Synthetic administrative demographics. Radiology order ORD-23. No clinical indication or symptom history was added to this practice encounter. Do not infer a diagnosis from the public collection. Source study dates are deidentification-shifted and do not establish the current order date.",
+    "assistant_limits": "Rendered images may hide small findings. CT/MRI/ultrasound are sampled presentations, not complete examination review. Full original supplied series remain available in the native viewer. Mammography display resizing limits fine calcification assessment. No prior report or diagnostic reference is supplied."
+  },
+  {
+    "patient": "43e8beef-4f84-4e38-aeca-6cb6f8c293d9",
+    "patient_id": "PRACTICE003",
+    "name": "Vikram Rao",
+    "accession": "ORD-24",
+    "modality": "MR",
+    "source_case": "mr-01",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790847280000.1955465010",
+    "instances": 95,
+    "frames": 95,
+    "coverage_note": "Released source series; confirm coverage in the viewer",
+    "packet_views": [
+      {
+        "url": "/worklist/packets/PRACTICE003/series-1.png",
+        "filename": "series-1.png",
+        "sha256": "016610b2b5c266e025214fe6ec5f4d4c5a364845360136e8a4176dd9c0b75a87"
+      },
+      {
+        "url": "/worklist/packets/PRACTICE003/series-2.png",
+        "filename": "series-2.png",
+        "sha256": "07ac979da44a5ad13df0ad382a11e7341baa16dc035b0b27a6babb69500276b5"
+      },
+      {
+        "url": "/worklist/packets/PRACTICE003/series-3.png",
+        "filename": "series-3.png",
+        "sha256": "87d902e339ddcfa25ecda0b572256e94127b66b95cd2deb07af5992de23427fd"
+      }
+    ],
+    "assistant_coverage": "ep2d_diff_tra_DYNDIST: 16 of 57 instances; t2_tse_tra: 16 of 19 instances; ep2d_diff_tra_DYNDIST_ADC: 16 of 19 instances",
+    "clinical_context": "Native patient PRACTICE003, Vikram Rao, M, approximately 50 years. Synthetic administrative demographics. Radiology order ORD-24. No clinical indication or symptom history was added to this practice encounter. Do not infer a diagnosis from the public collection. Source study dates are deidentification-shifted and do not establish the current order date.",
+    "assistant_limits": "Rendered images may hide small findings. CT/MRI/ultrasound are sampled presentations, not complete examination review. Full original supplied series remain available in the native viewer. Mammography display resizing limits fine calcification assessment. No prior report or diagnostic reference is supplied."
+  },
+  {
+    "patient": "c3b06e16-f358-42e1-8366-834a5ab69f3d",
+    "patient_id": "PRACTICE004",
+    "name": "Rahul Mehta",
+    "accession": "ORD-25",
+    "modality": "US",
+    "source_case": "us-01",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790847290000.1955465009",
+    "instances": 1,
+    "frames": 227,
+    "coverage_note": "Spatial ultrasound sweep; not a temporal cine",
+    "packet_views": [
+      {
+        "url": "/worklist/packets/PRACTICE004/series-1.png",
+        "filename": "series-1.png",
+        "sha256": "cd31bc3a90badc53ca1b1bbe259e2f271e0db4040372709a7660802df4316f97"
+      }
+    ],
+    "assistant_coverage": "16 of 227 spatial frames; not temporal cine",
+    "clinical_context": "Native patient PRACTICE004, Rahul Mehta, M, approximately 50 years. Synthetic administrative demographics. Radiology order ORD-25. No clinical indication or symptom history was added to this practice encounter. Do not infer a diagnosis from the public collection. Source study dates are deidentification-shifted and do not establish the current order date.",
+    "assistant_limits": "Rendered images may hide small findings. CT/MRI/ultrasound are sampled presentations, not complete examination review. Full original supplied series remain available in the native viewer. Mammography display resizing limits fine calcification assessment. No prior report or diagnostic reference is supplied."
+  },
+  {
+    "patient": "ee3ec2cf-d2af-4461-a607-addb01749e7d",
+    "patient_id": "PRACTICE005",
+    "name": "Asha Iyer",
+    "accession": "ORD-26",
+    "modality": "MG",
+    "source_case": "mg-01",
+    "study_uid": "1.2.826.0.1.3680043.8.498.1790847295000.1955465008",
+    "instances": 4,
+    "frames": 4,
+    "coverage_note": "Released source series; confirm coverage in the viewer",
+    "packet_views": [
+      {
+        "url": "/worklist/packets/PRACTICE005/view-01.png",
+        "filename": "view-01.png",
+        "sha256": "9b26d935dbd7cdb632bdb237f9725271ff7efa921c018f74a4129754eb5615f2"
+      },
+      {
+        "url": "/worklist/packets/PRACTICE005/view-02.png",
+        "filename": "view-02.png",
+        "sha256": "90b1331382c82bd1e722b98aa7030ec10f8a23e07b627b042769e54c3296355d"
+      },
+      {
+        "url": "/worklist/packets/PRACTICE005/view-03.png",
+        "filename": "view-03.png",
+        "sha256": "71d1c9b20fe4d3b1cbc5c6a409d7159a591f4d61df458c6b57a294fcb870d549"
+      },
+      {
+        "url": "/worklist/packets/PRACTICE005/view-04.png",
+        "filename": "view-04.png",
+        "sha256": "50c0dde3bdab8cbb3d98c13851b04d232ba4dc79cd39449ef26d9d9c8ac9f0fe"
+      }
+    ],
+    "assistant_coverage": "4 supplied source views, rendered for display",
+    "clinical_context": "Native patient PRACTICE005, Asha Iyer, F, approximately 50 years. Synthetic administrative demographics. Radiology order ORD-26. No clinical indication or symptom history was added to this practice encounter. Do not infer a diagnosis from the public collection. Source study dates are deidentification-shifted and do not establish the current order date.",
+    "assistant_limits": "Rendered images may hide small findings. CT/MRI/ultrasound are sampled presentations, not complete examination review. Full original supplied series remain available in the native viewer. Mammography display resizing limits fine calcification assessment. No prior report or diagnostic reference is supplied."
+  }
+]

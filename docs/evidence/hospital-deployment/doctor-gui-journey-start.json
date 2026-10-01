@@ -1,0 +1,12 @@
+{
+  "status": "started",
+  "five_cases_visible": true,
+  "modality_and_patient_filters_passed": true,
+  "identity_preserved_in_links": true,
+  "physician_login_passed": true,
+  "native_chart_opened": true,
+  "native_viewer_opened": true,
+  "case_id": "PRACTICE001",
+  "accession": "ORD-22",
+  "thread_id": "a8211853-d81f-43ea-a23c-d847e383c10b"
+}

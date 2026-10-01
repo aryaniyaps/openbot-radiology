@@ -1,0 +1,57 @@
+[
+  {
+    "patient": "PRACTICE001",
+    "file": "view-01.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE002",
+    "file": "series-1-lung.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE002",
+    "file": "series-1-mediastinal.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE003",
+    "file": "series-1.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE003",
+    "file": "series-2.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE003",
+    "file": "series-3.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE004",
+    "file": "series-1.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE005",
+    "file": "view-01.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE005",
+    "file": "view-02.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE005",
+    "file": "view-03.png",
+    "served_sha256_matches_manifest": true
+  },
+  {
+    "patient": "PRACTICE005",
+    "file": "view-04.png",
+    "served_sha256_matches_manifest": true
+  }
+]

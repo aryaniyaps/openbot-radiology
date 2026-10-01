@@ -1,0 +1,12 @@
+{
+  "actual_native_soul_management_patch_status": 200,
+  "same_value_preserved": true,
+  "soul_sha256": "02fcc24e3bc05c50cd84e4ec50afbebc740071fac244badeb30a3aff7f97c89d",
+  "actual_scopes": [
+    "admin",
+    "client"
+  ],
+  "successful_gateway_session_renewal": true,
+  "pending_rotation_cleared": true,
+  "current_session_expiry_ms": 1793443165961
+}
