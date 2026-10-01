@@ -28,7 +28,7 @@ PY"""
         with bundle.open('wb') as target:run(*ssh,command,stdout=target)
         bundle.chmod(0o600)
         (state/'domain.xml').write_text(run('virsh','dumpxml','kauvery-it',capture_output=True,text=True).stdout)
-        result=run('restic','backup','--json','--tag','radiology-it',str(bundle),str(state/'domain.xml'),'/var/lib/radiology-deployment/operator','/opt/radiology-deployment','/etc/systemd/system/radiology-it-session-renewal.service','/etc/systemd/system/radiology-it-session-renewal.timer',env=env,capture_output=True,text=True)
+        result=run('restic','backup','--json','--tag','radiology-it',str(bundle),str(state/'domain.xml'),'/var/lib/radiology-deployment/operator','/opt/radiology-deployment','/etc/systemd/system/radiology-it-session-renewal.service','/etc/systemd/system/radiology-it-session-renewal.timer','/etc/systemd/system/kauvery-backup.service','/etc/systemd/system/kauvery-backup.service.d','/etc/systemd/system/kauvery-backup.timer',env=env,capture_output=True,text=True)
         summary=next(json.loads(line) for line in result.stdout.splitlines() if json.loads(line).get('message_type')=='summary')
         snapshot=summary['snapshot_id']
         # Restore the exact encrypted guest bundle and inspect it safely.

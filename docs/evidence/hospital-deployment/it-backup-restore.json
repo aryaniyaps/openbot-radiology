@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-01T11:01:50.767997+00:00",
-  "snapshot": "89f89c52aa2a657584d882d6232b38a383e66016f3552d80e09cc8a0d9fb7326",
+  "at": "2026-10-01T12:09:15.875000+00:00",
+  "snapshot": "3897dac0445b3e33ca06c7b779e0b796b0110dc0d3595ce26b358301c08be8ff",
   "tag": "radiology-it",
   "encrypted_repository": "/var/backups/kauvery-hospital/restic",
   "restored_bundle_sha256_matches": true,
   "restored_telemetry_integrity": "ok",
-  "restored_samples": 300,
+  "restored_samples": 489,
   "external_copy": false,
   "coverage": "IT guest configuration, assets, telemetry, operator secrets, deployment kit and domain definition; hospital VM covered by separate hospital backup"
 }

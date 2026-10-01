@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-01T12:02:31.947026+00:00",
+  "status": "passed",
+  "doctor_snapshot": "57e6652853a7d87c6da7d7a8b78478289e67a41eccd21656cac2ff142ee6a7ee",
+  "it_snapshot": "3897dac0445b3e33ca06c7b779e0b796b0110dc0d3595ce26b358301c08be8ff",
+  "encrypted_repository": "/var/backups/kauvery-hospital/restic",
+  "doctor_restore_checks": {
+    "configuration_hashes_match": {
+      "bots.json": true,
+      "config.json": true,
+      "config.toml": true
+    },
+    "profiles": 6,
+    "automatic_review_profiles": 6,
+    "configured_vm_workstations": 6,
+    "message_database_sha256_matches": true,
+    "message_database_integrity": "ok",
+    "database_row_counts": {
+      "messages": 1009
+    },
+    "browser_preferences_restored_exactly": 6,
+    "provider_auth_restored_exactly": true,
+    "routine_policy_restored_exactly": true
+  },
+  "portable_doctor_profiles": 6,
+  "portable_case_history_excluded": true,
+  "portable_profile_sha256": "9adf084b162af65ff2ece4b8800043c19b02a7794f8795503e39d32ffabe245e",
+  "it_exact_bundle_and_sqlite_restore_passed": true,
+  "it_restored_samples": 489,
+  "host_free_gib": 33.98,
+  "new_full_vm_boot_restore_rehearsed": false,
+  "external_copy": false,
+  "scope": "IT configuration/assets/telemetry/operator state and doctor native profiles/history/provider authentication/browser state; complete hospital disk included in cold snapshot. Non-operational research weights/downloads/traces excluded and retained locally.",
+  "scheduled_doctor_backup_uses_updated_stable_kit": true,
+  "it_stable_kit_and_doctor_backup_schedule_restored_exactly": true
+}

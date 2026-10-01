@@ -55,6 +55,8 @@ The stable operator kit is `/opt/radiology-deployment`; private operator state i
 
 Encrypted snapshots are stored in `/var/backups/kauvery-hospital/restic`, with the root-only password file `/var/lib/kauvery-hospital/backup/restic-password`. Keep an independent copy of both the backup repository and its recovery key off this machine for disaster recovery. No external replica is configured. Configuration restore checks do not claim a full rebuilt-hardware recovery rehearsal.
 
+The latest [IT and doctor backup refresh](evidence/hospital-deployment/workspace-backup-refresh.json) verifies the restored six native automatic-review profiles, exact configuration and history database, provider authentication and six browser preference sets, alongside the IT guest bundle and monitoring database. [Backup guidance](../backups/README.md) separates the private full-state backups from the sanitized portable profile export. Research download/weight/trace caches remain local and are excluded from operational backup scope.
+
 ## Verified boundary
 
 See [deployment evidence](evidence/hospital-deployment/). The evidence distinguishes native GUI workflow, assigned-packet workflow, physician-role save/reload, access controls, five rendered modality viewers, backup restore and IT recovery. Failed attempts and changes are preserved in [the implementation record](evidence/hospital-deployment/IMPLEMENTATION-LOG.md).
