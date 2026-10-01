@@ -15,3 +15,5 @@ node_modules/
 *.pem
 *.key
 /tmp/pdfs/
+
+.firecrawl/
