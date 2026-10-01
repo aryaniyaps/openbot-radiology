@@ -1,0 +1,11 @@
+{
+  "reason": "Pre-inference HTTP 507 from native cached attachment accounting after terminal raw-file cleanup",
+  "failed_pre_inference_assignments": 65,
+  "owned_idle_failed_bots_removed": 65,
+  "orphan_owned_attachments_removed": 21,
+  "same_native_bundle_config_data": true,
+  "live_clinical_server_restarted": false,
+  "restarted_unix": 1790839661.0806005,
+  "recovery_suffix": "-transport-recovery",
+  "diagnostic_retries": 0
+}

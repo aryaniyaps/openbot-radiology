@@ -1,0 +1,1118 @@
+{
+  "frozen_unix": 1790834367.5140939,
+  "cohort": "routine-report-backed-v2",
+  "models": [
+    "gpt-6.1-sol",
+    "gpt-6-astra"
+  ],
+  "effort": "high",
+  "cases": [
+    {
+      "case_id": "ROUTINE-CXR-001",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3877",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "752053205d0e12638dc5e9bb5e8c42252be0d867e08bb17b582d20f512c59899",
+      "images_sha256": [
+        "1741dfeaefcf8c6ecdf266efe45bc47d8f57ad394175f9f8cba05a1b1da426c0",
+        "ebe97fb0209ee5a5cbc21c0585101634671a09e0d7842b7ae3477743f95dbbc3"
+      ],
+      "reference_sha256": "363877795364c0a61aa776df0b584ca33c3d4ec41d624a4b9d5bfc688b64e2b2"
+    },
+    {
+      "case_id": "ROUTINE-CXR-002",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1868",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "248aaf0dca035ea3c7cfd9c471bed49990a8b13951d61caf2ed9242042761149",
+      "images_sha256": [
+        "30a3c97c629b80bc991e1b365a63f7ea440d8250a6a5d48bb3d8fecd4fe2c570",
+        "0fb984ec52f835b6a26c6d88f94470d852d66b16e497e84cd48c5e43e130027a"
+      ],
+      "reference_sha256": "92e5dab7f58716fd1367a46552b057987da0caa5bf13ffcd13a472bad9975057"
+    },
+    {
+      "case_id": "ROUTINE-CXR-003",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR408",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "74b0c5729cfb7c207ac3b981479d91c59f9350c0c27c98614a88404563b6b5c7",
+      "images_sha256": [
+        "14aec1877414fda7a1061723d007dee1ea600256d054c9e39cdedde93fe4c120",
+        "b4a37277da94be076a6e8370817240b65694afe68bf71fc6bfe6c5d3fa06469c"
+      ],
+      "reference_sha256": "c46606138215920dc30fc1175e6ca14e4b6fe49dd437dbd1e0155c1bad2004e5"
+    },
+    {
+      "case_id": "ROUTINE-CXR-004",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2348",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "cd99a6d7b3af45ead91e637f45caf2b3b09469c89fed1fa11b62be512a027f72",
+      "images_sha256": [
+        "81280d14b5046efc88516406823ca93fc81e4a62d85a6438fdc399d672f70b2b",
+        "89169498ea0a801db80fe46135a12cc4a990a81727f44ad831832e4e3f92b7b3"
+      ],
+      "reference_sha256": "1b7f9b4b8022d0b6936cac24fdcaf3eaa62bdafe805cd89c5194efbaa28c5746"
+    },
+    {
+      "case_id": "ROUTINE-CXR-005",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR978",
+      "images": 1,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "536e9a2f435a33bca5e91c93ee1cad8f858e172ba1afcb2f267eb87d6c2478d0",
+      "images_sha256": [
+        "7dbea6f9d72dcfa5f9ee094082e1a52c1b985e0f6732ae49fc541d514e1e2d6f"
+      ],
+      "reference_sha256": "b0bd269326585a0686b63d46790f7ac9c2dcfd7428394539647da0d3af86843c"
+    },
+    {
+      "case_id": "ROUTINE-CXR-006",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR699",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "6a42e605d1716b0f0d292f39d71e0adc2badf2f06edaa0bbb3e3707f68a718f0",
+      "images_sha256": [
+        "1407f06e4fc789fde0a9bebfe8cd930c24fc960629af82139c6cf61c8cec526c",
+        "d7c9572d8b396e7a5c1bc5662981de0a4ebd4c89db4e08e5a5a59b3ef9426bc0"
+      ],
+      "reference_sha256": "898e0027eaeb5daf303a4ff16b6d7fc2ff3543a4169380ca697021f70dc77d57"
+    },
+    {
+      "case_id": "ROUTINE-CXR-007",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3672",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "e350cbf92cea21060cd56e9d7c2bcc43f9e166ac60a0d267e91689bffc97d83a",
+      "images_sha256": [
+        "abcd7a755c736b6be8bc81a8a59f72ec089fa5652d2bddf3893cf514d211c4de",
+        "fe3feebf172b035abc646d3dd287e562eea19ebcff098a949c9bf1dd29c77a35"
+      ],
+      "reference_sha256": "39a30523c7b517ed8cfdb1208a8c2f10c355092a8f2420cd1326d3619d051603"
+    },
+    {
+      "case_id": "ROUTINE-CXR-008",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR266",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "5f0b3c78f6633e80a04385bcf690b9ca3e17a4c7d3eeea419efe0e5372be7881",
+      "images_sha256": [
+        "5f5c0941052839d9f8fe26b25d16fa0016fe9d07e29ee779bf2e4c382c4090d3",
+        "192335611db92bc7079aec9a664db44fb33274401df6b815e04a7bb59afd392d"
+      ],
+      "reference_sha256": "bcf11050b09ae716ed9faa65faa7ad128dd946f635f1a73e1cd9902411d72700"
+    },
+    {
+      "case_id": "ROUTINE-CXR-009",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3207",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "ce3549c51ef439992f453ffbde2eb7c29d30911909f9c5865a8307aecd15a3c1",
+      "images_sha256": [
+        "3f96e8ca2f7517cc2936b4cd81c98850a10dc0b409bc3aa909693d6fcfefadfc",
+        "b24e4581c46e2da87b55dd895f763d934d1f50e76365f30a8392583fe777e468"
+      ],
+      "reference_sha256": "8093db5f3c5954960415608ca6a6511a4050fe057d2ab76b40f3f0fb1bbf41d0"
+    },
+    {
+      "case_id": "ROUTINE-CXR-010",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3430",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "9d2c29832eb076f59daacca923e9d7f1c13bb7cbb39d6f2ab5badffaec219cc2",
+      "images_sha256": [
+        "9be0b0617abdc62fa3fc50648dcf0baadc2621939662bea64e47b298e850831e",
+        "f573b229d236b692deaf7fb1720804e9320a6ee49388792d64e93b5537019c45"
+      ],
+      "reference_sha256": "688790a2c2713e16ea6678f1476f09bdcaf559fd01fe8da8c7035051468f89ef"
+    },
+    {
+      "case_id": "ROUTINE-CXR-011",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR744",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "bd3652be8585204f799131a23321a16fb86e762c371bcf72d26577024643f824",
+      "images_sha256": [
+        "f82689b6a71bb7aa69725fd15dda5491b27def029e81806948c69b9ef74119c3",
+        "1ec422af55adf746df3a810165832038b072b12e390cec83b1358da268f182b0"
+      ],
+      "reference_sha256": "52d070453ce04c9b7f5eff4aee5a7444cbfa43a0145c8f6661e41c480a680de0"
+    },
+    {
+      "case_id": "ROUTINE-CXR-012",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2608",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "19fecca302672529414946bd14525a9355bd08b36e89e56746d13df2e183987d",
+      "images_sha256": [
+        "75de50faee5a2c496ee4fea0d5b64e430dde47e6e05bd492fb6d1ee2dfc9039b",
+        "fe84d67e8614815779d33bd02079cdea57d2effd998e1d6d4c9418df68e73d34"
+      ],
+      "reference_sha256": "b9d66d1432e2011bbd2c2b2df7f4345c59232ac4011adf0cea4112527538a69d"
+    },
+    {
+      "case_id": "ROUTINE-CXR-013",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR394",
+      "images": 1,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "8b30407c27388dfb958e94623c332994f6e4bdc112ddaf6d296689124b8bd34b",
+      "images_sha256": [
+        "9051899f70e9bca52f1475f2991dab7794885f0ffbdd0804371392f69337b3d6"
+      ],
+      "reference_sha256": "dff95110bfd361f06036ab8ae1f8bb85a7ad497f908b7ed9c7ba3cc632283d6e"
+    },
+    {
+      "case_id": "ROUTINE-CXR-014",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1422",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "f4f44af92577f7f7a049496c2b3e18f4200369b1c3527d9db302f9840e3c3b9a",
+      "images_sha256": [
+        "c36c0dc6b6baa9e210f103356e0c589017ca6a8104f47dd9c7c39c2c20f40c7d",
+        "141ea2e41dfad5f6bcb8163e6d616ddbd218a38e3fd105a4ad3c187b7712ea0d"
+      ],
+      "reference_sha256": "66ab935aa787d62653d802a9074de05435a6f98179d1f23bd9a1bd164fd209dd"
+    },
+    {
+      "case_id": "ROUTINE-CXR-015",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2422",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "7824d10c694226d64464416ebd0ba37e28e65990fc75292cd9a9794605df5969",
+      "images_sha256": [
+        "019e8ab687c5c4eb65cbbe4ffdb4c9b628338203fa0690eced9983bc4dfd5661",
+        "4fd3cb19ce72d043217ca1b7566feb1c99f19e850dd05c51bbbb6a28888734de"
+      ],
+      "reference_sha256": "f78fec8655e78878e2b0f0b6b4051b09f12dc7611398eec56248ff99995c10f5"
+    },
+    {
+      "case_id": "ROUTINE-CXR-016",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3036",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "b704460962418870a179c5ddb8a0b73adec71c9e358d624c7714f112dc0bc63b",
+      "images_sha256": [
+        "7100ecdb362b9a50de6bed27927ca1f6bd8747cd29d6dda6cfb295d087d28f08",
+        "57fb218424ae9730092dfbf2ab97439a8c09dfa63065c91c541653a6bced0417"
+      ],
+      "reference_sha256": "853b7215547e5907156de24eb9f32ba3e7b6f1fdf43998b4b1667505dcc46e1e"
+    },
+    {
+      "case_id": "ROUTINE-CXR-017",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2886",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "a8df2051459afb18cebdaf6ae010646c42c3c2bbff22a45fdc0dea20d51d4fba",
+      "images_sha256": [
+        "d092ab4da8e1528067956331fbed4b8c004c47540f91aa9675659bcafaa9a25e",
+        "0d7b1185b70fad1f50df47cd98901c5d897dd4577981ebc9cb80de41ce14d47d"
+      ],
+      "reference_sha256": "38196a7a5e76ae136a2fadf898cfc7b0c15d15a4094e0add6278ab3789359f08"
+    },
+    {
+      "case_id": "ROUTINE-CXR-018",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2327",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "03df4d41a0edaa1a7898fdebed7593a24130e1b4db2c2fff8d871c711968d55a",
+      "images_sha256": [
+        "f233ec9f805a6c29860c4af3b1c35d19ae6a7ab9254313a0770a4031b9363913",
+        "3699a9916e4efe53f7f016dc9b16590b6f6b5a4ae4a5e247cead48694b20c4b8"
+      ],
+      "reference_sha256": "ff3cdb0964e10fa2998c58346acb7714c6d0767c8c41170754424ab7f69b114a"
+    },
+    {
+      "case_id": "ROUTINE-CXR-019",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2211",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "399cab24b65e2bec58983d624584ec44b3da5f0326f9385575aedb68b3a8c2d6",
+      "images_sha256": [
+        "f7a816a0d2966ecb2d4a50dc1442cd4a6772fb3efbc2d9a2fba171140136408a",
+        "5faa863b2c843eaaed8fe9a0c56361a160c29d4b338242bd888fe95b5ad2964b"
+      ],
+      "reference_sha256": "1520816a75f7fa71a69601a10b6ebc8176cc1d50b4647d3d86a2c74700270848"
+    },
+    {
+      "case_id": "ROUTINE-CXR-020",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1867",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "9114ed90ee4c66193689bfe6600e885a0ae4d4763754fcf950346d510214c546",
+      "images_sha256": [
+        "a8d29192c9b70e2f9e220659207e94a4cba767d789bd4305f39e17a2eec8a81a",
+        "f11d91d44ffcfb905c6269b4f4be700e043442c1b7b86d7d99afbdd56d7efe18"
+      ],
+      "reference_sha256": "ee36a18cbb55304ca8febde01399387e539ddc16c02a9d2eabb72224f9bd1ce2"
+    },
+    {
+      "case_id": "ROUTINE-CXR-021",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2216",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "2d6a56f29a68d6d4814eeb1b0317bfa4ec66f27ac6cff22089e70396ff938b24",
+      "images_sha256": [
+        "5691026d97449e8a8b10aa4ac0a4796783b9134937b81aa712fc20cca1019287",
+        "00e62a8eaf4d5ce97b729fb904c7af4addb07c103c7919f1396cadd105c33f68"
+      ],
+      "reference_sha256": "cfa2c0ec491a946f95da338f8c11bd927d8a6b990fd165997d24160002bc2719"
+    },
+    {
+      "case_id": "ROUTINE-CXR-022",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1620",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "16d0eb3e8981bf9a837fd72515a8b2433d0a4db1a0a2521fa88f0ef6dad7497f",
+      "images_sha256": [
+        "1d5e654349dcb69d6f7707ecb5be4e60e774bc50c4fe9feb7d8a0da59d208d1f",
+        "a0dd8d790bed7850e433e6b267ae0b125a445628103eafd24dd4445c560ff47c"
+      ],
+      "reference_sha256": "efd4783f55297f65a340e65b5f11faf5b19c5097837b5687c7babd6753f6595e"
+    },
+    {
+      "case_id": "ROUTINE-CXR-023",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3573",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "07289413d1576b464a691fc164ae4f653d08bb0943dd321fc40734d26d03c96e",
+      "images_sha256": [
+        "bfa4423c965fc159eef0f5d2ea6ebd28b8829239b22aeb500516617d72e36564",
+        "9a2285e8635274c2d22d70fc795c1140c704c3d0749e2d9009be09215dc797c1"
+      ],
+      "reference_sha256": "f06c99650c91714956f6c69ed80d49bcad164a670c25c78443055edce43c01dd"
+    },
+    {
+      "case_id": "ROUTINE-CXR-024",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2026",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "b43050b02d3a04dd8f3d00f90482ff60339d17353f7e59785f53c5d90777333a",
+      "images_sha256": [
+        "c934240857d090d07ec6c4aaf64798ba4d9672e354e43eb32cc12c2e3d125ffe",
+        "611feeccb73af56419db7cc9a6e1a286e83d6c4ada1007e2ae08a4e867980258"
+      ],
+      "reference_sha256": "da91dd2591395e21d85b965d6e35cc941f42789dfbe05b5be615e5dc1ce22f91"
+    },
+    {
+      "case_id": "ROUTINE-CXR-025",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2553",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "1ef1e87158c3cb8d2f15c80cdf6075922efab495799fa25b912a8ee0440fe4c2",
+      "images_sha256": [
+        "0163d8d90281c0a61d95f7ff16305a626bd0805ca624b4c933e2b79cd45f47a6",
+        "a8bdc34d4d23f8bde1067d90b25df3c918788deea5265f316447ffc6b8edca2d"
+      ],
+      "reference_sha256": "8857c25950f3918b3bfc441555271642bd066c490fd7859de79ebbbbfd995e1d"
+    },
+    {
+      "case_id": "ROUTINE-CXR-026",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR902",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "f347ef018bb071be27c4a41109e963db218a5b745c55ad2f75abe733a695061b",
+      "images_sha256": [
+        "628d3b482c2404c2cf3bb91921085db6afe21ccb9dae539576a0bcf2754ab867",
+        "96821483b9b4038928fb7d6b2507c51a68c99d2946f1b909b95a8c8e8bbe112b"
+      ],
+      "reference_sha256": "4e823219f7c6a1fdda79030d72c12a8552d7eba151b877296321e30c935012ff"
+    },
+    {
+      "case_id": "ROUTINE-CXR-027",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1340",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "e48b73786bf34c411d410b80d0f7831a943e485f5b0fb6ae97766d9e00b34b20",
+      "images_sha256": [
+        "ffe4e4d0d809985ecb60bbf4a4dc17936ba6420de0675183540f6268edc8c739",
+        "169851f221d2c9b93f5571cfa0390ede0226443c36c2bb2b77cf626e3d2d7c62"
+      ],
+      "reference_sha256": "e9199d84780133e33a38f5eabb283fecb2607ad693b800caf679f1034597f7a5"
+    },
+    {
+      "case_id": "ROUTINE-CXR-028",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2300",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "9d0044e9e08040e5be713c50b39d15f248d25e95f000741fa96b0bc5538dee9b",
+      "images_sha256": [
+        "5341bfeddb59784aff289fc54a4e2b71f330083774dc55cffb36461b9a463aff",
+        "bb5079487306dca6dde89b102a906e945cf87ab1cbff5bcc13a1f9b66cff5fba"
+      ],
+      "reference_sha256": "0f549e9b5ce6dae89b67c242b8f9339de2fa9c4297907a88faaec5a2b91d248e"
+    },
+    {
+      "case_id": "ROUTINE-CXR-029",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR2876",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "549d2ab9b3acbaf0834063ff2b1e2a1825d01295fdbea5f4165d21de700cb3dc",
+      "images_sha256": [
+        "81584a5c6ec5d2f35d6a8793a5f3014a6613a12c88bde52a0562bbfa4002c5d3",
+        "8f3787460ea7cdbd4f2161448e65662d9cd8d4f0f492502482df8e286575d3be"
+      ],
+      "reference_sha256": "6df1b36b9f7cb4f78748830f171148472af580e2f265e0dcbaecf3707277551a"
+    },
+    {
+      "case_id": "ROUTINE-CXR-030",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3119",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "b83b15b2259e05b21cc27c3d451366fd9ad759510889dfb6f414abe361a92110",
+      "images_sha256": [
+        "1f1cb5d9bbf96e95f9dd71b7a952c28281464eb2adfa7891f49e583efec1043e",
+        "2925148b9bc08b0b11f38a8b6cee2e5b7b0700df7e27a7a49d70f44525270e0b"
+      ],
+      "reference_sha256": "622b4f2c1d52a325f0bf783472d21d28f92cf731d58993104cccbd567a4aed5f"
+    },
+    {
+      "case_id": "ROUTINE-CXR-031",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3493",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "dee9a1e63223405ba73998d8d6adf85c79389bcc807060f8264007a675c418bd",
+      "images_sha256": [
+        "fd4b5faac8152ed0acccf69dcc8f3b7ab6ae5d924977b7c8437d1fb155e7788a",
+        "fd3b824b68c3a0aba9111967c8ae63be387f846cc6e354063321d7e56c3167d3"
+      ],
+      "reference_sha256": "e781e93fd0cb150bbea74c1ba2c79ec5da657fb1a5c6b8540dc5c6a8a996bf5f"
+    },
+    {
+      "case_id": "ROUTINE-CXR-032",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1365",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "5cef7b754ce03ceed9aabaf47ef286d827c2dd93f0cf81c7452bc0351e64920c",
+      "images_sha256": [
+        "18421442080a633804079075016f537ec06c0334a3f4446981b8c2c52bfd075b",
+        "4059cc0af713c1362fea95776c3dbbbc0e4beb17231972ce8b4638d9fa9920fa"
+      ],
+      "reference_sha256": "69520315ddd77dd1b3285c4e2d315cde80be0a7799d37ac8f463ada84910103d"
+    },
+    {
+      "case_id": "ROUTINE-CXR-033",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3795",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "ae15552ed424b65d4c3b3c81adb8b00dc8c1daa63f7eb75e30901593629c0a22",
+      "images_sha256": [
+        "c4db6b412ae23be28282580eda4fa2f7657243a744e9c2dee0891e9d297d31e5",
+        "badb67ad348c270b4d9b13336fcdcae7a3839ce52bfaa716029871120187f2ff"
+      ],
+      "reference_sha256": "90723a29163eac468461c2dd7f4f695643f87ddc075122822b0405da2143bfbd"
+    },
+    {
+      "case_id": "ROUTINE-CXR-034",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1411",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "6450e0407f8a14226fd7fa132151309d73a110c682a8bdb86d71329082b0de94",
+      "images_sha256": [
+        "bbd58f9cdf5ca08fb3275e88579a1ab6eb24c4ed944e5069b73bb320e7128635",
+        "4d6e15e67b102175f1500ade355e29175c6730ad3f69eccfce6ef8c963911665"
+      ],
+      "reference_sha256": "33dfaa573c5a246be859c7d80ce13f8558b23a1f16e8cd59de85101ba415d77c"
+    },
+    {
+      "case_id": "ROUTINE-CXR-035",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1469",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "4dd9f8e477e253fcc35e432d012b4d0f5d5a49fe1354b8a13585a3ab050928c6",
+      "images_sha256": [
+        "9b459e4c9592dcb4f3601bdd0f830511a7caefe9dee72a0b48613ec1ecf34cf6",
+        "16350b4eafe5022a5fd90a1199c463e0bdb0efa0d4f0543850502823f57701cf"
+      ],
+      "reference_sha256": "21dc42636504ae0d89602b9173babc54c498cfd1c7f99be89eaa3e1c4c2c2d8f"
+    },
+    {
+      "case_id": "ROUTINE-CXR-036",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1529",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "a9a19df74e7d300b66d4e98d4062338422fac777bbca02a377e76377097be48e",
+      "images_sha256": [
+        "35ddb8116cfbbd17c48600acf5bf39146027d4736ee7681dc23054cdf14f89f4",
+        "cf92ef873777950041e3ac4b25f0ecde69247a7f7fc2dac8729179c9d018cbd8"
+      ],
+      "reference_sha256": "92661dd4d6b638b60549b2fd193f3daa2ab1d22f9ca9e67e349cfe76300d3364"
+    },
+    {
+      "case_id": "ROUTINE-CXR-037",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3129",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "bb26a0775e53a1f64ef2c2fdc3947a09bcab2d28f9ab98c07c8bc34bab9e6d79",
+      "images_sha256": [
+        "2587a62a11f9a0acb3ef0173467a5979308efa85ca6dd67813591c6a1dc5d493",
+        "0bf8cdc7042fa1ccde54cbe9159495a256abb3ffe4b814c96430936a233f6cb4"
+      ],
+      "reference_sha256": "5aa81dd337981c64edcdd10b8929e641ac8e660aa6499d3d9602c45d5e788f32"
+    },
+    {
+      "case_id": "ROUTINE-CXR-038",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR3577",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "1251c4a7171110ed8d80d42f14d7cbab90475d91f22219c04ca68345a4aa5b26",
+      "images_sha256": [
+        "cdbbee975819f67bf0b1722e5d0b6248256eadcae8f2df68c93d0ccf9cf25a4a",
+        "4e7d169e4f8b740bd862a0ed9d2a7ce7c027e856bd0dc39121c195abd55bf262"
+      ],
+      "reference_sha256": "7b91e1958aa9d77199084f8b897946f4c1bb1961ac93b3658352f46ee94472d2"
+    },
+    {
+      "case_id": "ROUTINE-CXR-039",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR1110",
+      "images": 2,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "27194cdf63f0cfd79b5e9367a0974d0ac373176494d109c0166cb22f068b37d2",
+      "images_sha256": [
+        "9e005f6301a6cb0ebcad5f81e8d1207a521c755647c0810ccaa78a055712b5ae",
+        "6b3812a36f16aba5de48e66997ffc2aaa78c43962a66ca6d528f4db931703445"
+      ],
+      "reference_sha256": "a7829636e8b7adcaee42cac010779e01feed98c29cda5efcdd61228797d19680"
+    },
+    {
+      "case_id": "ROUTINE-CXR-040",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "source_id": "CXR448",
+      "images": 1,
+      "cohort": "fresh-v2-report-enriched OpenI",
+      "input_sha256": "0492324c941e320b56f7f551e3ec52eb945e14058e2943b75b055f4de98440a5",
+      "images_sha256": [
+        "39d4a170ab3da659b9843008cdabbaaaf1d7f21d706895011eb16d411218afe2"
+      ],
+      "reference_sha256": "cd9827ff772c1f06108851405ea057f48d2b377f7544dea2e149f421918b5a1b"
+    },
+    {
+      "case_id": "ROUTINE-CT-001",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_471_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-014",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "33fc4cebb5708a3cd20cb1d8cfc16785204a3bb00a5e4767d966c14ed391bf63",
+      "images_sha256": [
+        "6b9bcefb7ed80cfa3419a144a993c4ddfdf39154d1e71c5ffc5db49f3a0816bf",
+        "0191b0a24ead0f78f161431f298d9f700b5a7d317c1a623d28cba50c58b0b0bf",
+        "172b9e11b319aeacb4b698f751ca4427a6f56cd46005942589d4a07e14497040",
+        "3a28f7d3f6d42ff52bafe350705756e8b2b6f31204f72b9e346c18d6679ce107"
+      ],
+      "reference_sha256": "eca3cdd5636a31d6812f4f67e6c183eaba4f4f5078022c11a864c05ef04dba8e"
+    },
+    {
+      "case_id": "ROUTINE-CT-002",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_153_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-015",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "4026e3e0af1629bb24a27050f963cf64997614244d076c9617147964d04a5a33",
+      "images_sha256": [
+        "5b11ecd1b02dbed78763f7b4957ed9125c04eac0b55c121cd330576aa2eb85d9",
+        "0dc195bfd7f84c5f45304fd262529e539ec6f60289cb5a869bd97013ac943d54",
+        "5da57371f2f3309363818b5766c4777b452b0a6aea57ef3433678df1d1898493",
+        "d2b100662d097ab4f5325635dabab5ed588aca19183bf518f74337d71aab9961"
+      ],
+      "reference_sha256": "c0077f807fccd4e831864a1bf1ed67ef785be1fa2a6ce77f590ca47f29446fee"
+    },
+    {
+      "case_id": "ROUTINE-CT-003",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_1303_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-017",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "1bafc91c68f90081cb8856dd8d042f0a433eff49cd078fa80f1328a8787d08e7",
+      "images_sha256": [
+        "31e44ef49fe58d8ebe4c0f341b71a11fb740b8787b4316f8fcb96f10098790a3",
+        "a053ea4115beb05338f77ebf17e7a7d5c61ecd46dcf67682459cdd7825bca38b",
+        "eaab2018ed9fa87ea17118a27d401a402a215b49b01d795c1d360f2a0269b9df",
+        "b47f5341e4aa617a82f27a4e9991a0f91315111311d5619a7e7b277de279ccaa"
+      ],
+      "reference_sha256": "9aeae8a4334b2f2c21006a1663b746aa46d0ae5e252b6292bf5ffa69a92b1f4b"
+    },
+    {
+      "case_id": "ROUTINE-CT-004",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_212_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-016",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "3a434ed5fb9814b1d2e83ba7df5fa29a8079c8a030f3464d71bf9930d53cf343",
+      "images_sha256": [
+        "d501afd7f4fc220ec924ba39a53b8e75a2151e81b1cddce52883db8281a59cd7",
+        "e40bc03f128fc2ff82b11b46a7f38d43599d4ec8059ac07f521dfd0f55ab66d4",
+        "4b44671d1911cbf5ddd278acad56db7e5da46f86668faa4ee202e7081717554a",
+        "fa54a0b79c624953b291cfd21ad6890586545c2a82f4c54f2cd4727c7d00d2a8"
+      ],
+      "reference_sha256": "cfc4a580e1ca1b04cda7e7f7aa414f90c60a0e3388413842d4d43c3d371c0049"
+    },
+    {
+      "case_id": "ROUTINE-CT-005",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_1212_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-028",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "ddf579233841367bf656235440e8a8d03d04551e701b59dfb395d92c9c27cbb8",
+      "images_sha256": [
+        "12f93726062f09515bf52546c547725df610c268c7f3b2c9e59f575c520637cf",
+        "0a26034396cf7239482aa039513b78b0af8dba86a2505cc3f608b17ce539544b",
+        "d57f5c132138aa3025501e5a12c4a2340c952434092399c188fdbbb3171a7164",
+        "c79919b000fb17e4af0092e0989f0bd2f284d32707291efb6937b4998c026fe5"
+      ],
+      "reference_sha256": "9c54ecc576b01e46fd9e2f4b2285d09c4327d2ed246929b70b026f784f447efa"
+    },
+    {
+      "case_id": "ROUTINE-CT-006",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_75_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-030",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "f5a8ed73bfaa4e64d2d7e41162423e4f42ea34fc2b21ee3afa7e4ed0af79f25e",
+      "images_sha256": [
+        "984cb94b6ccd85f4f1ed87941f32f8d9b8a415b2199e9b612098499f560a93d5",
+        "07705e1d53fb22be35a62e144794472df652ccf9f9be6515769e749d7be0c068",
+        "ecad4f0063fb35996d850b41a048261c5b9b1e6ee3605504937ab6d76adf1fa1",
+        "2f8786f3da05fbd3c75720bc45c884f64e87710a8fee632e34048ca36e45e299"
+      ],
+      "reference_sha256": "e35d5631a5a6f22556fa771083bd6f6db50db7e6621eb704e419d333095e4bd5"
+    },
+    {
+      "case_id": "ROUTINE-CT-007",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_243_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-010",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "ecd796bf1cfd2926e1849c83af852f8c68d46a3f39e678530c6e0e39661cf419",
+      "images_sha256": [
+        "57c099608ff9e2096c9b8c1016ad7303dedcf941b7e9f27ae81dfd12ebc99a95",
+        "3ec4e87b4db4218702cecb79122e2f4c25fe0a0328a84f58179dd970b5b3a317",
+        "c138739eb1895ab21dcb74d129ebd4313a59caaf9d29cc774f2dbee50ef413ad",
+        "6adca014bb092b99db5913d8f294850088ebc921a44070ef0b2e2344e01c3aac"
+      ],
+      "reference_sha256": "32f9ec88612e28d3b3ce566f84103a4bfe432e311fef60961ddd1aaf38b47152"
+    },
+    {
+      "case_id": "ROUTINE-CT-008",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_10_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-032",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "a4b6a5ff6b69970f0630914bdac61d92810743377c65dc66025d6f43f7c1b281",
+      "images_sha256": [
+        "4ec04b6f09926d836fd7011f71d458d2d03e473e8b031b0137448b6a9b29a0af",
+        "60823e9dc228c9c464b740434c18c9983d14b88e0d0a0cb17e5aaf32156316ac",
+        "e2dbd1a1baf014ed00b794e80fc068abe32b93d7f88ceae04571363fc48319e3",
+        "f5482f29f266c7523ea9f18cd00db8051f05473d25a12d045598513e1b2dbec3"
+      ],
+      "reference_sha256": "1f1dd975358d839b6bb78b3cddc525b80e46c042b4c82b38b0f2d5743e24e9d6"
+    },
+    {
+      "case_id": "ROUTINE-CT-009",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_876_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-007",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "497579f99075e05d40d977adba1c2d10edb8148baa03c1d0419aa3fd6a75af2d",
+      "images_sha256": [
+        "484f91931328ba42e6d5e6b548df157fa1860df3e6bcf6f58e6637050c447a80",
+        "cd14cee8bdc6694a9ac5495f2ea9d980a84a78acca9c5b89e3728bbb6a82be57",
+        "0d79519f1ae7e6ef5d0ad9cdcf0614680afe908ad594063c046511aa0806c7a4",
+        "d37687ba5e31fe9604edd83542afffdd60459392f97d5da814960b32f8dc047c"
+      ],
+      "reference_sha256": "3bddea5937854184b318dc5cf72a5c46fdd0f06cf832118e99d215650199fad9"
+    },
+    {
+      "case_id": "ROUTINE-CT-010",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_837_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-039",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "60d0efb28b3cc926b102f252893305970825c8e111daed0ece205012e80e471b",
+      "images_sha256": [
+        "3777e7980d0387e4d576435caae0fef428a37475064846ea9776004891bf5e58",
+        "ae8f573a21813555ffab50c6f9151a4aead96ff2d579087091e954a2409ca895",
+        "8582c042a689ebbb54f41d475a661f863c9a35af45ecdcefd7cd78488ec930e9",
+        "a194d758be3a58658c4084fe409e0f4561d2e606418854802b1dff5433d37abd"
+      ],
+      "reference_sha256": "b147c80d52da24e852b85a2352cc62b51dee6f6a8422434a4dbbd34b25141569"
+    },
+    {
+      "case_id": "ROUTINE-CT-011",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_525_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-033",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "af36d9f9c2a884ea44e19300e9d01f0c39d632555302d18927413e21f42fe658",
+      "images_sha256": [
+        "74593db83e1bdbe1585410728077a70c9bb4605dafa356805c533ec9f4af7537",
+        "ca1577a81ab21064be1194f950e53700c37373d50ca85f07cafa99a44b11c05e",
+        "8225f2618d68ede99fb39f047dc94d2d15c1bdefa94478f4b71a7b7231030086",
+        "ea8bb04c985eb93c3c5afae3b4b8a2e24613e532d8089ee9760a9c08b54397b2"
+      ],
+      "reference_sha256": "16108add6cb144d17fe661d433a9daec7b77fca9df9cf52ac5566efff0f082b3"
+    },
+    {
+      "case_id": "ROUTINE-CT-012",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_824_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-024",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "ed6c74e542a3c40f050f8b4376fa9cd1abf7530be547290843b44a69ef9e3e02",
+      "images_sha256": [
+        "3c6a5177a2149cac1ccf2845ebf07760b76e335867243f653f7ed785606ea990",
+        "455e438e52aff0f012d6537fc77f735c0b2e8013bd2cd17aa2b763c9ef4fb8a8",
+        "937180326a2a7fbfaf649134d6bf6cae59c1e82b7dfa9d944e48261361ad1775",
+        "3a81f6e822b77dcd11d0a72ea32629b2dba800a43c30395f57dcf14b1ad4b5cd"
+      ],
+      "reference_sha256": "ca35132419cfaf9f323db30ecee131d827fddebcb1320feb61357dbed77b4454"
+    },
+    {
+      "case_id": "ROUTINE-CT-013",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_1217_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-004",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "6855f447c5732b4a7e38d798e9bbbd986d14c10ad9d347704e859eff2b7409de",
+      "images_sha256": [
+        "4d7f3696b6c9767a4eb31b19852058228ae201a22ce32eb3dcc2ec54e8164841",
+        "f539671d1b0c99a037ef221b9242845c779094cf0080ad693ace07425a5f11b1",
+        "28521d56077bac9061c1205c396b79b4a448ce8f09b01089063b604e39548642",
+        "5a9cfa225a01ce4b23920de514db530892e624584565d42c6a85288c3f81e0ad"
+      ],
+      "reference_sha256": "c60178f9733035ca9735f586d1d526c9c78696f3e220d4ec3ae50358072f882c"
+    },
+    {
+      "case_id": "ROUTINE-CT-014",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_475_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-018",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "7e8543b7de535276dad2c1553759e86486b5cb24156a7ea7a8a1c5af634934b2",
+      "images_sha256": [
+        "69da1c07d96a785ab8683a1980023f815abd2b4f0bc3193a655a52c971e3a853",
+        "c6fb7003a7e6de05e2cf02a7b4eb365acf9ff63c41200bbea362633225175274",
+        "2749ec599942508a26d71bc8d821689d5e10c74ae57d5aea9422f219bd2f40a1",
+        "eb0876d869af546cf4455ea8ff88fc1dc1d18d9eafbe3d613df9b406bd50a1dc"
+      ],
+      "reference_sha256": "8f4b3be9c3c84841e39c395c252b6c5261169e7f0e29a3a4a87b8cff5e039884"
+    },
+    {
+      "case_id": "ROUTINE-CT-015",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_464_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-031",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "b95a53e15460d9aafa1a2fabf1e1979f73c37f6f7f820f5dc877d32cbf49f230",
+      "images_sha256": [
+        "c022c8d8c7ab9d854c36c9c65d29903a2323c3f78481918fb86c760226e1b683",
+        "923204e391d469f015474be729b4052188760ed26ee51db47731ab6611891585",
+        "3dbb7448580f29f50c385b3e895132496118b56d42a3ae502aedfa7bfb007ff6",
+        "a28728315a7c8596414239829aaed7130b2c5a5fa88933a980c67b3b904f04d3"
+      ],
+      "reference_sha256": "d8024a07cb17f1ad282e37f16c2749187280f81c1909f5e347079c1052a5e58f"
+    },
+    {
+      "case_id": "ROUTINE-CT-016",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_983_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-006",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "cced15e67f3d013e08c8521f782b5955d72bc7b32c7d5c3caa1a3b16040e29bf",
+      "images_sha256": [
+        "de0d5a9db47611c538a1b2e341726df66a104f038ac5687a1bd414a88a25d9dd",
+        "1925a0d1ccb654e5b6513db8efb5f517c50e5fe661a6eff75fd1e78bca8cd3d5",
+        "a5bf2422354d8eecd3b4f39fb6370dfd67e0670f28dbd083fa118f0429748f97",
+        "cae79a5aef21ac9603ae938edbd92d785ff27542d5377359a230462818be8b33"
+      ],
+      "reference_sha256": "5681bdb893cbf5e8b986d202b06187f49b3caf2d3870e6b32c15de67e033ff4b"
+    },
+    {
+      "case_id": "ROUTINE-CT-017",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_1169_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-020",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "14adef1678958b0aab2e0112779f9f052d405252a00ec40acdc69893220fe85d",
+      "images_sha256": [
+        "a1d6cbc894e08cf2dfac6132ff23286c7d3cd995bc86293ec79c1b9313b81277",
+        "4c793fcb73b7990c8a90a6f7af13fa1f36e60a5e2d18a04ef0fbe2cabf72e828",
+        "e058c73131ef4808924c81b0ef65470bb0a20dc985e2c509c1e7a693fc120a78",
+        "583f126e9181fe178177d112c5f2a1b4aab9cfad4a314e837f39eae1eb152aa2"
+      ],
+      "reference_sha256": "b2ee62f8e63ebb3bde469245e89275f827ea75cd341e375422e44790c067bbd2"
+    },
+    {
+      "case_id": "ROUTINE-CT-018",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_353_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-013",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "5f50e4ae89ca399c607f7169aab1c92b1e0b0f96459f14b899130a94878ed559",
+      "images_sha256": [
+        "3772846b9524e544524264393552e03a4577c4e0eebcf64a5e107a2a96040ca0",
+        "37edc970374408598a3d96f1923d4e66a85b956fc9e9cbcbabf3e86b5d23af5c",
+        "983f46bf49364a9288a4128300d4644a4a7f26e899d25af0400cb780ea1e139c",
+        "dd3c61c6ffe4e9cde737a766d3674dab22b968809edecfbe372b017cdff85ef7"
+      ],
+      "reference_sha256": "dafae76373f6cb67edcddeb9cc38253704425ef563af2d02d719983e20714357"
+    },
+    {
+      "case_id": "ROUTINE-CT-019",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_174_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-002",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "0b26e684a4126879cf52ab933ebf86eb2316512e5356c8390eea3687b701c020",
+      "images_sha256": [
+        "6b68c9615528f1d8b04c38db6d43230b139ac75400a7175a44476dca9bf10b4c",
+        "3735de15ac4d452e20c0b92519c8dd48e516863d943e691bffd8aa44b29e62dc",
+        "715c3eeae9d0d867d398b7c70e690baff88054577d6e14292547c38f54bf8e65",
+        "d3bff0cebceba2b196c05e071290526f159f0301430d939cb558236180560b9f"
+      ],
+      "reference_sha256": "865cd81330b0d464a3cd8c5edbfa009cfc34d9f3e607d4e12ca16821fe2e954d"
+    },
+    {
+      "case_id": "ROUTINE-CT-020",
+      "stage": "evaluation",
+      "modality": "CT",
+      "source_id": "valid_1180_a_1.nii.gz",
+      "original_case_id": "CT-EVALUATION-038",
+      "images": 4,
+      "cohort": "reused prior report-backed CT",
+      "input_sha256": "c81673ee974dcd6e2e2ef0fddab80573d03c2e4c0e4d398bfdafce6eb7925e75",
+      "images_sha256": [
+        "4ce99712e8bc5a27f0f664908c08f6ded6284b4aeaa17637fae63f944fa5d9c4",
+        "51b88f7ccf09e34783920f810d89babd82fdd811860a50f8245c987840c59f42",
+        "d5f44d37139b72c49fd42dd862afb3cf2d4e43a7514c0fc04c16435d0dbeef2b",
+        "529d7803dedf385870d78c45e065289cd6e6b4fb44fd4e562158f378128b8b4d"
+      ],
+      "reference_sha256": "e1cc0eb051b45d6115670f7b45a557df5ce46071bda00c9b920b636ab3d078ca"
+    },
+    {
+      "case_id": "ROUTINE-MR-001",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "DCXT75HZNP",
+      "original_case_id": "MR-EVALUATION-007",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "26fe1c1fa56956b7eb6150f866944ec41cf30c60de504b8c0b23133ddc530ee7",
+      "images_sha256": [
+        "af37d161d2aa9480c8c258ee0face4385666f74d29f39ead23d5d407f131d82a",
+        "4aeeeb92dd512a28aa5965468d9659afde93402d33c25bf255f8d1ba9765c83e",
+        "4d7ad4348718d4764c635a9af2fe96e652667257c1b825ba8d87d4e060c513c1",
+        "1f7a2724326977fa395c587ad880fef7744218acc1ea3a469cd3b2877d635f7e"
+      ],
+      "reference_sha256": "e085dfa14c1f1386b7a5accb4c85864b7ec74e500dbda6cfb5f10953265165cd"
+    },
+    {
+      "case_id": "ROUTINE-MR-002",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "HXVXAVSFZQ",
+      "original_case_id": "MR-EVALUATION-014",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "62a95b07e43f3c18b5bffd6fd2c4d12a63a09689d3d7ffb4adcbb45fcb60183e",
+      "images_sha256": [
+        "df4b863e95e430af81d8bf85c36a2d9800f6bb1e98fd0b5185cf13f0ca0f1292",
+        "b461fd41d4fccede330f33ae4f35733c596b8c348510e5f89ce344a2d5e33982",
+        "23d739a8a7f4cce37f669c678fa07f2c18bdb4e5d8e7428e9c69ed0ba17b413e",
+        "9616163c8fb6503768825569ce68f617e293db01eae68931e46c67e2f3ca65f2"
+      ],
+      "reference_sha256": "154c4c699c3f1abe8624ff9456f37485a21e902b04b051f9f5b0373cbb059a91"
+    },
+    {
+      "case_id": "ROUTINE-MR-003",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "7QU3HXM74I",
+      "original_case_id": "MR-EVALUATION-009",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "04c6f38d8ea28d749eb7fcb6f14eddaf7bcf856bc9094740be635a24186952bf",
+      "images_sha256": [
+        "37fb97f766b9efefc73fbbb9a5c39f86bec6bc5877d0aba9195c786c22cec243",
+        "123684cdc76301b9b25769b427e47e6655cdd11b2017c749f689d3c5ef4a5515",
+        "f8ce9e1d7c1393f5abfe42186bf2280271159117e49cb1d499516a3111137cc9",
+        "82d817d7b70182b77263e10071ac8c62d485cbb44a46279b06f87a275313077e"
+      ],
+      "reference_sha256": "73161bd7ff259bed85b958faaf8ea6c4e5dfc80d385762447dbf53ef6c39dbc7"
+    },
+    {
+      "case_id": "ROUTINE-MR-004",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "UAUZRPZQAH",
+      "original_case_id": "MR-EVALUATION-019",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "099f462b443d3c3e79a1177f2f23eceb87c777331abdd283dd1317298e17d0db",
+      "images_sha256": [
+        "0d5047650146ff2f68f764c4d0ca1e663109a5f08efc1bbf1101bcc8e35c61a9",
+        "1623b90aaf39ab1628387ca838f8aaebd6eb5fad8bcc721e1a665ebdafbcb6a7",
+        "fe420cc3d3d6cf5e50297d4bd11bd6732d95a62f550e8cdf3133ff866a9d655c",
+        "dfa7dab542dbc98adf1bcb69837e1db25dbdeee613e0b0745c2cf0413109925b"
+      ],
+      "reference_sha256": "f1e04461453203a5b79d4eb08bc965d76f62b07a66b0e4e40cbcd31138328377"
+    },
+    {
+      "case_id": "ROUTINE-MR-005",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "YZEZAO6QC7",
+      "original_case_id": "MR-EVALUATION-010",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "376f2400008ff0fcd124ca04f0e4817a62594e9c18da3ee4a3fb62eb1a7670df",
+      "images_sha256": [
+        "a3483ca56b34c34ff8b830681907ae498c5ccf161654ee014e6deee207ac28a9",
+        "ed81833c5f3185e272f7959449e52708a3beb9d5e49acf24531ba3f9ae2b8b3c",
+        "eefde0a342085c9928d5f513dabb2c2c7eaf2590393d4a91cc64592b12424c66",
+        "742dd32dd787da0d35488fa1c4f213ebf69feb90c1d90628a65e3d995c5c29f6"
+      ],
+      "reference_sha256": "fbd3fcb23765c2b132475151216424daa7ee2faf635417f58680f6bc7a47d5a1"
+    },
+    {
+      "case_id": "ROUTINE-MR-006",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "NU2T2LM7GU",
+      "original_case_id": "MR-EVALUATION-013",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "e0bc5a22d0624622eb315465f7a7a140888f121b8902b6a1fbdcb6006ef8f61a",
+      "images_sha256": [
+        "22bd81b26b10ad604dbcf4ae573b5ec35d2de4d0cc75c72d688bce44450a3075",
+        "12c28018af00e31aefb91a764c307d8124700c9ff9d57b6d40dde0aa4a8015ae",
+        "6567f01f752867e78c5728c356dc3d74e4680b5db9a3c76fe4fe651e26a9d705",
+        "2db34f608f70d052e0381d094366b934d42829f402b8cac12d65ae30916861a2"
+      ],
+      "reference_sha256": "2f24533b7046a1da5f15be453d41a059e6c6dbca85a68b096fa7a3ee5af6ada9"
+    },
+    {
+      "case_id": "ROUTINE-MR-007",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "45RZC2KOF5",
+      "original_case_id": "MR-EVALUATION-017",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "be6980caf41e77f5b1c8499fe4dfe170ad371e782de13047f79635a30e586d9d",
+      "images_sha256": [
+        "cc10f38c90d0e4e949593492c09b05ffbfb87f17301ee803b3287e8a696bbc2e",
+        "140a91655e1f27187c9504c7d8b11aa026d0c194b0ccd990e9dc1010c4813630",
+        "a9080c06ec0ffb8df92165f5f67f41295985462e27ed2c53989766879c1e34c0",
+        "12d0c795d7404c8089cac0784e526dfc3b5447b21ea08de384271827993265ed"
+      ],
+      "reference_sha256": "64f7a3fc336c7c1f484b6be47249f457b8dc24b46a76a8807379803d53fa1756"
+    },
+    {
+      "case_id": "ROUTINE-MR-008",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "7C5GU46OBJ",
+      "original_case_id": "MR-EVALUATION-005",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "c65ae93e02bb5c18dfe88e660fbb332a69e5558a2d623c3af8645b4b7eaffc53",
+      "images_sha256": [
+        "dc0957747d533afe25aac23c64496d0f81a6b0d2ca995fd2ae97ab4072b9f4e9",
+        "1a5824c87e876d6dca6338e058132c6066d14b28324205a9dad0a5ef8b99f07e",
+        "bc4c37ae0952fbda90e3e02e4364fa544d2371d0ae3860e488a277109d0a9b59",
+        "1a1725a9793e40bc1e362b08ee1955e15c7920d4ed5d973a3a47e3953c4e9acc"
+      ],
+      "reference_sha256": "3912b01daa58cbce52829d00ff986e6b5ac0fc3b26ddbcd6aa26e8e6e7dae8ac"
+    },
+    {
+      "case_id": "ROUTINE-MR-009",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "5HU7GUXGMM",
+      "original_case_id": "MR-EVALUATION-004",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "f03f2413cf409e0b9325acb43b6012fd122972c3eedc5e0810c8905af8eb5275",
+      "images_sha256": [
+        "832f0f1c4470f21f27387e0d60b33055c599a492a9168462a7190b7deaa2e6c9",
+        "a411e779bdb6518c92391a9483f9ff650d2f128827c5606b7bd814e3fb7f4d60",
+        "bf0d1d8cc7920d4bac324b88a6e0755233d050491e12a28518905171e637a780",
+        "b070ef60857c72c8f8d16a59a7c84c30f391eaa5494dc409e7eb5f22946f774f"
+      ],
+      "reference_sha256": "1ac68d560c4029a8a015a05ef20f899e63a5d553e12a30c63171cffa70113bb1"
+    },
+    {
+      "case_id": "ROUTINE-MR-010",
+      "stage": "evaluation",
+      "modality": "MR",
+      "source_id": "KHRQQREVCD",
+      "original_case_id": "MR-EVALUATION-003",
+      "images": 4,
+      "cohort": "reused prior report-backed MR",
+      "input_sha256": "a195c22d74649d972cfc216fc96b9fd921f806643c523595ec6c34ec0192eccd",
+      "images_sha256": [
+        "9f95dd89aa149d24a7f5b4d232dc9b690f9bcf3c69118b21b756501017aed601",
+        "1a4dc991b43f1f0dfa65dae95a7cac53a55651625c8ce85ba32a3a2198589482",
+        "73654eaf4122867f2d85803357a2212b36c86f5f1489fb28bfd153f893483797",
+        "20e008353e9fd2d0c3d4be03bd949b17467e2c5abb78da1d74e6b4bec69e2588"
+      ],
+      "reference_sha256": "b95a0eee5ed74392b046de55bd7139560e1679ab13dc6235c963eb0984290048"
+    }
+  ],
+  "clinical_metric": "Existing physician-report assertion concordance, not independent clinical accuracy",
+  "primary_cohorts": "40 fresh OpenI chest studies, 20 reused CT-RATE and 10 reused MR-RATE held-out studies",
+  "prevalence": "Report-enriched CXR; no hospital prevalence or predictive-value claim",
+  "volume_coverage": "Previous CT/MR sampled montages; not complete original examinations",
+  "reference_processing": "Conservative explicit report assertions mechanically coded; omissions unscorable, uncertainty/conflicts excluded",
+  "no_live_doctors": true,
+  "native_platform": "Unmodified official OpenMausBot 0.1.91; profile PATCH and native image attachments",
+  "isolation": "Fresh bot/task per case, autoRecall off, zero tools/web/files; native Ask workspace-write network disabled, provider file/tool features disabled; curator gold root-only",
+  "failure_policy": "First clinical attempt only; invalid output, timeout and identity/policy errors remain assigned failures; no answer repairs",
+  "image_reference_policy": "Native generated attachment UUIDs are allowed source aliases; clinical content never repaired",
+  "per_turn_image_limit": 4,
+  "multi_turn": "Sequential native turns accumulate observations; final report uses all supplied views",
+  "conditions": [
+    "paired direct",
+    "prespecified context-only subset",
+    "prespecified fresh repeat subset"
+  ],
+  "controls_case_ids": [
+    "ROUTINE-CXR-001",
+    "ROUTINE-CXR-006",
+    "ROUTINE-CXR-021",
+    "ROUTINE-CXR-026",
+    "ROUTINE-CT-001",
+    "ROUTINE-MR-001"
+  ],
+  "repeat_case_ids": [
+    "ROUTINE-CXR-001",
+    "ROUTINE-CXR-021",
+    "ROUTINE-CT-001",
+    "ROUTINE-MR-001"
+  ],
+  "metrics": "Per target/modality TP FN FP TN, sensitivity and specificity, abstentions/failures in assigned denominator, Wilson 95% intervals, patient-paired resampling, completion/latency/token counts",
+  "efficiency_limit": "Model processing duration and draft production measured; doctor time saved and final clinical accuracy not measured",
+  "provider_identity": "Native requested identifiers verified; backend weights/version not exposed",
+  "source_limitations": [
+    "Public-data pretraining exposure unknown",
+    "CT author-translated reports",
+    "MR author machine-translated/restructured reports",
+    "Reused CT/MR cases disclosed"
+  ]
+}

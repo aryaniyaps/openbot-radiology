@@ -1,0 +1,5602 @@
+[
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "ambiguous",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "present",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "present",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "unassessable",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "unassessable",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "ambiguous",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "ambiguous",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6.1-sol",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "pneumothorax",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "cardiomegaly",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "modality": "CXR",
+    "model": "gpt-6-astra",
+    "target": "focal_consolidation",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "ambiguous",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "ambiguous",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "unassessable",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "ambiguous",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "ambiguous",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "unassessable",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "unassessable",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "ambiguous",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "ambiguous",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6.1-sol",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pleural_effusion",
+    "reference": "absent",
+    "prediction": "absent",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "pulmonary_nodule",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "consolidation",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "modality": "CT",
+    "model": "gpt-6-astra",
+    "target": "emphysema",
+    "reference": "present",
+    "prediction": "uncertain",
+    "scorable": true,
+    "matches": false
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "ambiguous",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "ambiguous",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "unassessable",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "present",
+    "prediction": "present",
+    "scorable": true,
+    "matches": true
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "absent",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6.1-sol",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "white_matter_signal_abnormality",
+    "reference": "unscorable",
+    "prediction": "present",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "atrophy",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "chronic_infarction",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "modality": "MR",
+    "model": "gpt-6-astra",
+    "target": "mass_lesion",
+    "reference": "unscorable",
+    "prediction": "uncertain",
+    "scorable": false,
+    "matches": null
+  }
+]

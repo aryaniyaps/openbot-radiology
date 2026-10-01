@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Export a native team backup and redact credentials known to this installation."""
 import base64
+import argparse
 import json
 import pathlib
 import re
@@ -72,13 +73,28 @@ def validate(backup):
 
 
 if __name__ == '__main__':
-    session = json.loads((ROOT / '.private/server/operator-session.json').read_text())
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--session', type=pathlib.Path, default=ROOT / '.private/server/operator-session.json')
+    parser.add_argument('--profiles-only', action='store_true', help='Export current profiles and operating memory with empty tasks, excluding historical case facts')
+    args = parser.parse_args()
+    session = json.loads(args.session.read_text())
     request = urllib.request.Request('http://127.0.0.1:8799/api/teams/export',
         data=json.dumps({'format': 'backup', 'name': 'Radiology clinical assistant team'}).encode(),
         headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ' + session['token']})
     with urllib.request.urlopen(request, timeout=30) as response:
         raw = json.load(response)
     backup = sanitize(raw, known_secrets())
+    if args.profiles_only:
+        for bot in backup['bots']:
+            bot['tasks'] = bot['tasks'][:1]
+            bot['activeTask'] = bot['tasks'][0]['key'] if bot['tasks'] else None
+            for task in bot['tasks']:
+                task['messages'] = []
+                task['activeLeafId'] = None
+                task['title'] = 'New radiology case'
+            bot['memory']['topics'] = []
+            bot['memory']['logs'] = []
+        backup['routines'] = []
     validate(backup)
     destination = ROOT / 'backups/openmausbot.backup.json'
     destination.parent.mkdir(exist_ok=True)

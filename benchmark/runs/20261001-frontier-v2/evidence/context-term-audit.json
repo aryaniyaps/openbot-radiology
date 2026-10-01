@@ -1,0 +1,190 @@
+{
+  "time_unix": 1790841670.3686697,
+  "criterion": "Existing frozen diagnosis regex matches supplied pre-imaging clinical context; applied to every held-out source case without changing input or gold",
+  "flagged_case_ids": [
+    "PUB-780EEBF8DF70"
+  ],
+  "interpretation": "One case has legitimate prior follicular lymphoma history and a published diagnosis of recurrent lymphoma involving pulmonary vein. General disease-name recognition can derive from context; original primary retained, no-explicit-name subset reported separately. No claim of causal image benefit.",
+  "cases": [
+    {
+      "case_id": "PUB-70F4E0040817",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "0cf3106ce90697ec4427946680c13f9c8372227e7d4ec98f13fd60f46668c6b7"
+    },
+    {
+      "case_id": "PUB-C6EF6A318D05",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "d2b8ef60a0ff1b2733b5ff0abd1492b375d5fd875ac28af051e220387342dc3c"
+    },
+    {
+      "case_id": "PUB-9AE1491E2AFE",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "afb72648cccc264bda026605f4e600c781b12a3b52a3816e953338cb8b542bc1"
+    },
+    {
+      "case_id": "PUB-E78C5AE7F459",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "e9467bd81f2d6c74c8362c8ef14bda1a8763322e6caa2e5638e8635128cbbb59"
+    },
+    {
+      "case_id": "PUB-2CFF8E9D16D2",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "a75cc246cb309037cf1b1db7d0357bf872acdc2a5e7d8dbf4ef48bfaafcc818e"
+    },
+    {
+      "case_id": "PUB-29C6AC8DAF18",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "fd23b816b1b1f1e480d60217d344a304f738cf079bef6945380394f35e90fb8f"
+    },
+    {
+      "case_id": "PUB-3A62F84ACFE5",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "3a100ec87586073cd657b50ee6849da857c42a742895191344be88da2827d485"
+    },
+    {
+      "case_id": "PUB-02881C90FD9F",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "90833e0c3c9468ef1c022e69c5c1e573b606fc1f8cf1ae32ac1f45d4f8e55617"
+    },
+    {
+      "case_id": "PUB-1803DDC4A439",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "405724a8954dab9f7de34f77638f4371701e41fbe29136c2bf4043e0a8292c66"
+    },
+    {
+      "case_id": "PUB-83C6B6C804DD",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "2ba8e9e108c29c63a054e01bcf63e3b055e7c9212c7bb332f2ed8f5fd3349160"
+    },
+    {
+      "case_id": "PUB-D727B66665EB",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "b3cd960d227ca03001501b5737bd0ea72bff66bc2982e48cbde9d2d7d2160f09"
+    },
+    {
+      "case_id": "PUB-D5A5DD6AA04E",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "d3e6717e7b8842b4f451d1d5e2290c93bf7009657fb2079858d68793b5ddacdf"
+    },
+    {
+      "case_id": "PUB-780EEBF8DF70",
+      "exact_target_terminology_in_pre_imaging_context": true,
+      "packet_sha256": "24fdf4aafd01a2ca926e93994017f7bbe96ff87b3c8abaff50434353c81e2c90"
+    },
+    {
+      "case_id": "PUB-8355333F71C8",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "b3a1e363cc51f53afaf42f44acc3db13df4a1893253b155f70e9953013a2d657"
+    },
+    {
+      "case_id": "PUB-8D7F99268316",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "e44070f3a1b7323de27bd8cef570d16034638a3b187f706689d92985a9f4bbde"
+    },
+    {
+      "case_id": "PUB-99B61D5ECFA5",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "8bd6237fc5a0f035eceb765dff57979d2c9d7a0ce6fffd6b1e4760cce7059824"
+    },
+    {
+      "case_id": "PUB-A96DC84B6D5D",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "6f1b38608e1391fb503e15d7dc5076f4fb875c70d9c8adfe63e08f14e692a3ea"
+    },
+    {
+      "case_id": "PUB-2C1B4421387D",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "c4a955fa60492e724712e773f622110c8986e536578cc4fd25a97b409699c117"
+    },
+    {
+      "case_id": "PUB-E87AF71139EE",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "fea57de2a45fe3a845fe7534539cdfac762848e4779fca801e6a95e55176b7bc"
+    },
+    {
+      "case_id": "PUB-4D4E1F4AFFA5",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "6b8cb41bf4d2cc573cef83923d1ff866c71e3a98af2f30f1122b9482e4880901"
+    },
+    {
+      "case_id": "PUB-A472DC8242D7",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "e0c7af6329f169df54c476d5b0b9427f54c458c16d42c8188cbfb270c8ed4708"
+    },
+    {
+      "case_id": "PUB-80264E4FA58F",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "c81e09e6ea3a06b02d494cf303b2779023c820514eb3d556d780cbe6bcdce43e"
+    },
+    {
+      "case_id": "PUB-196287C67D8C",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "bbc992b5af973c1cb0747dc711c4c5ffb504aa35a1f47eba9b372871924ef081"
+    },
+    {
+      "case_id": "PUB-238BA28387C2",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "5ca10cb0eaf2ecccc27b43ff195257181c2742f2a20372d14d9d77ee6c6ad4cc"
+    },
+    {
+      "case_id": "PUB-4F933308F0E0",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "dbf572134168375803a9c7fdfa02a25936990a8f3e4eff3a64a1197eef720200"
+    },
+    {
+      "case_id": "PUB-63689886B8F4",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "2c63c22cf85dbc82341652123653837ccd7658c2e89546e6ff060e09f0dd6774"
+    },
+    {
+      "case_id": "PUB-9AAC0B670C9D",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "c023ca307bf135213ad13ce415cd204eb59254e0e987133585c79ffa67502323"
+    },
+    {
+      "case_id": "PUB-676463EBB1F0",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "ed7e94b94e236353981c62adef835c447550c1e47c984cdf09ab11020cab5f19"
+    },
+    {
+      "case_id": "PUB-5EA2BF35E6A8",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "b03cebb87eb0e60e28497b5867061db9caf7b039ea3d83a4b54a8b8d07f4cdf2"
+    },
+    {
+      "case_id": "PUB-00935CF2CB9E",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "c3e89130852aba5bc40cd11ad47c5707dc47cbf423ee9881fb62127f58ef94dc"
+    },
+    {
+      "case_id": "PUB-1605B33C93D3",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "2250e59585c5d37b73c1b341a2ec0e23a455fcb94bebda110e8b93790a76f7d1"
+    },
+    {
+      "case_id": "PUB-20E08E6C15A0",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "0b3c9e06ea1dcbab17da5dbceefb3c0ac63a17b31eb4d37d5a50198494f18c77"
+    },
+    {
+      "case_id": "PUB-2E550704AF7D",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "8c88c9990c693773ba1c19d4799a26f00969639b7203864a81c5800c9ec6bd33"
+    },
+    {
+      "case_id": "PUB-D5FE4EEF08C4",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "3dff8397a0ee89beb49ff1c0b62cd13497af438bfb15cf9afce26fda8186d196"
+    },
+    {
+      "case_id": "PUB-64D0F43ECB14",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "9784589751c480b1c71ed7c81d04c539a0922ac48ec6030cccfaf369c99df0c1"
+    },
+    {
+      "case_id": "PUB-E5F2A4B0C0F5",
+      "exact_target_terminology_in_pre_imaging_context": false,
+      "packet_sha256": "8155ed2a440d82bd4760e7eda1580a96bfd8be76871dc434dc44d939df82dca2"
+    }
+  ]
+}

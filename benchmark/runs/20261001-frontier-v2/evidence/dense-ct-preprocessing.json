@@ -1,0 +1,886 @@
+[
+  {
+    "case_id": "DENSE-CT-001",
+    "baseline_case_id": "ROUTINE-CT-001",
+    "source_sha256": "90c3d8fc59a856e34bc207024195bb3eeaa4df2338a50620f1a75b0e3850a795",
+    "source_shape": [
+      512,
+      512,
+      212
+    ],
+    "canonical_affine": [
+      [
+        0.6652265787124634,
+        0.0,
+        0.0,
+        -169.03739488124847
+      ],
+      [
+        0.0,
+        0.6652265787124634,
+        0.0,
+        -36.96538865566254
+      ],
+      [
+        0.0,
+        0.0,
+        1.25,
+        -1209.4110107421875
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "spacing_mm": [
+      0.6652265787124634,
+      0.6652265787124634,
+      1.25
+    ],
+    "source_orientation": "Canonical RAS voxel reindexing, x/y reversal for radiological axial display; identical geometry recipe to prior run, no volumetric interpolation",
+    "source_intensity_range": [
+      -3107.0,
+      9994.0
+    ],
+    "windows": [
+      [
+        -600,
+        1500
+      ],
+      [
+        40,
+        400
+      ]
+    ],
+    "views": [
+      {
+        "file": "view-001.png",
+        "indices_zero_based": [
+          11,
+          14
+        ],
+        "sha256": "486c025a958248cf96744218c95eefc55ed18bd790d2fdde31500ab3fdc1a34b",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-002.png",
+        "indices_zero_based": [
+          17,
+          20
+        ],
+        "sha256": "3066b18ef89f5f9e138f47230aaca56aa76337b254bfa57492917b86645dc16b",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-003.png",
+        "indices_zero_based": [
+          23,
+          26
+        ],
+        "sha256": "a1705af616b7bc33f47ffe7642c065c044cebaf1b0671684959b353399b74af5",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-004.png",
+        "indices_zero_based": [
+          29,
+          32
+        ],
+        "sha256": "be2030a7dc7e4a5dfeb47d57f9288227e50f06a410f6c087b2503ab1dc132704",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-005.png",
+        "indices_zero_based": [
+          35,
+          38
+        ],
+        "sha256": "00492c7e7a2f2e8d02c1618c6d3b335e98ebd43412f913edfc98d0a11bcdf9b6",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-006.png",
+        "indices_zero_based": [
+          41,
+          44
+        ],
+        "sha256": "818ed4aa3e2cdd119bc25799bac09817b61a370ae7d1d7eedbc92f53fc854023",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-007.png",
+        "indices_zero_based": [
+          47,
+          50
+        ],
+        "sha256": "354d8b65dba16a0a491f28216e0573572212e63101e7346f3c647192df4a5b97",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-008.png",
+        "indices_zero_based": [
+          53,
+          56
+        ],
+        "sha256": "f3e291a4f3eb7f945725d5298995c692732b6b79e201a776645ef3dc62ac8cd5",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-009.png",
+        "indices_zero_based": [
+          59,
+          62
+        ],
+        "sha256": "c2d4d0b606900ef11bdd64b64b5f677313c430009d863a4091547ced28acd362",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-010.png",
+        "indices_zero_based": [
+          65,
+          68
+        ],
+        "sha256": "00c57aea712658412274c140765153f022e593d7f25800a455feb4a59785c517",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-011.png",
+        "indices_zero_based": [
+          71,
+          74
+        ],
+        "sha256": "0542d6bf8e51986c7d0dd5fe4123b157df4fa37064f941ae291abd08eb539f47",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-012.png",
+        "indices_zero_based": [
+          77,
+          80
+        ],
+        "sha256": "3f2c21eb18bc7826dd297245554fbfb323f13c2cb67ba8948c4fa6652687a43f",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-013.png",
+        "indices_zero_based": [
+          83,
+          86
+        ],
+        "sha256": "a093223b06aefe35c82c4d60048457f8ffc2ab6dcdd30f1cd3d0bc8ab54bc95b",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-014.png",
+        "indices_zero_based": [
+          89,
+          92
+        ],
+        "sha256": "eefaa5091d7a54f719c3d11d1667a920375df0c671010dd1c2f92e431f3bd92e",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-015.png",
+        "indices_zero_based": [
+          95,
+          98
+        ],
+        "sha256": "7d1ca102c657d4e0116e181786118cdd0ae4686ac76a386207b113cc511f82e3",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-016.png",
+        "indices_zero_based": [
+          101,
+          104
+        ],
+        "sha256": "17444454923d045f355289c6cf7f1f44615008cbed676d3abd32774ff33cf810",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-017.png",
+        "indices_zero_based": [
+          107,
+          110
+        ],
+        "sha256": "044d487f30e9d70a245995c1ac504283608104731c6ed86ee5ca96923d88d1c0",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-018.png",
+        "indices_zero_based": [
+          113,
+          116
+        ],
+        "sha256": "f11bb5cc42773716e855632cab89fa0c02fc47836e181a144a90e2036121bfc7",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-019.png",
+        "indices_zero_based": [
+          119,
+          122
+        ],
+        "sha256": "cc82457386bf641d935950086a7bec0bc249c8b622f7a97d12ea78159268730f",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-020.png",
+        "indices_zero_based": [
+          125,
+          128
+        ],
+        "sha256": "5ec06464ec92b15d0069b497ba2d87ba8e034a6b7f1bdbeb6317d44ee16ea79d",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-021.png",
+        "indices_zero_based": [
+          131,
+          134
+        ],
+        "sha256": "dce2c36ff5c28db173b1c8cff6d43c8fc5eb98e54de9f96c856a2dda0fec3b16",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-022.png",
+        "indices_zero_based": [
+          137,
+          140
+        ],
+        "sha256": "50d09b4578a45d5f2294b003115a8ea9586f51d52416b20734e3d534c5840c88",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-023.png",
+        "indices_zero_based": [
+          143,
+          146
+        ],
+        "sha256": "784908ee5e8acaba46feb3d6054071accc2c0db77b8a44b0aa020bb51157e89a",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-024.png",
+        "indices_zero_based": [
+          149,
+          152
+        ],
+        "sha256": "d43d29cea034e79f7ce3c9ed53f681179c7f845dc3628d302e77b8e4c6bae03c",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-025.png",
+        "indices_zero_based": [
+          155,
+          158
+        ],
+        "sha256": "deaa0327cb442f2394ca43a5bac9813a9ad96db24229d10615f3c8d1d5503b2d",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-026.png",
+        "indices_zero_based": [
+          161,
+          164
+        ],
+        "sha256": "29ddc7b8216bf8d75d0c21261fced7844914cef61868424ca788e44833724e06",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-027.png",
+        "indices_zero_based": [
+          167,
+          170
+        ],
+        "sha256": "913fde62dc374e796edeb63021c2492c420b6f9a431c585b6b703c3c87a2aac4",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-028.png",
+        "indices_zero_based": [
+          173,
+          176
+        ],
+        "sha256": "baadd85dcad994f5376ed27d2646f84446cc9f6b77d540c2a50d8888cfcf4b31",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-029.png",
+        "indices_zero_based": [
+          179,
+          182
+        ],
+        "sha256": "db63492acf78eb0eb65e5738190aa8eae6bc90f4f485b88b1a378694dda96bd8",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-030.png",
+        "indices_zero_based": [
+          185,
+          188
+        ],
+        "sha256": "f7df1c3aa34087afc5ddc8a6ef0cb23a5264516a503fbe3c21b1143ef05c171d",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-031.png",
+        "indices_zero_based": [
+          191,
+          194
+        ],
+        "sha256": "cdf105b799e7ace2fc2a1b9eec3a940a66dc912facdd1e96bcf1381ef8ea5b7f",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-032.png",
+        "indices_zero_based": [
+          197,
+          200
+        ],
+        "sha256": "4497bd4405f93642116dec7a4fc2059b69a284eca5bc8f41e4ae96fde282539d",
+        "pixels": [
+          1024,
+          1080
+        ]
+      }
+    ]
+  },
+  {
+    "case_id": "DENSE-CT-002",
+    "baseline_case_id": "ROUTINE-CT-002",
+    "source_sha256": "3e6b20d85101e2af7496cfc7578099b303a1d6038004985320a9e13bd8154b90",
+    "source_shape": [
+      512,
+      512,
+      241
+    ],
+    "canonical_affine": [
+      [
+        0.873046875,
+        0.0,
+        0.0,
+        -236.0634765625
+      ],
+      [
+        0.0,
+        0.873046875,
+        0.0,
+        -61.0634765625
+      ],
+      [
+        0.0,
+        0.0,
+        1.25,
+        -1196.9620361328125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "spacing_mm": [
+      0.873046875,
+      0.873046875,
+      1.25
+    ],
+    "source_orientation": "Canonical RAS voxel reindexing, x/y reversal for radiological axial display; identical geometry recipe to prior run, no volumetric interpolation",
+    "source_intensity_range": [
+      -8192.0,
+      9060.0
+    ],
+    "windows": [
+      [
+        -600,
+        1500
+      ],
+      [
+        40,
+        400
+      ]
+    ],
+    "views": [
+      {
+        "file": "view-001.png",
+        "indices_zero_based": [
+          12,
+          15
+        ],
+        "sha256": "6dc951ccd9897b8bdfd3c80dbda08a72e6dd2e227dec6e673738beb0ecc4f91c",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-002.png",
+        "indices_zero_based": [
+          19,
+          22
+        ],
+        "sha256": "ec0f8f86f0a95fd76dc9e263e249d24c950dc0586e61dc1603ab8e452e4fc7c8",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-003.png",
+        "indices_zero_based": [
+          26,
+          29
+        ],
+        "sha256": "52379d0197dbe2ab1d2c59cb2fc73ea55af9f7764fb0facd53e938ecc4ce478f",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-004.png",
+        "indices_zero_based": [
+          33,
+          36
+        ],
+        "sha256": "3d54481f620bd33905b89779d0cab08852f5ae75ec3ec6e75cae51f05608ff83",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-005.png",
+        "indices_zero_based": [
+          39,
+          43
+        ],
+        "sha256": "762a76eb36fb80b55b2b653c5f37ae2bdd84ed7867b2ec88e35c8353bad2d368",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-006.png",
+        "indices_zero_based": [
+          46,
+          50
+        ],
+        "sha256": "890bf44dc05664230058a81b50b3f7440f428665f19976ea8b4ce7fbccb723d7",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-007.png",
+        "indices_zero_based": [
+          53,
+          57
+        ],
+        "sha256": "3e03dd344e51b8ff86fd1d740fb06a5832dd51590496c36c903808d883dd7b60",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-008.png",
+        "indices_zero_based": [
+          60,
+          63
+        ],
+        "sha256": "0e08f33b3a88be7f86639df602051a9baf4bf7e511d4e18672b94fd791589d63",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-009.png",
+        "indices_zero_based": [
+          67,
+          70
+        ],
+        "sha256": "4f8544a6e0fb5d4c2eaa754faec43b8cd2bc22ca7c9e97a569d44997568cceb7",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-010.png",
+        "indices_zero_based": [
+          74,
+          77
+        ],
+        "sha256": "922f9319a91c3a9721331361966a198badf3c8c7cadccc9e49912d6105f92b2d",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-011.png",
+        "indices_zero_based": [
+          81,
+          84
+        ],
+        "sha256": "80cbc61a3eb9a3118cb9a4703869dcff74773636a141af2d9271a47459ddccf0",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-012.png",
+        "indices_zero_based": [
+          87,
+          91
+        ],
+        "sha256": "d9caae33c755cdce28e6cbd87e35f25307f1c6fe1241e24306647f6a68c5377c",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-013.png",
+        "indices_zero_based": [
+          94,
+          98
+        ],
+        "sha256": "78b420326ffc49b92c9eed4807caec17cdd24d2032b28600dda8a9f290b42cd4",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-014.png",
+        "indices_zero_based": [
+          101,
+          105
+        ],
+        "sha256": "ca4e3fa78070919936628e8eab90618ecd2822cb8ee2552fa99b9c98669fd409",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-015.png",
+        "indices_zero_based": [
+          108,
+          111
+        ],
+        "sha256": "62e4665612e3e9a4817383ed0929220c853a7344b13896f6dee3ee72f20d4d78",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-016.png",
+        "indices_zero_based": [
+          115,
+          118
+        ],
+        "sha256": "74521a749621e2f3e197070f1f52c8d1bd850003a6f15c1c1a4610bd465f3e74",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-017.png",
+        "indices_zero_based": [
+          122,
+          125
+        ],
+        "sha256": "11102e52260dd6f19570a9bee5b5da25cf1f3137482185d55cc4f118cb879248",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-018.png",
+        "indices_zero_based": [
+          129,
+          132
+        ],
+        "sha256": "87d542a531289e1196d1f4763aa8126352e93e063ca2755cf91393e230641b6a",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-019.png",
+        "indices_zero_based": [
+          135,
+          139
+        ],
+        "sha256": "803c9976be68fe91c330cc432c69753eca49f41439c949065cce3104782c2138",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-020.png",
+        "indices_zero_based": [
+          142,
+          146
+        ],
+        "sha256": "9dc340b9e839cf483792e11cbe7629605482efb94e2165aa7a08c737b6cb0f75",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-021.png",
+        "indices_zero_based": [
+          149,
+          153
+        ],
+        "sha256": "c3d8e4f2428c65c64cc88bdf1a23fe84dc1705c3a70d6dd8b2e95e0070a715a0",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-022.png",
+        "indices_zero_based": [
+          156,
+          159
+        ],
+        "sha256": "dd9a887a2212a6a89dfbcbd28330c1bfd0131f5c984a934c878efa979de33f2f",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-023.png",
+        "indices_zero_based": [
+          163,
+          166
+        ],
+        "sha256": "8aa759ee70bc65d2f876817ec69d1c56e98f51542e7a22784632b0f457a37ff0",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-024.png",
+        "indices_zero_based": [
+          170,
+          173
+        ],
+        "sha256": "603137ae782547813c6a3b5d528630aad0515064d58a3d5b5a9824873058428c",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-025.png",
+        "indices_zero_based": [
+          177,
+          180
+        ],
+        "sha256": "7abfe6e2bf6831cf01ffce473c7324d2a6c47d9e8ccd2441a8032ee2c012fac5",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-026.png",
+        "indices_zero_based": [
+          183,
+          187
+        ],
+        "sha256": "c478602ecfbaf6b4af65ce909d705efae3c8a218e9ca59f2646c9cfdbe95e669",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-027.png",
+        "indices_zero_based": [
+          190,
+          194
+        ],
+        "sha256": "5601e1d912fc8131c84d3e0a4c258b1abe2c02d939acae81882d28266ba29bb2",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-028.png",
+        "indices_zero_based": [
+          197,
+          201
+        ],
+        "sha256": "68b61a805a7f07c4e8d5a01156f199bbf352878d9d2f203a24dd32bfb2beab45",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-029.png",
+        "indices_zero_based": [
+          204,
+          207
+        ],
+        "sha256": "5c7668855c761ba228d1f76f69bcbe6b66c56ef22f1f8c4019bb911f2e677a48",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-030.png",
+        "indices_zero_based": [
+          211,
+          214
+        ],
+        "sha256": "9e4a2db68ead45676365c47935bd942183d9f630055e82f7cdca697e2a10f2f1",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-031.png",
+        "indices_zero_based": [
+          218,
+          221
+        ],
+        "sha256": "240187e7f22bf8d95e0e06fc1e9574848db2fff43960e07bacb3fcb90cdefe27",
+        "pixels": [
+          1024,
+          1080
+        ]
+      },
+      {
+        "file": "view-032.png",
+        "indices_zero_based": [
+          225,
+          228
+        ],
+        "sha256": "f25dff274589cce59c242b3d191a7a0605dc8a842ecb1aaf99a2a1b44a25531b",
+        "pixels": [
+          1024,
+          1080
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "roles": [
+    {
+      "role": "coordinator",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "standing_procedures_verified": true,
+      "memory_verified": true,
+      "current_pair_threads_verified": 0
+    },
+    {
+      "role": "case-prep",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "standing_procedures_verified": true,
+      "memory_verified": true,
+      "current_pair_threads_verified": 1
+    },
+    {
+      "role": "image-assistant",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "standing_procedures_verified": true,
+      "memory_verified": true,
+      "current_pair_threads_verified": 1
+    },
+    {
+      "role": "report-draft",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "standing_procedures_verified": true,
+      "memory_verified": true,
+      "current_pair_threads_verified": 1
+    },
+    {
+      "role": "report-check",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "standing_procedures_verified": true,
+      "memory_verified": true,
+      "current_pair_threads_verified": 1
+    },
+    {
+      "role": "workflow-steward",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "standing_procedures_verified": true,
+      "memory_verified": true,
+      "current_pair_threads_verified": 1
+    }
+  ],
+  "automatic_recall": false,
+  "portable_backup_has_no_case_history": true
+}

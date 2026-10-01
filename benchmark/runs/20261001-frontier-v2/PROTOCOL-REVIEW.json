@@ -1,0 +1,25 @@
+{
+  "frozen_unix": 1790834981.2170591,
+  "models": [
+    "gpt-6.1-sol",
+    "gpt-6-astra"
+  ],
+  "case_ids": [
+    "ROUTINE-CXR-001",
+    "ROUTINE-CXR-002",
+    "ROUTINE-CXR-003",
+    "ROUTINE-CXR-004",
+    "ROUTINE-CXR-021",
+    "ROUTINE-CXR-022",
+    "ROUTINE-CXR-023",
+    "ROUTINE-CXR-024",
+    "ROUTINE-CT-001",
+    "ROUTINE-CT-002",
+    "ROUTINE-MR-001",
+    "ROUTINE-MR-002"
+  ],
+  "primary_protocol_sha256": "271727c55fefc4d6678b0417aaab29c53b2ff0b14ad5b47d52662cccd9c23fe5",
+  "selection": "Fixed first four report-enriched positive and first four negative CXR plus first two CT/MR case IDs; no primary diagnostic outputs reviewed to select cases",
+  "procedure": "Fresh opposite-model reader receives the original model proposal and identical image bytes, produces a checked diagnosis and draft; no gold reference",
+  "metric": "Paired corrected and newly introduced report-assertion errors; not a clinical consensus gold standard"
+}

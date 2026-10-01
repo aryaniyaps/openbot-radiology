@@ -1,0 +1,63 @@
+{
+  "policy_version": "frontier-v2",
+  "records": [
+    {
+      "bot": "Clinical Assistant",
+      "before_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "after_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "journal_entry_id": null,
+      "automatic_memory_before": true,
+      "automatic_memory_after": false,
+      "original_policy_sha256": "40b440f18d4834fc632016fbc8f2a203fdbbd3a6fb049ccc467ca4ebaa86d6f8"
+    },
+    {
+      "bot": "Workflow Steward",
+      "before_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "after_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "journal_entry_id": null,
+      "automatic_memory_before": true,
+      "automatic_memory_after": false,
+      "original_policy_sha256": "40b440f18d4834fc632016fbc8f2a203fdbbd3a6fb049ccc467ca4ebaa86d6f8"
+    },
+    {
+      "bot": "Report Check",
+      "before_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "after_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "journal_entry_id": null,
+      "automatic_memory_before": true,
+      "automatic_memory_after": false,
+      "original_policy_sha256": "40b440f18d4834fc632016fbc8f2a203fdbbd3a6fb049ccc467ca4ebaa86d6f8"
+    },
+    {
+      "bot": "Report Draft",
+      "before_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "after_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "journal_entry_id": null,
+      "automatic_memory_before": true,
+      "automatic_memory_after": false,
+      "original_policy_sha256": "40b440f18d4834fc632016fbc8f2a203fdbbd3a6fb049ccc467ca4ebaa86d6f8"
+    },
+    {
+      "bot": "Image Assistant",
+      "before_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "after_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "journal_entry_id": null,
+      "automatic_memory_before": true,
+      "automatic_memory_after": false,
+      "original_policy_sha256": "40b440f18d4834fc632016fbc8f2a203fdbbd3a6fb049ccc467ca4ebaa86d6f8"
+    },
+    {
+      "bot": "Case Prep",
+      "before_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "after_sha256": "197374cfa1dc9a3e34f5ad5f5554509250155369e1abbd727b2062eb44ac353d",
+      "journal_entry_id": null,
+      "automatic_memory_before": true,
+      "automatic_memory_after": false,
+      "original_policy_sha256": "40b440f18d4834fc632016fbc8f2a203fdbbd3a6fb049ccc467ca4ebaa86d6f8"
+    }
+  ],
+  "automatic_cross_conversation_recall_before": true,
+  "automatic_cross_conversation_recall_after": false,
+  "scope": "Dedicated six-role radiology workspace; history preserved, automatic case capture/recall disabled",
+  "before_sha256_note": "Per-record before_sha256 reflects the later idempotent feature-toggle write; original_policy_sha256 comes from the preserved initial private snapshot. Native memory journal and history remain intact."
+}

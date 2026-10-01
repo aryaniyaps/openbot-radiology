@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "owned_isolated_evaluation_server_stopped": true,
+  "owned_test_auth_clone_removed": true,
+  "live_native_server_retained": true,
+  "protected_source_references_and_raw_evidence_retained": true,
+  "historical_case_messages_not_exported": true
+}

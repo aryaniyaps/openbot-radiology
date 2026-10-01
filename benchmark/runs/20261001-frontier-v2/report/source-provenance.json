@@ -1,0 +1,326 @@
+[
+  {
+    "case_id": "PUB-70F4E0040817",
+    "modality": "CBCT",
+    "source_id": "PMC12718670",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12718670/",
+    "published_diagnosis": "Mandibular first-molar periapical lesion/infection",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "2361129d029b7e65f3a4f59826beb7d57ccaaeab88ebd06f66e9b3ca9959a613"
+  },
+  {
+    "case_id": "PUB-C6EF6A318D05",
+    "modality": "CBCT",
+    "source_id": "PMC12647393",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12647393/",
+    "published_diagnosis": "External replacement root resorption",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "e0523627d5aa70c96090348a66f8a9bfde968b3f36eb6a4ce82abd55231a4099"
+  },
+  {
+    "case_id": "PUB-9AE1491E2AFE",
+    "modality": "CBCT",
+    "source_id": "PMC12451084",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12451084/",
+    "published_diagnosis": "Mandibular canine transmigration",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "01b0aa77e13eea41fb99482099627a765fba895040ff017b537c2a74e80aaab2"
+  },
+  {
+    "case_id": "PUB-E78C5AE7F459",
+    "modality": "CBCT",
+    "source_id": "PMC12625601",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12625601/",
+    "published_diagnosis": "Complex odontoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "1f89dcd7122efe95465d78b4bd33b953b0c7cc4f3e9c442818114b0e46b52bce"
+  },
+  {
+    "case_id": "PUB-2CFF8E9D16D2",
+    "modality": "CBCT",
+    "source_id": "PMC12767806",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12767806/",
+    "published_diagnosis": "Aneurysmal bone cyst with dentigerous cyst",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "fd87c9c4dac74df99d4461e18959b672562792a04957d603c3947c4e47886de2"
+  },
+  {
+    "case_id": "PUB-29C6AC8DAF18",
+    "modality": "FL",
+    "source_id": "PMC12689878",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12689878/",
+    "published_diagnosis": "Post-traumatic dysphagia",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "bdc78184ea674a7e8082cdfb29a96839f7668d7edc418b9c21f9a75157f71ed9"
+  },
+  {
+    "case_id": "PUB-3A62F84ACFE5",
+    "modality": "FL",
+    "source_id": "PMC12338180",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12338180/",
+    "published_diagnosis": "Gastric diverticulum",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "77f54b566d2cda53ca22cc6e6ee05749de21f753389fffb0f15dcfcccd7d6c7b"
+  },
+  {
+    "case_id": "PUB-02881C90FD9F",
+    "modality": "FL",
+    "source_id": "PMC12324042",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12324042/",
+    "published_diagnosis": "Gastrojejunocolic fistula",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "07bfcfa66a08fc29857358010e5b1085dbde0d4b2222cc98dc4bf6e80bbf7c5a"
+  },
+  {
+    "case_id": "PUB-1803DDC4A439",
+    "modality": "FL",
+    "source_id": "PMC12494590",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12494590/",
+    "published_diagnosis": "Esophageal duplication cyst",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "e36e1fc23705d555f52cc604cd97e313b7b31c08e9aac3cd32483112692ec705"
+  },
+  {
+    "case_id": "PUB-83C6B6C804DD",
+    "modality": "NM",
+    "source_id": "PMC12808875",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12808875/",
+    "published_diagnosis": "Primary aortic angiosarcoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "ea48cc10dfac5098710956bf1c35ab83bbd13c12f53689206f0c0b690fbbeffb"
+  },
+  {
+    "case_id": "PUB-D727B66665EB",
+    "modality": "NM",
+    "source_id": "PMC12813286",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12813286/",
+    "published_diagnosis": "Cardiac sarcoidosis",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "7256db1d28f38f8d49e2eaf03330fc50c21922092ce679c26a8a2f35b3415225"
+  },
+  {
+    "case_id": "PUB-D5A5DD6AA04E",
+    "modality": "NM",
+    "source_id": "PMC12771140",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12771140/",
+    "published_diagnosis": "Thymoma with splenic metastasis",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "4291b1d35dd6bcfcb09fa0b75a321fbadb9a7c350aff6e0347ccae8ec43eba18"
+  },
+  {
+    "case_id": "PUB-780EEBF8DF70",
+    "modality": "NM",
+    "source_id": "PMC12723220",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12723220/",
+    "published_diagnosis": "Recurrent lymphoma involving pulmonary vein",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "a1a248830d2433ae81e85636143ad7270ebbeb9bdc9334a8c9aca50c0f7efd3c"
+  },
+  {
+    "case_id": "PUB-8355333F71C8",
+    "modality": "NM",
+    "source_id": "PMC12625026",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12625026/",
+    "published_diagnosis": "Large-cell neuroendocrine prostate carcinoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "8dab33fd62bdc0cf05f21f4c7080cf5c1fb0839197d6615f3b8c2962ecfb5d13"
+  },
+  {
+    "case_id": "PUB-8D7F99268316",
+    "modality": "MG",
+    "source_id": "PMC12830000",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12830000/",
+    "published_diagnosis": "Ductal carcinoma in situ",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "228c40920860d1e79adab20334e274201d43ae658e2623e2919d02dec668ce3b"
+  },
+  {
+    "case_id": "PUB-99B61D5ECFA5",
+    "modality": "MG",
+    "source_id": "PMC12623610",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12623610/",
+    "published_diagnosis": "Metaplastic breast carcinoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "2df39752d4cd74e0f51f66bab2706d01c2d07c29d65b8c5284c3116957b66c7c"
+  },
+  {
+    "case_id": "PUB-A96DC84B6D5D",
+    "modality": "MG",
+    "source_id": "PMC12837338",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12837338/",
+    "published_diagnosis": "Male breast carcinoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "7b9abf7554c0faea9172dc471a924eccc760fa26f35dd690bea1afc64a7dc739"
+  },
+  {
+    "case_id": "PUB-2C1B4421387D",
+    "modality": "MG",
+    "source_id": "PMC12699083",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12699083/",
+    "published_diagnosis": "Invasive breast carcinoma in fibrous disease",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "894970a417e251b6e5bcce337ba67d542793ce9b0d495ba76ff3a87746bea075"
+  },
+  {
+    "case_id": "PUB-E87AF71139EE",
+    "modality": "US",
+    "source_id": "PMC12812165",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12812165/",
+    "published_diagnosis": "Brown tumors from hyperparathyroidism",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "f1b828e185d584a48d76ad6ff7d8acfc26e109d2c2ff549fb80c366a2db8b1cc"
+  },
+  {
+    "case_id": "PUB-4D4E1F4AFFA5",
+    "modality": "US",
+    "source_id": "PMC12805601",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12805601/",
+    "published_diagnosis": "Anterior urethral valve",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "cc59e2858313f3a0fb5066d97da8a250277763437a76a28be16ca74c3287710d"
+  },
+  {
+    "case_id": "PUB-A472DC8242D7",
+    "modality": "US",
+    "source_id": "PMC12602904",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12602904/",
+    "published_diagnosis": "Sternocleidomastoid rupture and hematoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "098748b5f569ece79daaf368490ebb5226008b15a577907886e178aacd8f0645"
+  },
+  {
+    "case_id": "PUB-80264E4FA58F",
+    "modality": "US",
+    "source_id": "PMC12849064",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12849064/",
+    "published_diagnosis": "Bilateral uveal/choroidal effusion",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "906e168dbf2f8f81eb1e1d4c7b35d10a07ed885c1b1403a4ead5129726f760e7"
+  },
+  {
+    "case_id": "PUB-196287C67D8C",
+    "modality": "DX",
+    "source_id": "PMC12854931",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12854931/",
+    "published_diagnosis": "Shoulder synovial chondromatosis",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "7b72cfe0061ca54953ced22c11b99e0b0e085068ea648323ca7979c1294822bd"
+  },
+  {
+    "case_id": "PUB-238BA28387C2",
+    "modality": "DX",
+    "source_id": "PMC12767946",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12767946/",
+    "published_diagnosis": "Williams-Campbell syndrome",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "704c7bf2dfde817bfcfbfd443c492fd27fcb16643ee21f56d63beef819e2ee4e"
+  },
+  {
+    "case_id": "PUB-4F933308F0E0",
+    "modality": "DX",
+    "source_id": "PMC12727386",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12727386/",
+    "published_diagnosis": "Rapidly destructive hip disease",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "8d82eaf38af7a8ab92add0ee6898df413c02a462153363816b9f63bbc7d597ea"
+  },
+  {
+    "case_id": "PUB-63689886B8F4",
+    "modality": "DX",
+    "source_id": "PMC12778971",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12778971/",
+    "published_diagnosis": "Proximal humeral peri-implant fracture",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "7844f4ba8a3e5e18caff5ff6c14c3f311dad57680889fdc784f0c29ee8043789"
+  },
+  {
+    "case_id": "PUB-9AAC0B670C9D",
+    "modality": "DX",
+    "source_id": "PMC12578567",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12578567/",
+    "published_diagnosis": "Monteggia fracture-dislocation",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "f5a09c51be95edc151a4e7d71d73e91163a1cf40758baefab6d27a0f5ad8f3b8"
+  },
+  {
+    "case_id": "PUB-676463EBB1F0",
+    "modality": "MR",
+    "source_id": "PMC12707725",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12707725/",
+    "published_diagnosis": "Pituitary macroadenoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "7d6a01511cb2c1ca542ab349a14e491c7046ab39abf555f028113411171161ff"
+  },
+  {
+    "case_id": "PUB-5EA2BF35E6A8",
+    "modality": "MR",
+    "source_id": "PMC12998254",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12998254/",
+    "published_diagnosis": "Mid-ventricular Takotsubo cardiomyopathy",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "32002023f3d4cee7a085968b693eec8b9894a12878279bbc5d5a8b9ebbed087e"
+  },
+  {
+    "case_id": "PUB-00935CF2CB9E",
+    "modality": "MR",
+    "source_id": "PMC12715121",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12715121/",
+    "published_diagnosis": "Epidural cavernous hemangioma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "0d75f080c57ec4df4e1cb66458fa73b9b9d12141f8a89b62a536d72e58f7662f"
+  },
+  {
+    "case_id": "PUB-1605B33C93D3",
+    "modality": "MR",
+    "source_id": "PMC12550707",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550707/",
+    "published_diagnosis": "Pelizaeus-Merzbacher disease",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "3da02a21acd43cab4a7867f0afb42b17fabebe0510e30f491455b234ccefef48"
+  },
+  {
+    "case_id": "PUB-20E08E6C15A0",
+    "modality": "CT",
+    "source_id": "PMC12718484",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12718484/",
+    "published_diagnosis": "Nasal solitary fibrous tumor",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "a26517ff3093bfaf9616ffcd6d66d31085025aa2d0be18c180aa9f2498f871fb"
+  },
+  {
+    "case_id": "PUB-2E550704AF7D",
+    "modality": "CT",
+    "source_id": "PMC12765126",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12765126/",
+    "published_diagnosis": "Giant hydronephrosis",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "9852a97827e1c5a3444e4d4e2af0bd8fd8124b0766e0c12d3914118f0db95b35"
+  },
+  {
+    "case_id": "PUB-D5FE4EEF08C4",
+    "modality": "CT",
+    "source_id": "PMC12712397",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12712397/",
+    "published_diagnosis": "Primary Sjogren syndrome",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "eb19c9d0246b778cdfc035b6fa29c394365ae4e2b8134ccfd36a10a5d3e3fa61"
+  },
+  {
+    "case_id": "PUB-64D0F43ECB14",
+    "modality": "CT",
+    "source_id": "PMC12860284",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12860284/",
+    "published_diagnosis": "Interhemispheric acute subdural hematoma",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "b6558dc35518d64b22ca1965c9e161f1efad63b0dc43febe7532e54584ab7553"
+  },
+  {
+    "case_id": "PUB-E5F2A4B0C0F5",
+    "modality": "CT",
+    "source_id": "PMC12763897",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12763897/",
+    "published_diagnosis": "Endobronchial glomus tumor",
+    "reference_type": "Published case-report interpretation, not a routine signed radiology report; no new clinical adjudication",
+    "reference_sha256": "6237f36fb8aa479a65815b02f90ca6c05526116b43338d62521810d7742259bd"
+  }
+]

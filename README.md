@@ -14,11 +14,11 @@ Check the existing installation with `python3 scripts/demo-stack.py status`. Thi
 
 ## Portable OpenMausBot backup
 
-[backups/openmausbot.backup.json](backups/openmausbot.backup.json) is a sanitized native `openmaus.backup` version 1 export containing the current six profiles, tasks, message history, memory and team organization. Secrets are redacted; this file is suitable for this public repository. Use the application's native team import controls to import it. Import adds profiles rather than overwriting existing ones.
+[backups/openmausbot.backup.json](backups/openmausbot.backup.json) is a sanitized native `openmaus.backup` version 1 export containing the current six profiles, empty case threads, operating memory and team organization. Historical case messages and memory logs are excluded. Use the application's native team import controls to import it. Import adds profiles rather than overwriting existing ones.
 
-Before import, sign in to Codex and select **GPT-6.1-Sol / medium** as the default. Native import does not restore provider credentials, model selections, computer/browser connections or permission grants. Reconnect each desktop, sign in with its assigned read-only application account, explicitly configure allowed teammates and retain Ask approval before handing it to a doctor. Imported routines are paused. Review restored history before repurposing the demonstration.
+Before import, sign in to Codex. Native v1 import does not restore credentials, model selections, enabled skills, desktop/browser connections or permission grants. Configure the role/model assignments in [role-guidance.json](config/openmausbot/role-guidance.json): Sol handles preparation, coordination and drafting; Astra handles image interpretation and independent checking. Install the three [native radiology skills](config/openmausbot/skills/), reconnect each read-only application desktop, configure allowed teammates and retain Ask approval. The existing installation has already received these updates through native APIs.
 
-To refresh the portable backup, run `sudo -n python3 scripts/operations/export-openmausbot-backup.py`, then review the diff before committing. It uses the private native operator pairing and redacts known local credentials.
+To refresh the portable backup, run `sudo -n python3 scripts/operations/export-openmausbot-backup.py --profiles-only --session <operator-session.json>`, then review the diff before committing. It uses the private native operator pairing and redacts known local credentials.
 
 The encrypted nightly Restic backup described in the operations guide is the full-machine restore, including VM disk, provider authentication and browser state. Its encryption key, credentials, raw exports, source clones and recordings are excluded from Git. Historical local source and media are preserved outside this checkout; the VM continues serving all demonstrations.
 
@@ -27,3 +27,7 @@ The encrypted nightly Restic backup described in the operations guide is the ful
 Start with the [executive PDF report](output/pdf/Imaging-Benchmark-Executive-Report.pdf): seven pages covering the decisions, core results, uncertainty, specialist value, limitations and research agenda.
 
 Read the [decision report](benchmark/runs/20260930T1418Z-graysby/DECISION-REPORT.md) and [requirement audit](benchmark/runs/20260930T1418Z-graysby/REQUIREMENT-AUDIT.md). The [delivery guide](benchmark/README.md) explains the curated artifacts, integrity checks and locally retained evidence.
+
+## Direct frontier model evaluation
+
+The current [Sol/Astra evaluation](benchmark/runs/20261001-frontier-v2/README.md) compares actual native reads across routine report-backed studies and published clinician case presentations. Its [executive PDF](output/pdf/Radiology-Frontier-Model-Evaluation.pdf) separates diagnosis recognition, report-assertion detection, technical availability and supplementary input/review experiments. These are exploratory supervised-assistant results, not hospital clinical certification or measured doctor time savings. The [frontier research report](docs/research/RADIOLOGY-FRONTIER-DEEP-RESEARCH.md) provides the external evidence context.

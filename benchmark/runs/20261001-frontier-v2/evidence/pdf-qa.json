@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pages": 8,
+  "sha256": "fbf02fdd73dcf0f32c7111cfd6e0129a2693f9fb580976a263eb49637a8c22b6",
+  "text_checks": "page count, populated pages, headline results and artifact characters passed",
+  "visual_checks": "All eight final rendered pages individually viewed; no clipping or overflow observed",
+  "rendered_scratch": "tmp/pdfs/frontier-evaluation-qa/final-{1..8}.png"
+}

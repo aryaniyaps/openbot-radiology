@@ -1,0 +1,206 @@
+{
+  "case_id": "PUBLIC-WORKFLOW-CXR-02",
+  "status": "passed",
+  "source_packet": "ROUTINE-CXR-001",
+  "source_image_sha256": [
+    "1741dfeaefcf8c6ecdf266efe45bc47d8f57ad394175f9f8cba05a1b1da426c0",
+    "ebe97fb0209ee5a5cbc21c0585101634671a09e0d7842b7ae3477743f95dbbc3"
+  ],
+  "seconds": 571.7007524967194,
+  "actual_native_handoffs": [
+    {
+      "bot_ids": [
+        "30ec7c65-14a1-4a09-8b56-b29d90fc1633"
+      ],
+      "native_attachment_tags": 0,
+      "case_identifier_in_brief": true
+    },
+    {
+      "bot_ids": [
+        "89606f1f-398c-4b93-914d-61f6547345dd"
+      ],
+      "native_attachment_tags": 2,
+      "case_identifier_in_brief": true
+    },
+    {
+      "bot_ids": [
+        "7ec73ffc-27da-4655-a710-8a4946197596"
+      ],
+      "native_attachment_tags": 0,
+      "case_identifier_in_brief": true
+    },
+    {
+      "bot_ids": [
+        "3888d9d0-3a86-4828-9ddb-59dad45df2f2"
+      ],
+      "native_attachment_tags": 2,
+      "case_identifier_in_brief": true
+    },
+    {
+      "bot_ids": [
+        "84b8a991-1927-46b9-a7e0-14b54f697db9"
+      ],
+      "native_attachment_tags": 0,
+      "case_identifier_in_brief": true
+    }
+  ],
+  "roles": [
+    {
+      "role": "coordinator",
+      "name": "Clinical Assistant",
+      "configured_default": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "active_rehearsal_threads": [
+        {
+          "thread_id": "6811fd0d-1f1a-49ee-9992-7ebde6060efe",
+          "runtime_thread_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6.1-sol",
+            "effort": "high"
+          },
+          "completed_digests": 6,
+          "native_owned_image_tags": [],
+          "enabled_procedures_in_standing_prompt": true
+        }
+      ]
+    },
+    {
+      "role": "case-prep",
+      "name": "Case Prep",
+      "configured_default": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "active_rehearsal_threads": [
+        {
+          "thread_id": "5f7a6fdb-c1ed-400c-8578-5f8942f7ac3a",
+          "runtime_thread_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6.1-sol",
+            "effort": "medium"
+          },
+          "completed_digests": 1,
+          "native_owned_image_tags": [],
+          "enabled_procedures_in_standing_prompt": true
+        }
+      ]
+    },
+    {
+      "role": "image-assistant",
+      "name": "Image Assistant",
+      "configured_default": {
+        "instanceId": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "active_rehearsal_threads": [
+        {
+          "thread_id": "9acc6130-c2d1-4ed5-baa2-4218d55ca822",
+          "runtime_thread_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6-astra",
+            "effort": "high"
+          },
+          "completed_digests": 1,
+          "native_owned_image_tags": [
+            {
+              "view_name": "view-001.png",
+              "source_sha256": "1741dfeaefcf8c6ecdf266efe45bc47d8f57ad394175f9f8cba05a1b1da426c0"
+            },
+            {
+              "view_name": "view-002.png",
+              "source_sha256": "ebe97fb0209ee5a5cbc21c0585101634671a09e0d7842b7ae3477743f95dbbc3"
+            }
+          ],
+          "enabled_procedures_in_standing_prompt": true
+        }
+      ]
+    },
+    {
+      "role": "report-draft",
+      "name": "Report Draft",
+      "configured_default": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "active_rehearsal_threads": [
+        {
+          "thread_id": "d25adac1-94ce-42d7-b099-63929e5fe2af",
+          "runtime_thread_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6.1-sol",
+            "effort": "medium"
+          },
+          "completed_digests": 1,
+          "native_owned_image_tags": [],
+          "enabled_procedures_in_standing_prompt": true
+        }
+      ]
+    },
+    {
+      "role": "report-check",
+      "name": "Report Check",
+      "configured_default": {
+        "instanceId": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "active_rehearsal_threads": [
+        {
+          "thread_id": "1ba87ed9-fd4d-4e68-8057-543685a2e339",
+          "runtime_thread_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6-astra",
+            "effort": "high"
+          },
+          "completed_digests": 1,
+          "native_owned_image_tags": [
+            {
+              "view_name": "view-001.png",
+              "source_sha256": "1741dfeaefcf8c6ecdf266efe45bc47d8f57ad394175f9f8cba05a1b1da426c0"
+            },
+            {
+              "view_name": "view-002.png",
+              "source_sha256": "ebe97fb0209ee5a5cbc21c0585101634671a09e0d7842b7ae3477743f95dbbc3"
+            }
+          ],
+          "enabled_procedures_in_standing_prompt": true
+        }
+      ]
+    },
+    {
+      "role": "workflow-steward",
+      "name": "Workflow Steward",
+      "configured_default": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "active_rehearsal_threads": [
+        {
+          "thread_id": "a8dc557c-260c-4de8-9f17-7b38291db66b",
+          "runtime_thread_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6.1-sol",
+            "effort": "medium"
+          },
+          "completed_digests": 1,
+          "native_owned_image_tags": [],
+          "enabled_procedures_in_standing_prompt": true
+        }
+      ]
+    }
+  ],
+  "final_model_generated_reply": "**PUBLIC-WORKFLOW-CXR-02 \u2014 provisional teaching-case draft for radiologist review**\n\n**Findings:** Mild right medial basilar opacity on the [frontal view](view-001.png), with posterior basilar opacity on the [left lateral view](view-002.png). The lateral supports a lower-lobe location but does not independently establish the side. Aortic arch calcification. No pneumothorax, large pleural effusion, or support line or tube is visible on these views.\n\n**Impression:** Mild basilar opacity, probably right lower lobe. Atelectasis and focal infection remain possibilities; the supplied evidence does not distinguish them.\n\n**Urgent concerns:** No obvious immediately urgent imaging finding identified on the two images. Clinical urgency cannot be determined without history.\n\n**Limitations and doctor actions:** Only two PNG views were reviewed. Identity, accession, acquisition date, AP/PA projection, indication, history, priors and complete study coverage are unavailable or unverified. Heart size and subtle findings remain uncertain. The radiologist should confirm the opacity\u2019s side and significance and correlate with symptoms and available priors.\n\n**Workflow:** Case Prep \u2192 Image Assistant \u2192 Report Draft \u2192 Report Check \u2192 Workflow Steward completed sequentially. Report Check independently inspected both images; its sole wording correction is incorporated. Workflow Steward audited the supplied returns, without independently inspecting tool logs. No clinical records were changed in this workflow; external saved, signed or released status was not assessed. This remains a model-generated draft, not clinical approval.",
+  "clinical_record_writes_observed": false,
+  "record_write_proof_limit": "Native rehearsal actions/returns only, not an independent audit of every hospital system",
+  "diagnostic_accuracy_scope": "Qualitative public-case native integration rehearsal; does not enter primary diagnosis metrics",
+  "identity_limit": "Native execution-thread provider selection and assigned image admission; backend weights and delegated provider image resizing not independently exposed",
+  "setup_deviation": "Report Draft pair thread retained Sol/medium during this rehearsal, despite high default. Corrected afterward without rerunning its output.",
+  "first_rehearsal": "Observed timeout at 900 seconds during manual approval delays; later all five native returns completed; raw history retained privately"
+}

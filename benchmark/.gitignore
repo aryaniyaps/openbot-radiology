@@ -100,3 +100,16 @@ __pycache__/
 !/runs/20260930T1418Z-graysby/scripts/wrap_openi.py
 !/runs/20260930T1418Z-graysby/report/orchestration-usage.json
 !/runs/20260930T1418Z-graysby/delivery-checksums.sha256
+# Frontier v2 curated derived delivery; raw clinical inputs stay private.
+!/runs/20261001-frontier-v2/
+!/runs/20261001-frontier-v2/README.md
+!/runs/20261001-frontier-v2/PROTOCOL-*.json
+!/runs/20261001-frontier-v2/scripts/
+!/runs/20261001-frontier-v2/scripts/*.py
+/runs/20261001-frontier-v2/scripts/__pycache__/
+!/runs/20261001-frontier-v2/report/
+!/runs/20261001-frontier-v2/report/*.json
+!/runs/20261001-frontier-v2/report/*.csv
+!/runs/20261001-frontier-v2/evidence/
+!/runs/20261001-frontier-v2/evidence/*.json
+!/runs/20261001-frontier-v2/delivery-checksums.sha256

@@ -1,0 +1,5946 @@
+[
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 51.36489224433899,
+    "native_duration_ms": 40221,
+    "turns": 1,
+    "input_tokens": 15465,
+    "output_tokens": 853,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        509
+      ],
+      [
+        512,
+        503
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-001",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 32.33361887931824,
+    "native_duration_ms": 31755,
+    "turns": 1,
+    "input_tokens": 15364,
+    "output_tokens": 883,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        509
+      ],
+      [
+        512,
+        503
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 32.232834339141846,
+    "native_duration_ms": 31347,
+    "turns": 1,
+    "input_tokens": 15548,
+    "output_tokens": 678,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        511
+      ],
+      [
+        512,
+        680
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-002",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 29.229341506958008,
+    "native_duration_ms": 28562,
+    "turns": 1,
+    "input_tokens": 15538,
+    "output_tokens": 717,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        511
+      ],
+      [
+        512,
+        680
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 35.250426292419434,
+    "native_duration_ms": 34294,
+    "turns": 1,
+    "input_tokens": 15451,
+    "output_tokens": 746,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-003",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 28.222721576690674,
+    "native_duration_ms": 27367,
+    "turns": 1,
+    "input_tokens": 15433,
+    "output_tokens": 649,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 47.273305892944336,
+    "native_duration_ms": 45226,
+    "turns": 1,
+    "input_tokens": 15500,
+    "output_tokens": 1088,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        514
+      ],
+      [
+        512,
+        547
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-004",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 33.239747762680054,
+    "native_duration_ms": 32483,
+    "turns": 1,
+    "input_tokens": 15470,
+    "output_tokens": 839,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        514
+      ],
+      [
+        512,
+        547
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 45.28589391708374,
+    "native_duration_ms": 44517,
+    "turns": 1,
+    "input_tokens": 15180,
+    "output_tokens": 898,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-005",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 29.21558952331543,
+    "native_duration_ms": 28494,
+    "turns": 1,
+    "input_tokens": 15103,
+    "output_tokens": 767,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 34.21944785118103,
+    "native_duration_ms": 30369,
+    "turns": 1,
+    "input_tokens": 15487,
+    "output_tokens": 716,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        542
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-006",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 27.213223457336426,
+    "native_duration_ms": 26062,
+    "turns": 1,
+    "input_tokens": 15426,
+    "output_tokens": 658,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        542
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 42.28931379318237,
+    "native_duration_ms": 41154,
+    "turns": 1,
+    "input_tokens": 15524,
+    "output_tokens": 949,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-007",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 29.23137855529785,
+    "native_duration_ms": 27861,
+    "turns": 1,
+    "input_tokens": 15492,
+    "output_tokens": 720,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 31.227011919021606,
+    "native_duration_ms": 30307,
+    "turns": 1,
+    "input_tokens": 15446,
+    "output_tokens": 714,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-008",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 40.25589942932129,
+    "native_duration_ms": 30438,
+    "turns": 1,
+    "input_tokens": 15370,
+    "output_tokens": 827,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 39.297690868377686,
+    "native_duration_ms": 38342,
+    "turns": 1,
+    "input_tokens": 15515,
+    "output_tokens": 833,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        547
+      ],
+      [
+        512,
+        466
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-009",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 24.179327487945557,
+    "native_duration_ms": 23316,
+    "turns": 1,
+    "input_tokens": 15421,
+    "output_tokens": 582,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        547
+      ],
+      [
+        512,
+        466
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 35.25847125053406,
+    "native_duration_ms": 34033,
+    "turns": 1,
+    "input_tokens": 15436,
+    "output_tokens": 832,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        510
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-010",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 34.12725496292114,
+    "native_duration_ms": 28062,
+    "turns": 1,
+    "input_tokens": 15372,
+    "output_tokens": 738,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        510
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 60.358038663864136,
+    "native_duration_ms": 59690,
+    "turns": 1,
+    "input_tokens": 15464,
+    "output_tokens": 965,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-011",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 40.266459941864014,
+    "native_duration_ms": 33605,
+    "turns": 1,
+    "input_tokens": 15413,
+    "output_tokens": 919,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 59.39031386375427,
+    "native_duration_ms": 58034,
+    "turns": 1,
+    "input_tokens": 15517,
+    "output_tokens": 771,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-012",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 32.2397141456604,
+    "native_duration_ms": 30922,
+    "turns": 1,
+    "input_tokens": 15482,
+    "output_tokens": 758,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 45.28030729293823,
+    "native_duration_ms": 44804,
+    "turns": 1,
+    "input_tokens": 15075,
+    "output_tokens": 963,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-013",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 34.22215461730957,
+    "native_duration_ms": 33017,
+    "turns": 1,
+    "input_tokens": 15061,
+    "output_tokens": 841,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 41.28609919548035,
+    "native_duration_ms": 40600,
+    "turns": 1,
+    "input_tokens": 15495,
+    "output_tokens": 777,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-014",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 38.51923084259033,
+    "native_duration_ms": 36336,
+    "turns": 1,
+    "input_tokens": 15406,
+    "output_tokens": 857,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 37.23290514945984,
+    "native_duration_ms": 36617,
+    "turns": 1,
+    "input_tokens": 15503,
+    "output_tokens": 836,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-015",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 40.34258270263672,
+    "native_duration_ms": 30912,
+    "turns": 1,
+    "input_tokens": 15432,
+    "output_tokens": 809,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 36.23097848892212,
+    "native_duration_ms": 35791,
+    "turns": 1,
+    "input_tokens": 15476,
+    "output_tokens": 920,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        467
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-016",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 41.1959924697876,
+    "native_duration_ms": 31819,
+    "turns": 1,
+    "input_tokens": 15390,
+    "output_tokens": 817,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        467
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 31.21490788459778,
+    "native_duration_ms": 30594,
+    "turns": 1,
+    "input_tokens": 15485,
+    "output_tokens": 678,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        618
+      ],
+      [
+        512,
+        423
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-017",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 47.319218158721924,
+    "native_duration_ms": 41782,
+    "turns": 1,
+    "input_tokens": 15467,
+    "output_tokens": 652,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        618
+      ],
+      [
+        512,
+        423
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 43.253806829452515,
+    "native_duration_ms": 42324,
+    "turns": 1,
+    "input_tokens": 15627,
+    "output_tokens": 911,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-018",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 30.217825889587402,
+    "native_duration_ms": 29051,
+    "turns": 1,
+    "input_tokens": 15547,
+    "output_tokens": 712,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 40.24617266654968,
+    "native_duration_ms": 39326,
+    "turns": 1,
+    "input_tokens": 15624,
+    "output_tokens": 796,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-019",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 24.20882558822632,
+    "native_duration_ms": 23644,
+    "turns": 1,
+    "input_tokens": 15531,
+    "output_tokens": 621,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 44.32703971862793,
+    "native_duration_ms": 42979,
+    "turns": 1,
+    "input_tokens": 15452,
+    "output_tokens": 1072,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-020",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 33.25243306159973,
+    "native_duration_ms": 32176,
+    "turns": 1,
+    "input_tokens": 15383,
+    "output_tokens": 852,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 31.262429237365723,
+    "native_duration_ms": 30387,
+    "turns": 1,
+    "input_tokens": 15486,
+    "output_tokens": 727,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        509
+      ],
+      [
+        512,
+        553
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-021",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 33.87438130378723,
+    "native_duration_ms": 23902,
+    "turns": 1,
+    "input_tokens": 15455,
+    "output_tokens": 591,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        509
+      ],
+      [
+        512,
+        553
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 30.22191309928894,
+    "native_duration_ms": 29445,
+    "turns": 1,
+    "input_tokens": 15522,
+    "output_tokens": 648,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-022",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 31.17038631439209,
+    "native_duration_ms": 24191,
+    "turns": 1,
+    "input_tokens": 15476,
+    "output_tokens": 590,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 28.23554253578186,
+    "native_duration_ms": 26942,
+    "turns": 1,
+    "input_tokens": 15594,
+    "output_tokens": 623,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-023",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 33.25413417816162,
+    "native_duration_ms": 27093,
+    "turns": 1,
+    "input_tokens": 15582,
+    "output_tokens": 605,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 29.21736192703247,
+    "native_duration_ms": 28357,
+    "turns": 1,
+    "input_tokens": 15455,
+    "output_tokens": 643,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-024",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 26.221373558044434,
+    "native_duration_ms": 25008,
+    "turns": 1,
+    "input_tokens": 15414,
+    "output_tokens": 590,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 35.23368287086487,
+    "native_duration_ms": 34604,
+    "turns": 1,
+    "input_tokens": 15491,
+    "output_tokens": 886,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        511
+      ],
+      [
+        512,
+        511
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-025",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 30.236710786819458,
+    "native_duration_ms": 26189,
+    "turns": 1,
+    "input_tokens": 15408,
+    "output_tokens": 644,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        511
+      ],
+      [
+        512,
+        511
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 48.27280044555664,
+    "native_duration_ms": 39779,
+    "turns": 1,
+    "input_tokens": 15451,
+    "output_tokens": 858,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        419
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-026",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 25.20750141143799,
+    "native_duration_ms": 24386,
+    "turns": 1,
+    "input_tokens": 15351,
+    "output_tokens": 608,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        419
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 25.19992995262146,
+    "native_duration_ms": 24274,
+    "turns": 1,
+    "input_tokens": 15491,
+    "output_tokens": 581,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        431
+      ],
+      [
+        512,
+        548
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-027",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 25.231414556503296,
+    "native_duration_ms": 23870,
+    "turns": 1,
+    "input_tokens": 15373,
+    "output_tokens": 534,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        431
+      ],
+      [
+        512,
+        548
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 66.81450271606445,
+    "native_duration_ms": 56134,
+    "turns": 1,
+    "input_tokens": 15490,
+    "output_tokens": 674,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        431
+      ],
+      [
+        512,
+        637
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-028",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 27.235107421875,
+    "native_duration_ms": 26541,
+    "turns": 1,
+    "input_tokens": 15410,
+    "output_tokens": 553,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        431
+      ],
+      [
+        512,
+        637
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 29.206112146377563,
+    "native_duration_ms": 28171,
+    "turns": 1,
+    "input_tokens": 15528,
+    "output_tokens": 564,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-029",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 25.207111835479736,
+    "native_duration_ms": 24605,
+    "turns": 1,
+    "input_tokens": 15466,
+    "output_tokens": 507,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 32.22906756401062,
+    "native_duration_ms": 31331,
+    "turns": 1,
+    "input_tokens": 15432,
+    "output_tokens": 686,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        511
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-030",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 22.191832065582275,
+    "native_duration_ms": 21024,
+    "turns": 1,
+    "input_tokens": 15390,
+    "output_tokens": 504,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        511
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 29.226874113082886,
+    "native_duration_ms": 28342,
+    "turns": 1,
+    "input_tokens": 15423,
+    "output_tokens": 699,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        428
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-031",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 30.222518920898438,
+    "native_duration_ms": 22836,
+    "turns": 1,
+    "input_tokens": 15356,
+    "output_tokens": 568,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        428
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 24.22116470336914,
+    "native_duration_ms": 23633,
+    "turns": 1,
+    "input_tokens": 15520,
+    "output_tokens": 562,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        511
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-032",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 31.229482889175415,
+    "native_duration_ms": 21983,
+    "turns": 1,
+    "input_tokens": 15431,
+    "output_tokens": 516,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        511
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 39.29635167121887,
+    "native_duration_ms": 38495,
+    "turns": 1,
+    "input_tokens": 15517,
+    "output_tokens": 750,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        530
+      ],
+      [
+        512,
+        522
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-033",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 36.24413800239563,
+    "native_duration_ms": 29598,
+    "turns": 1,
+    "input_tokens": 15439,
+    "output_tokens": 757,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        530
+      ],
+      [
+        512,
+        522
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 25.213231801986694,
+    "native_duration_ms": 24558,
+    "turns": 1,
+    "input_tokens": 15676,
+    "output_tokens": 592,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        618
+      ],
+      [
+        512,
+        618
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-034",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 22.187870740890503,
+    "native_duration_ms": 21238,
+    "turns": 1,
+    "input_tokens": 15535,
+    "output_tokens": 488,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        618
+      ],
+      [
+        512,
+        618
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 46.17853808403015,
+    "native_duration_ms": 36187,
+    "turns": 1,
+    "input_tokens": 15482,
+    "output_tokens": 792,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-035",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 26.214027881622314,
+    "native_duration_ms": 24832,
+    "turns": 1,
+    "input_tokens": 15426,
+    "output_tokens": 645,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        512
+      ],
+      [
+        512,
+        512
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 35.70245122909546,
+    "native_duration_ms": 29370,
+    "turns": 1,
+    "input_tokens": 15590,
+    "output_tokens": 566,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        618
+      ],
+      [
+        512,
+        618
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-036",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 27.258068323135376,
+    "native_duration_ms": 25987,
+    "turns": 1,
+    "input_tokens": 15541,
+    "output_tokens": 658,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        618
+      ],
+      [
+        512,
+        618
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 48.310856342315674,
+    "native_duration_ms": 47581,
+    "turns": 1,
+    "input_tokens": 15498,
+    "output_tokens": 714,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-037",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 26.206750869750977,
+    "native_duration_ms": 24810,
+    "turns": 1,
+    "input_tokens": 15440,
+    "output_tokens": 646,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        624
+      ],
+      [
+        512,
+        420
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 27.211795806884766,
+    "native_duration_ms": 26214,
+    "turns": 1,
+    "input_tokens": 15539,
+    "output_tokens": 653,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-038",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 22.190791368484497,
+    "native_duration_ms": 21506,
+    "turns": 1,
+    "input_tokens": 15434,
+    "output_tokens": 501,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 27.23663091659546,
+    "native_duration_ms": 26707,
+    "turns": 1,
+    "input_tokens": 15535,
+    "output_tokens": 632,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-039",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 33.24578142166138,
+    "native_duration_ms": 32076,
+    "turns": 1,
+    "input_tokens": 15480,
+    "output_tokens": 591,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        512,
+        420
+      ],
+      [
+        512,
+        624
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "model": "gpt-6.1-sol",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 33.253915786743164,
+    "native_duration_ms": 31488,
+    "turns": 1,
+    "input_tokens": 15101,
+    "output_tokens": 567,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        512,
+        428
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CXR-040",
+    "model": "gpt-6-astra",
+    "modality": "CXR",
+    "cohort": "fresh-v2-report-enriched OpenI",
+    "status": "succeeded",
+    "seconds": 23.203989267349243,
+    "native_duration_ms": 21849,
+    "turns": 1,
+    "input_tokens": 14969,
+    "output_tokens": 484,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        512,
+        428
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 56.35794401168823,
+    "native_duration_ms": 55421,
+    "turns": 1,
+    "input_tokens": 25419,
+    "output_tokens": 1222,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-001",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 39.287004232406616,
+    "native_duration_ms": 38573,
+    "turns": 1,
+    "input_tokens": 25317,
+    "output_tokens": 968,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 79.5526213645935,
+    "native_duration_ms": 70479,
+    "turns": 1,
+    "input_tokens": 25385,
+    "output_tokens": 1542,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-002",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 41.3524911403656,
+    "native_duration_ms": 39948,
+    "turns": 1,
+    "input_tokens": 25390,
+    "output_tokens": 921,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 59.38911199569702,
+    "native_duration_ms": 58615,
+    "turns": 1,
+    "input_tokens": 25445,
+    "output_tokens": 1235,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-003",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 43.318554639816284,
+    "native_duration_ms": 42054,
+    "turns": 1,
+    "input_tokens": 25370,
+    "output_tokens": 1002,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 57.37310600280762,
+    "native_duration_ms": 56821,
+    "turns": 1,
+    "input_tokens": 25452,
+    "output_tokens": 1212,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-004",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 43.31662559509277,
+    "native_duration_ms": 42121,
+    "turns": 1,
+    "input_tokens": 25339,
+    "output_tokens": 1025,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 62.41047787666321,
+    "native_duration_ms": 61018,
+    "turns": 1,
+    "input_tokens": 25431,
+    "output_tokens": 1186,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-005",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 44.31251549720764,
+    "native_duration_ms": 43257,
+    "turns": 1,
+    "input_tokens": 25394,
+    "output_tokens": 1100,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 49.2558970451355,
+    "native_duration_ms": 45912,
+    "turns": 1,
+    "input_tokens": 25408,
+    "output_tokens": 1062,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-006",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 38.30458164215088,
+    "native_duration_ms": 37730,
+    "turns": 1,
+    "input_tokens": 25391,
+    "output_tokens": 874,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 52.342631101608276,
+    "native_duration_ms": 51780,
+    "turns": 1,
+    "input_tokens": 25432,
+    "output_tokens": 1166,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-007",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 42.327178955078125,
+    "native_duration_ms": 41373,
+    "turns": 1,
+    "input_tokens": 25347,
+    "output_tokens": 932,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 61.37114191055298,
+    "native_duration_ms": 60881,
+    "turns": 1,
+    "input_tokens": 25423,
+    "output_tokens": 1232,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-008",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 42.29762601852417,
+    "native_duration_ms": 40969,
+    "turns": 1,
+    "input_tokens": 25352,
+    "output_tokens": 915,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 57.42945218086243,
+    "native_duration_ms": 56097,
+    "turns": 1,
+    "input_tokens": 25368,
+    "output_tokens": 1152,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-009",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 38.281779289245605,
+    "native_duration_ms": 37252,
+    "turns": 1,
+    "input_tokens": 25366,
+    "output_tokens": 944,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 49.333518981933594,
+    "native_duration_ms": 48502,
+    "turns": 1,
+    "input_tokens": 25437,
+    "output_tokens": 986,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-010",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 44.30146360397339,
+    "native_duration_ms": 43645,
+    "turns": 1,
+    "input_tokens": 25384,
+    "output_tokens": 1023,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 49.36352348327637,
+    "native_duration_ms": 48435,
+    "turns": 1,
+    "input_tokens": 25422,
+    "output_tokens": 1008,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-011",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 39.31031894683838,
+    "native_duration_ms": 38825,
+    "turns": 1,
+    "input_tokens": 25399,
+    "output_tokens": 856,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 64.42907786369324,
+    "native_duration_ms": 63120,
+    "turns": 1,
+    "input_tokens": 25422,
+    "output_tokens": 1163,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-012",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 54.37710642814636,
+    "native_duration_ms": 53659,
+    "turns": 1,
+    "input_tokens": 25365,
+    "output_tokens": 1215,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 50.36209058761597,
+    "native_duration_ms": 49575,
+    "turns": 1,
+    "input_tokens": 25446,
+    "output_tokens": 1052,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-013",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 41.31285858154297,
+    "native_duration_ms": 39997,
+    "turns": 1,
+    "input_tokens": 25370,
+    "output_tokens": 956,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 59.02338123321533,
+    "native_duration_ms": 50165,
+    "turns": 1,
+    "input_tokens": 25405,
+    "output_tokens": 1051,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-014",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 41.30762219429016,
+    "native_duration_ms": 40105,
+    "turns": 1,
+    "input_tokens": 25339,
+    "output_tokens": 906,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 54.36073184013367,
+    "native_duration_ms": 53359,
+    "turns": 1,
+    "input_tokens": 25421,
+    "output_tokens": 1092,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-015",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 39.32289910316467,
+    "native_duration_ms": 38018,
+    "turns": 1,
+    "input_tokens": 25352,
+    "output_tokens": 939,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 63.400282859802246,
+    "native_duration_ms": 62608,
+    "turns": 1,
+    "input_tokens": 25392,
+    "output_tokens": 1219,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-016",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 39.30904722213745,
+    "native_duration_ms": 38804,
+    "turns": 1,
+    "input_tokens": 25355,
+    "output_tokens": 923,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 63.134275913238525,
+    "native_duration_ms": 60304,
+    "turns": 1,
+    "input_tokens": 25444,
+    "output_tokens": 1157,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-017",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 37.295676946640015,
+    "native_duration_ms": 36505,
+    "turns": 1,
+    "input_tokens": 25408,
+    "output_tokens": 944,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 51.355637311935425,
+    "native_duration_ms": 50477,
+    "turns": 1,
+    "input_tokens": 25446,
+    "output_tokens": 1026,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-018",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 44.31684970855713,
+    "native_duration_ms": 43533,
+    "turns": 1,
+    "input_tokens": 25359,
+    "output_tokens": 975,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 61.41445851325989,
+    "native_duration_ms": 60802,
+    "turns": 1,
+    "input_tokens": 25420,
+    "output_tokens": 1223,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-019",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 44.317341804504395,
+    "native_duration_ms": 43275,
+    "turns": 1,
+    "input_tokens": 25344,
+    "output_tokens": 1169,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 52.36219334602356,
+    "native_duration_ms": 51150,
+    "turns": 1,
+    "input_tokens": 25418,
+    "output_tokens": 1058,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-CT-020",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "reused prior report-backed CT",
+    "status": "succeeded",
+    "seconds": 38.298481702804565,
+    "native_duration_ms": 36970,
+    "turns": 1,
+    "input_tokens": 25343,
+    "output_tokens": 927,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ],
+      [
+        2048,
+        1080
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 81.09498715400696,
+    "native_duration_ms": 75932,
+    "turns": 1,
+    "input_tokens": 26823,
+    "output_tokens": 1602,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-001",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 46.30926489830017,
+    "native_duration_ms": 45762,
+    "turns": 1,
+    "input_tokens": 26755,
+    "output_tokens": 1161,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 51.31106376647949,
+    "native_duration_ms": 50836,
+    "turns": 1,
+    "input_tokens": 26763,
+    "output_tokens": 1043,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-002",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 50.31929802894592,
+    "native_duration_ms": 49493,
+    "turns": 1,
+    "input_tokens": 26734,
+    "output_tokens": 825,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 54.349693059921265,
+    "native_duration_ms": 52899,
+    "turns": 1,
+    "input_tokens": 26801,
+    "output_tokens": 1094,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-003",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 39.27916765213013,
+    "native_duration_ms": 38508,
+    "turns": 1,
+    "input_tokens": 26749,
+    "output_tokens": 920,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 91.6201057434082,
+    "native_duration_ms": 90729,
+    "turns": 1,
+    "input_tokens": 26804,
+    "output_tokens": 1815,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-004",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 55.05801773071289,
+    "native_duration_ms": 46915,
+    "turns": 1,
+    "input_tokens": 26789,
+    "output_tokens": 1215,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 45.31117606163025,
+    "native_duration_ms": 44363,
+    "turns": 1,
+    "input_tokens": 26813,
+    "output_tokens": 1130,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-005",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 41.320077896118164,
+    "native_duration_ms": 40709,
+    "turns": 1,
+    "input_tokens": 26753,
+    "output_tokens": 938,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 65.47172427177429,
+    "native_duration_ms": 64222,
+    "turns": 1,
+    "input_tokens": 26819,
+    "output_tokens": 1133,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-006",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 47.760024547576904,
+    "native_duration_ms": 45571,
+    "turns": 1,
+    "input_tokens": 26759,
+    "output_tokens": 1138,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 55.38135480880737,
+    "native_duration_ms": 54266,
+    "turns": 1,
+    "input_tokens": 26792,
+    "output_tokens": 1050,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-007",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 35.27815365791321,
+    "native_duration_ms": 33976,
+    "turns": 1,
+    "input_tokens": 26711,
+    "output_tokens": 867,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 53.36923789978027,
+    "native_duration_ms": 52335,
+    "turns": 1,
+    "input_tokens": 26845,
+    "output_tokens": 1076,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-008",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 42.31620478630066,
+    "native_duration_ms": 41334,
+    "turns": 1,
+    "input_tokens": 26776,
+    "output_tokens": 967,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 63.379648208618164,
+    "native_duration_ms": 61948,
+    "turns": 1,
+    "input_tokens": 26805,
+    "output_tokens": 1465,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-009",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 50.33859157562256,
+    "native_duration_ms": 49263,
+    "turns": 1,
+    "input_tokens": 26759,
+    "output_tokens": 1207,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 60.40885066986084,
+    "native_duration_ms": 59633,
+    "turns": 1,
+    "input_tokens": 26827,
+    "output_tokens": 1185,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "ROUTINE-MR-010",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "reused prior report-backed MR",
+    "status": "succeeded",
+    "seconds": 40.2997841835022,
+    "native_duration_ms": 39246,
+    "turns": 1,
+    "input_tokens": 26746,
+    "output_tokens": 979,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ],
+      [
+        1779,
+        1408
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-70F4E0040817",
+    "model": "gpt-6.1-sol",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 125.86783361434937,
+    "native_duration_ms": 118208,
+    "turns": 1,
+    "input_tokens": 16185,
+    "output_tokens": 2120,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        750,
+        503
+      ],
+      [
+        750,
+        213
+      ],
+      [
+        750,
+        572
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-70F4E0040817",
+    "model": "gpt-6-astra",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 55.33485007286072,
+    "native_duration_ms": 54043,
+    "turns": 1,
+    "input_tokens": 16075,
+    "output_tokens": 1515,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        750,
+        503
+      ],
+      [
+        750,
+        213
+      ],
+      [
+        750,
+        572
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-C6EF6A318D05",
+    "model": "gpt-6.1-sol",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 72.39702081680298,
+    "native_duration_ms": 71207,
+    "turns": 1,
+    "input_tokens": 15762,
+    "output_tokens": 979,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        422
+      ],
+      [
+        750,
+        422
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-C6EF6A318D05",
+    "model": "gpt-6-astra",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 39.29670238494873,
+    "native_duration_ms": 38632,
+    "turns": 1,
+    "input_tokens": 15636,
+    "output_tokens": 1002,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        422
+      ],
+      [
+        750,
+        422
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-9AE1491E2AFE",
+    "model": "gpt-6.1-sol",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 53.33474636077881,
+    "native_duration_ms": 52179,
+    "turns": 1,
+    "input_tokens": 16348,
+    "output_tokens": 786,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        806
+      ],
+      [
+        750,
+        723
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-9AE1491E2AFE",
+    "model": "gpt-6-astra",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 35.2785210609436,
+    "native_duration_ms": 33915,
+    "turns": 1,
+    "input_tokens": 16280,
+    "output_tokens": 824,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        806
+      ],
+      [
+        750,
+        723
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-E78C5AE7F459",
+    "model": "gpt-6.1-sol",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 82.49185276031494,
+    "native_duration_ms": 81967,
+    "turns": 1,
+    "input_tokens": 20466,
+    "output_tokens": 1492,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        896,
+        533
+      ],
+      [
+        1959,
+        743
+      ],
+      [
+        1959,
+        825
+      ],
+      [
+        896,
+        1021
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-E78C5AE7F459",
+    "model": "gpt-6-astra",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 36.28526067733765,
+    "native_duration_ms": 35291,
+    "turns": 1,
+    "input_tokens": 20402,
+    "output_tokens": 895,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 4,
+    "delivered_pixels": [
+      [
+        896,
+        533
+      ],
+      [
+        1959,
+        743
+      ],
+      [
+        1959,
+        825
+      ],
+      [
+        896,
+        1021
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-2CFF8E9D16D2",
+    "model": "gpt-6.1-sol",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 81.4550986289978,
+    "native_duration_ms": 80124,
+    "turns": 1,
+    "input_tokens": 15530,
+    "output_tokens": 1447,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        764,
+        621
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-2CFF8E9D16D2",
+    "model": "gpt-6-astra",
+    "modality": "CBCT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 48.3109929561615,
+    "native_duration_ms": 47420,
+    "turns": 1,
+    "input_tokens": 15481,
+    "output_tokens": 1394,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        764,
+        621
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-29C6AC8DAF18",
+    "model": "gpt-6.1-sol",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 72.06164288520813,
+    "native_duration_ms": 70916,
+    "turns": 1,
+    "input_tokens": 15058,
+    "output_tokens": 1298,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        779,
+        210
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-29C6AC8DAF18",
+    "model": "gpt-6-astra",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 38.299373626708984,
+    "native_duration_ms": 36965,
+    "turns": 1,
+    "input_tokens": 14984,
+    "output_tokens": 1017,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        779,
+        210
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-3A62F84ACFE5",
+    "model": "gpt-6.1-sol",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 85.48760437965393,
+    "native_duration_ms": 84198,
+    "turns": 1,
+    "input_tokens": 15548,
+    "output_tokens": 1439,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        800,
+        703
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-3A62F84ACFE5",
+    "model": "gpt-6-astra",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 44.85254526138306,
+    "native_duration_ms": 38775,
+    "turns": 1,
+    "input_tokens": 15501,
+    "output_tokens": 1069,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        800,
+        703
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-02881C90FD9F",
+    "model": "gpt-6.1-sol",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 43.28057026863098,
+    "native_duration_ms": 42301,
+    "turns": 1,
+    "input_tokens": 15888,
+    "output_tokens": 810,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        800,
+        981
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-02881C90FD9F",
+    "model": "gpt-6-astra",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 41.624834060668945,
+    "native_duration_ms": 31108,
+    "turns": 1,
+    "input_tokens": 15815,
+    "output_tokens": 694,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        800,
+        981
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-1803DDC4A439",
+    "model": "gpt-6.1-sol",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 41.29925894737244,
+    "native_duration_ms": 40650,
+    "turns": 1,
+    "input_tokens": 16962,
+    "output_tokens": 740,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        676,
+        1237
+      ],
+      [
+        676,
+        1076
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-1803DDC4A439",
+    "model": "gpt-6-astra",
+    "modality": "FL",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 39.18718218803406,
+    "native_duration_ms": 28449,
+    "turns": 1,
+    "input_tokens": 16926,
+    "output_tokens": 758,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        676,
+        1237
+      ],
+      [
+        676,
+        1076
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-83C6B6C804DD",
+    "model": "gpt-6.1-sol",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 61.37095093727112,
+    "native_duration_ms": 60043,
+    "turns": 1,
+    "input_tokens": 17278,
+    "output_tokens": 1028,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        793,
+        278
+      ],
+      [
+        676,
+        1167
+      ],
+      [
+        676,
+        1052
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-83C6B6C804DD",
+    "model": "gpt-6-astra",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 35.24902009963989,
+    "native_duration_ms": 34002,
+    "turns": 1,
+    "input_tokens": 17195,
+    "output_tokens": 893,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        793,
+        278
+      ],
+      [
+        676,
+        1167
+      ],
+      [
+        676,
+        1052
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-D727B66665EB",
+    "model": "gpt-6.1-sol",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 53.281903982162476,
+    "native_duration_ms": 52285,
+    "turns": 1,
+    "input_tokens": 15065,
+    "output_tokens": 828,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        741,
+        264
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-D727B66665EB",
+    "model": "gpt-6-astra",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 37.23910307884216,
+    "native_duration_ms": 36689,
+    "turns": 1,
+    "input_tokens": 15013,
+    "output_tokens": 769,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        741,
+        264
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-D5A5DD6AA04E",
+    "model": "gpt-6.1-sol",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 62.32921504974365,
+    "native_duration_ms": 61604,
+    "turns": 1,
+    "input_tokens": 15783,
+    "output_tokens": 1161,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        686,
+        196
+      ],
+      [
+        686,
+        234
+      ],
+      [
+        722,
+        457
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-D5A5DD6AA04E",
+    "model": "gpt-6-astra",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 36.24310111999512,
+    "native_duration_ms": 35464,
+    "turns": 1,
+    "input_tokens": 15755,
+    "output_tokens": 889,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        686,
+        196
+      ],
+      [
+        686,
+        234
+      ],
+      [
+        722,
+        457
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-780EEBF8DF70",
+    "model": "gpt-6.1-sol",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 52.08490300178528,
+    "native_duration_ms": 47850,
+    "turns": 1,
+    "input_tokens": 15399,
+    "output_tokens": 874,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        787,
+        528
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-780EEBF8DF70",
+    "model": "gpt-6-astra",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 36.23467826843262,
+    "native_duration_ms": 34853,
+    "turns": 1,
+    "input_tokens": 15270,
+    "output_tokens": 957,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        787,
+        528
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-8355333F71C8",
+    "model": "gpt-6.1-sol",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 57.3338668346405,
+    "native_duration_ms": 56926,
+    "turns": 1,
+    "input_tokens": 17577,
+    "output_tokens": 952,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        894,
+        2048
+      ],
+      [
+        755,
+        517
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-8355333F71C8",
+    "model": "gpt-6-astra",
+    "modality": "NM",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 37.30194330215454,
+    "native_duration_ms": 35884,
+    "turns": 1,
+    "input_tokens": 17478,
+    "output_tokens": 927,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        894,
+        2048
+      ],
+      [
+        755,
+        517
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-8D7F99268316",
+    "model": "gpt-6.1-sol",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 48.27853274345398,
+    "native_duration_ms": 47924,
+    "turns": 1,
+    "input_tokens": 15571,
+    "output_tokens": 934,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        773,
+        739
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-8D7F99268316",
+    "model": "gpt-6-astra",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 31.222967624664307,
+    "native_duration_ms": 30011,
+    "turns": 1,
+    "input_tokens": 15499,
+    "output_tokens": 818,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        773,
+        739
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-99B61D5ECFA5",
+    "model": "gpt-6.1-sol",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 47.298301696777344,
+    "native_duration_ms": 46313,
+    "turns": 1,
+    "input_tokens": 15360,
+    "output_tokens": 890,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        747,
+        528
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-99B61D5ECFA5",
+    "model": "gpt-6-astra",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 27.20082449913025,
+    "native_duration_ms": 26457,
+    "turns": 1,
+    "input_tokens": 15260,
+    "output_tokens": 654,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        747,
+        528
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-A96DC84B6D5D",
+    "model": "gpt-6.1-sol",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 45.27538847923279,
+    "native_duration_ms": 44485,
+    "turns": 1,
+    "input_tokens": 16629,
+    "output_tokens": 853,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        746,
+        2048
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-A96DC84B6D5D",
+    "model": "gpt-6-astra",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 35.25705409049988,
+    "native_duration_ms": 34047,
+    "turns": 1,
+    "input_tokens": 16599,
+    "output_tokens": 705,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        746,
+        2048
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-2C1B4421387D",
+    "model": "gpt-6.1-sol",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 41.29736924171448,
+    "native_duration_ms": 40299,
+    "turns": 1,
+    "input_tokens": 15168,
+    "output_tokens": 683,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        750,
+        415
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-2C1B4421387D",
+    "model": "gpt-6-astra",
+    "modality": "MG",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 30.24404549598694,
+    "native_duration_ms": 29125,
+    "turns": 1,
+    "input_tokens": 15154,
+    "output_tokens": 745,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        750,
+        415
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-E87AF71139EE",
+    "model": "gpt-6.1-sol",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 63.314303398132324,
+    "native_duration_ms": 62604,
+    "turns": 1,
+    "input_tokens": 15125,
+    "output_tokens": 1090,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        686,
+        334
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-E87AF71139EE",
+    "model": "gpt-6-astra",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 47.30136489868164,
+    "native_duration_ms": 46413,
+    "turns": 1,
+    "input_tokens": 15033,
+    "output_tokens": 1015,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        686,
+        334
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-4D4E1F4AFFA5",
+    "model": "gpt-6.1-sol",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 153.69038128852844,
+    "native_duration_ms": 152713,
+    "turns": 1,
+    "input_tokens": 15315,
+    "output_tokens": 2046,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        750,
+        492
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-4D4E1F4AFFA5",
+    "model": "gpt-6-astra",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 56.34302020072937,
+    "native_duration_ms": 55641,
+    "turns": 1,
+    "input_tokens": 15253,
+    "output_tokens": 1595,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        750,
+        492
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-A472DC8242D7",
+    "model": "gpt-6.1-sol",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 80.38331937789917,
+    "native_duration_ms": 79632,
+    "turns": 1,
+    "input_tokens": 15267,
+    "output_tokens": 1380,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        705,
+        303
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-A472DC8242D7",
+    "model": "gpt-6-astra",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 27.222589254379272,
+    "native_duration_ms": 26337,
+    "turns": 1,
+    "input_tokens": 15214,
+    "output_tokens": 679,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        705,
+        303
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-80264E4FA58F",
+    "model": "gpt-6.1-sol",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 45.297157287597656,
+    "native_duration_ms": 44666,
+    "turns": 1,
+    "input_tokens": 17606,
+    "output_tokens": 976,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        969,
+        1123
+      ],
+      [
+        969,
+        1106
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-80264E4FA58F",
+    "model": "gpt-6-astra",
+    "modality": "US",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 35.236220836639404,
+    "native_duration_ms": 34499,
+    "turns": 1,
+    "input_tokens": 17555,
+    "output_tokens": 867,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        969,
+        1123
+      ],
+      [
+        969,
+        1106
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-196287C67D8C",
+    "model": "gpt-6.1-sol",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 88.49004769325256,
+    "native_duration_ms": 87448,
+    "turns": 1,
+    "input_tokens": 16859,
+    "output_tokens": 813,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        966
+      ],
+      [
+        750,
+        1011
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-196287C67D8C",
+    "model": "gpt-6-astra",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 28.21797251701355,
+    "native_duration_ms": 27540,
+    "turns": 1,
+    "input_tokens": 16744,
+    "output_tokens": 662,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        966
+      ],
+      [
+        750,
+        1011
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-238BA28387C2",
+    "model": "gpt-6.1-sol",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 52.34862685203552,
+    "native_duration_ms": 51554,
+    "turns": 1,
+    "input_tokens": 15421,
+    "output_tokens": 867,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        666,
+        770
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-238BA28387C2",
+    "model": "gpt-6-astra",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 35.26003456115723,
+    "native_duration_ms": 34633,
+    "turns": 1,
+    "input_tokens": 15384,
+    "output_tokens": 828,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        666,
+        770
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-4F933308F0E0",
+    "model": "gpt-6.1-sol",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 69.34091687202454,
+    "native_duration_ms": 68240,
+    "turns": 1,
+    "input_tokens": 15802,
+    "output_tokens": 1129,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        800,
+        576
+      ],
+      [
+        800,
+        334
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-4F933308F0E0",
+    "model": "gpt-6-astra",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 39.24526286125183,
+    "native_duration_ms": 38776,
+    "turns": 1,
+    "input_tokens": 15715,
+    "output_tokens": 1090,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        800,
+        576
+      ],
+      [
+        800,
+        334
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-63689886B8F4",
+    "model": "gpt-6.1-sol",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 86.43337392807007,
+    "native_duration_ms": 85591,
+    "turns": 1,
+    "input_tokens": 16295,
+    "output_tokens": 1502,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        562,
+        590
+      ],
+      [
+        563,
+        634
+      ],
+      [
+        567,
+        638
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-63689886B8F4",
+    "model": "gpt-6-astra",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 51.295509338378906,
+    "native_duration_ms": 45939,
+    "turns": 1,
+    "input_tokens": 16222,
+    "output_tokens": 1255,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        562,
+        590
+      ],
+      [
+        563,
+        634
+      ],
+      [
+        567,
+        638
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-9AAC0B670C9D",
+    "model": "gpt-6.1-sol",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 121.58989596366882,
+    "native_duration_ms": 119476,
+    "turns": 2,
+    "input_tokens": 35207,
+    "output_tokens": 2026,
+    "cached_input_tokens": 22528,
+    "tool_calls": 0,
+    "delivered_images": 5,
+    "delivered_pixels": [
+      [
+        709,
+        830
+      ],
+      [
+        709,
+        432
+      ],
+      [
+        709,
+        383
+      ],
+      [
+        709,
+        410
+      ],
+      [
+        709,
+        637
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-9AAC0B670C9D",
+    "model": "gpt-6-astra",
+    "modality": "DX",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 66.41538715362549,
+    "native_duration_ms": 64000,
+    "turns": 2,
+    "input_tokens": 34872,
+    "output_tokens": 1524,
+    "cached_input_tokens": 22400,
+    "tool_calls": 0,
+    "delivered_images": 5,
+    "delivered_pixels": [
+      [
+        709,
+        830
+      ],
+      [
+        709,
+        432
+      ],
+      [
+        709,
+        383
+      ],
+      [
+        709,
+        410
+      ],
+      [
+        709,
+        637
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-676463EBB1F0",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 87.50684142112732,
+    "native_duration_ms": 85883,
+    "turns": 2,
+    "input_tokens": 36411,
+    "output_tokens": 1562,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 5,
+    "delivered_pixels": [
+      [
+        747,
+        734
+      ],
+      [
+        745,
+        733
+      ],
+      [
+        587,
+        734
+      ],
+      [
+        752,
+        734
+      ],
+      [
+        578,
+        734
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-676463EBB1F0",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 55.36340832710266,
+    "native_duration_ms": 53638,
+    "turns": 2,
+    "input_tokens": 36137,
+    "output_tokens": 1164,
+    "cached_input_tokens": 23168,
+    "tool_calls": 0,
+    "delivered_images": 5,
+    "delivered_pixels": [
+      [
+        747,
+        734
+      ],
+      [
+        745,
+        733
+      ],
+      [
+        587,
+        734
+      ],
+      [
+        752,
+        734
+      ],
+      [
+        578,
+        734
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-5EA2BF35E6A8",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 65.33440685272217,
+    "native_duration_ms": 64301,
+    "turns": 1,
+    "input_tokens": 15215,
+    "output_tokens": 1109,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        709,
+        361
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-5EA2BF35E6A8",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 36.23399257659912,
+    "native_duration_ms": 35200,
+    "turns": 1,
+    "input_tokens": 15227,
+    "output_tokens": 962,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        709,
+        361
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-00935CF2CB9E",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 55.33822798728943,
+    "native_duration_ms": 54794,
+    "turns": 1,
+    "input_tokens": 15683,
+    "output_tokens": 1418,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        752,
+        374
+      ],
+      [
+        677,
+        440
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-00935CF2CB9E",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 42.37692070007324,
+    "native_duration_ms": 41117,
+    "turns": 1,
+    "input_tokens": 15606,
+    "output_tokens": 1061,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        752,
+        374
+      ],
+      [
+        677,
+        440
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-1605B33C93D3",
+    "model": "gpt-6.1-sol",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 98.46927070617676,
+    "native_duration_ms": 97140,
+    "turns": 1,
+    "input_tokens": 16066,
+    "output_tokens": 1938,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        762,
+        567
+      ],
+      [
+        800,
+        614
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-1605B33C93D3",
+    "model": "gpt-6-astra",
+    "modality": "MR",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 50.400803089141846,
+    "native_duration_ms": 49115,
+    "turns": 1,
+    "input_tokens": 15987,
+    "output_tokens": 1416,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        762,
+        567
+      ],
+      [
+        800,
+        614
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-20E08E6C15A0",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 66.37491941452026,
+    "native_duration_ms": 65184,
+    "turns": 1,
+    "input_tokens": 15617,
+    "output_tokens": 1115,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        422
+      ],
+      [
+        750,
+        208
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-20E08E6C15A0",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 40.263190031051636,
+    "native_duration_ms": 39587,
+    "turns": 1,
+    "input_tokens": 15551,
+    "output_tokens": 1085,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 2,
+    "delivered_pixels": [
+      [
+        750,
+        422
+      ],
+      [
+        750,
+        208
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-2E550704AF7D",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 72.42779278755188,
+    "native_duration_ms": 71243,
+    "turns": 1,
+    "input_tokens": 16003,
+    "output_tokens": 1421,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        688,
+        372
+      ],
+      [
+        688,
+        372
+      ],
+      [
+        688,
+        372
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-2E550704AF7D",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 60.3743851184845,
+    "native_duration_ms": 59239,
+    "turns": 1,
+    "input_tokens": 15913,
+    "output_tokens": 1498,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        688,
+        372
+      ],
+      [
+        688,
+        372
+      ],
+      [
+        688,
+        372
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-D5FE4EEF08C4",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 38.239885330200195,
+    "native_duration_ms": 37411,
+    "turns": 1,
+    "input_tokens": 15421,
+    "output_tokens": 827,
+    "cached_input_tokens": 6016,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        750,
+        521
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-D5FE4EEF08C4",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 29.215789556503296,
+    "native_duration_ms": 28238,
+    "turns": 1,
+    "input_tokens": 15334,
+    "output_tokens": 745,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        750,
+        521
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-64D0F43ECB14",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 69.34467005729675,
+    "native_duration_ms": 68444,
+    "turns": 1,
+    "input_tokens": 16943,
+    "output_tokens": 1302,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        674,
+        787
+      ],
+      [
+        674,
+        693
+      ],
+      [
+        674,
+        782
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-64D0F43ECB14",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 56.30062532424927,
+    "native_duration_ms": 55454,
+    "turns": 1,
+    "input_tokens": 16861,
+    "output_tokens": 1526,
+    "cached_input_tokens": 5888,
+    "tool_calls": 0,
+    "delivered_images": 3,
+    "delivered_pixels": [
+      [
+        674,
+        787
+      ],
+      [
+        674,
+        693
+      ],
+      [
+        674,
+        782
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-E5F2A4B0C0F5",
+    "model": "gpt-6.1-sol",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 63.06107950210571,
+    "native_duration_ms": 52433,
+    "turns": 1,
+    "input_tokens": 17250,
+    "output_tokens": 976,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        1959,
+        965
+      ]
+    ],
+    "usd": null
+  },
+  {
+    "case_id": "PUB-E5F2A4B0C0F5",
+    "model": "gpt-6-astra",
+    "modality": "CT",
+    "cohort": "published case figures",
+    "status": "succeeded",
+    "seconds": 31.22547173500061,
+    "native_duration_ms": 30785,
+    "turns": 1,
+    "input_tokens": 17150,
+    "output_tokens": 782,
+    "cached_input_tokens": 0,
+    "tool_calls": 0,
+    "delivered_images": 1,
+    "delivered_pixels": [
+      [
+        1959,
+        965
+      ]
+    ],
+    "usd": null
+  }
+]

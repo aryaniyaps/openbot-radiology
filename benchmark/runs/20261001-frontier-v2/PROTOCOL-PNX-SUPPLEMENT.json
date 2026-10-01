@@ -1,0 +1,154 @@
+{
+  "frozen_unix": 1790837474.521716,
+  "models": [
+    "gpt-6.1-sol",
+    "gpt-6-astra"
+  ],
+  "effort": "high",
+  "cases": [
+    {
+      "case_id": "PNX-CHALLENGE-001",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-011",
+      "input_sha256": "f2ca36dca6aeecf22a3b1a940888d85edb7d77e4ed7596fe1eed0dbf88bf54fb",
+      "images_sha256": [
+        "476b08a115621a2d4458238567cbff9bc086d6446c47198dce56d6f18e784d05",
+        "04a30ca49c556160dae35dcee112e1a148bc1e77e978277179a4d0f346527016"
+      ],
+      "reference_sha256": "9f4b42ec5b32737059e9780c5ae1375a1771ae1a7ddd4107d2ca4351a292bf4e"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-002",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 1,
+      "original_case_id": "CXR-EVALUATION-012",
+      "input_sha256": "3930e7409d7ee4642a72e2b93ffd07a3166f0213f10d22b6e5e1421c79036e26",
+      "images_sha256": [
+        "d1d8743a553c30ca591efd9b8aa38d2dc1e45d80ad7b4f690708a77d47e038b8"
+      ],
+      "reference_sha256": "f64f67aa5e65c9382893c0dbfd4faabaf368ce5cd1ab27cc32d1f14f6bb1120e"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-003",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-013",
+      "input_sha256": "06cbde807cfe00686ce32f7ceca8231a8677cfe6b067a18d13786f0dacbc24c0",
+      "images_sha256": [
+        "cf3a3fb09c2deed1f6a169929303aa7a2e628c7e50e24cd0f96b717f7d71dada",
+        "a05b6da2fac1fecfd59a9345d25cefe21bc9ccfe1187cec2ea4fc796a6527e77"
+      ],
+      "reference_sha256": "f3474ac22620403e7361d112187d3655c8c078efcc228b7f16cd356b4e504bf8"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-004",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-014",
+      "input_sha256": "43a8c54d3d7c0e823559cd1715caca4adf1ce443ae1fa10ca3ec32574ed6aa37",
+      "images_sha256": [
+        "d5ced010b6bb9aac050ad8c7ddb8a943d7457f8c9100ce48c4f47e63cef87bd1",
+        "580c3870656a5bc3e33eca85f86cd3470f661f60bb29282374b5f32b9e1c9602"
+      ],
+      "reference_sha256": "95d5a485aef92b843a760c5a0cdc1f1c482290ee53f67fe026753fc2dfddc3a8"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-005",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-015",
+      "input_sha256": "6ee87349347a035f0e91c44bc56af2535068fa682993182c75bf8e884d2de739",
+      "images_sha256": [
+        "c6985ae48078bd3feda27fa67bc2b5ceda1a0428447a73486f2a11a7a56eb865",
+        "2dc4284e74be4390f48479abee07d8c00c232ba8e3c6f99b7303de7d068aac4a"
+      ],
+      "reference_sha256": "73958c44158d52965e6051bc66c3a3d315644c374c1954401807d46acf31d025"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-006",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-016",
+      "input_sha256": "6c5d83c1960ee24b170ce28b4b73a768e4052c9da889689de428e0e2aba43ddc",
+      "images_sha256": [
+        "041d2937f7bad648554204d55e222a8fd720b1b8fd496e401f16cb2b3805a23c",
+        "3a5c347e443ce3f174e2c622dd001a6e3e939572b58f22d51767013a8aa86751"
+      ],
+      "reference_sha256": "9711bcf92184f18f0fa6959a86ddfb6341ffd2be57279056f46817e2e1b2cd81"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-007",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-017",
+      "input_sha256": "3ff3babaf641d2bdd7fdaaef9ed267dc60ec64d923d806b94fabefe99242bcfa",
+      "images_sha256": [
+        "72801497d39939ddede5cf1054c312b293cdc0299363b93a524fac151972e09b",
+        "8356e1c2f847eea032100358962eba89366512f57760ae161c437869356aadf1"
+      ],
+      "reference_sha256": "907b7cb36fec2ecdc8f887b267d425f6c4b4a7d79fc47a63d69a30a9cb41cbd7"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-008",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-018",
+      "input_sha256": "1fa296f7425a8e86d2763266fdb9a0eb46fae6fb4c2b2af8f90a6d433a484d1f",
+      "images_sha256": [
+        "15f522e44eab5c7ea4552f172a73e7296a954f3ae2094c9f964d044674310376",
+        "4e0e0246d6757841b3deb010b13bd0e9a25150c15873b960ddfcc27822c96138"
+      ],
+      "reference_sha256": "88eb0ea34c41efc6858cb8d618d54dfd22f161bdd3a537b5eb79fbcb7d870348"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-009",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-019",
+      "input_sha256": "92b586a13f767690d8303c7964adbbaedb6b5d3e4e5fbb087e510d8859991bc9",
+      "images_sha256": [
+        "47c1a57e875c94fbbc77231c8761e185e842989db46d1df9e8dc5f3ead9c5817",
+        "6d04180862bb8922ccca581b59c993def6574b240a2c9d50f8d9f906ac931731"
+      ],
+      "reference_sha256": "1f0a4b7df68cdd662b6dcf1d228eb61da5290ff4101a69b816a099ebff860bc4"
+    },
+    {
+      "case_id": "PNX-CHALLENGE-010",
+      "stage": "evaluation",
+      "modality": "CXR",
+      "cohort": "supplemental reused pneumothorax-positive challenge",
+      "images": 2,
+      "original_case_id": "CXR-EVALUATION-020",
+      "input_sha256": "8618e754068f88ba09cdf6b2e345877b2807dd6fed0059983333eb47a1a2826a",
+      "images_sha256": [
+        "36d4f603ba3636a422a64fd8b925520982a41ade35094c7bfd1f9c9d05ec7dba",
+        "e6df6757667ced9ad4fa17579c9b5c2754959a5dad211c82a39f8e9a685a7d9a"
+      ],
+      "reference_sha256": "2215c2e22b2a37526d5392b169796e628cbe1e2b867e0a9747b4eb36ef1f2435"
+    }
+  ],
+  "reason": "Fresh report-backed CXR pool has zero remaining explicit pneumothorax positives because all ten were selected by the earlier benchmark. Test all ten prior report-positive cases as a disclosed supplemental urgent-finding challenge. Selection addresses a reference denominator gap, not observed model errors. Original primary cohort and scoring remain unchanged.",
+  "clinical_context": "Modality only to prevent known diagnostic indication from supplying the answer",
+  "metrics": "Pneumothorax report-assertion detection/abstention/failure counts, Wilson 95% interval; no specificity or population predictive-value estimate from positive-only challenge",
+  "reuse": "All ten from the prior benchmark; fresh native conversations, current high-effort profiles and skill instructions",
+  "primary_scope": "Separate supplement; do not pool with the prospectively frozen 106-study primary cohort"
+}

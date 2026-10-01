@@ -1,0 +1,179 @@
+{
+  "version": "frontier-radiology-v2",
+  "roles": [
+    {
+      "role": "coordinator",
+      "bot_id": "95a37fc7-2fe8-48d1-a726-069310d5a9b7",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "before_soul_sha256": "1849dd508d4ee59fb02e9d604dc3392f5cb84f6ce9898a68e8ee5afffeabf8fa",
+      "after_soul_sha256": "02fcc24e3bc05c50cd84e4ec50afbebc740071fac244badeb30a3aff7f97c89d",
+      "skills": {
+        "radiology-case-workup": "4838be8d1674a09e42137f70003a9bc7d0d28adee14e279581f50224bf3283c0",
+        "radiology-study-read": "f1597937b58ac95e9a636c3c7a0f9e0904030170cdaa4f4e7989b02afad2785a",
+        "radiology-report-review": "f610ed3d0a3e0996c0ec9228708264521be720cfdf43700dbf420650f4d35329"
+      },
+      "native_profile_readback": true,
+      "native_skills_readback": true,
+      "full_procedures_in_native_standing_prompt": true,
+      "soul_bytes": 13268,
+      "native_pair_thread_model_updates": [],
+      "prompt_response_keys": [
+        "sections",
+        "totalBytes",
+        "approxTokens",
+        "note"
+      ],
+      "peer_and_approval_settings_preserved": true
+    },
+    {
+      "role": "case-prep",
+      "bot_id": "30ec7c65-14a1-4a09-8b56-b29d90fc1633",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "before_soul_sha256": "d2093ebbc5ba7e6c66c74b025e3aead33f1c047e80afecc952efef47d95259bd",
+      "after_soul_sha256": "1b000b7bfbc4c6b29c63f8a9b29c18ac66818df2d239ab37d01c5b14900be388",
+      "skills": {
+        "radiology-case-workup": "4838be8d1674a09e42137f70003a9bc7d0d28adee14e279581f50224bf3283c0"
+      },
+      "native_profile_readback": true,
+      "native_skills_readback": true,
+      "full_procedures_in_native_standing_prompt": true,
+      "soul_bytes": 5304,
+      "native_pair_thread_model_updates": [],
+      "prompt_response_keys": [
+        "sections",
+        "totalBytes",
+        "approxTokens",
+        "note"
+      ],
+      "peer_and_approval_settings_preserved": true
+    },
+    {
+      "role": "image-assistant",
+      "bot_id": "89606f1f-398c-4b93-914d-61f6547345dd",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "before_soul_sha256": "ffaa555d078bba0bca33561813a60cbed124713d1421d484d9f4318306d2544f",
+      "after_soul_sha256": "9124e4484c8b1c6b4fd45ae95b5db5d1d4722d8990ea46a36ebc9007986edb87",
+      "skills": {
+        "radiology-study-read": "f1597937b58ac95e9a636c3c7a0f9e0904030170cdaa4f4e7989b02afad2785a"
+      },
+      "native_profile_readback": true,
+      "native_skills_readback": true,
+      "full_procedures_in_native_standing_prompt": true,
+      "soul_bytes": 8437,
+      "native_pair_thread_model_updates": [],
+      "prompt_response_keys": [
+        "sections",
+        "totalBytes",
+        "approxTokens",
+        "note"
+      ],
+      "peer_and_approval_settings_preserved": true
+    },
+    {
+      "role": "report-draft",
+      "bot_id": "7ec73ffc-27da-4655-a710-8a4946197596",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      },
+      "before_soul_sha256": "6c78adbb319eade3e241f4c66d4ff28e6d1700e86f60bf0bdee18c5663d88875",
+      "after_soul_sha256": "d434cbbdc60a0ccb26ab8f263f31012382ef629784bcba04b2dc2f92317f179b",
+      "skills": {
+        "radiology-report-review": "f610ed3d0a3e0996c0ec9228708264521be720cfdf43700dbf420650f4d35329"
+      },
+      "native_profile_readback": true,
+      "native_skills_readback": true,
+      "full_procedures_in_native_standing_prompt": true,
+      "soul_bytes": 6092,
+      "native_pair_thread_model_updates": [
+        {
+          "thread_id": "d25adac1-94ce-42d7-b099-63929e5fe2af",
+          "source_bot": "95a37fc7-2fe8-48d1-a726-069310d5a9b7",
+          "before_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6.1-sol",
+            "effort": "medium"
+          },
+          "after_model_selection": {
+            "instanceId": "codex",
+            "model": "gpt-6.1-sol",
+            "effort": "high"
+          }
+        }
+      ],
+      "prompt_response_keys": [
+        "sections",
+        "totalBytes",
+        "approxTokens",
+        "note"
+      ],
+      "peer_and_approval_settings_preserved": true
+    },
+    {
+      "role": "report-check",
+      "bot_id": "3888d9d0-3a86-4828-9ddb-59dad45df2f2",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "before_soul_sha256": "875e33c95f2e5110a5671423f04dcb501f60a5d87d76d7f2c0b25302ab533e00",
+      "after_soul_sha256": "916b77d52a415c6e384a639310be15904f8928316849b9588e768ca70f71d720",
+      "skills": {
+        "radiology-study-read": "f1597937b58ac95e9a636c3c7a0f9e0904030170cdaa4f4e7989b02afad2785a",
+        "radiology-report-review": "f610ed3d0a3e0996c0ec9228708264521be720cfdf43700dbf420650f4d35329"
+      },
+      "native_profile_readback": true,
+      "native_skills_readback": true,
+      "full_procedures_in_native_standing_prompt": true,
+      "soul_bytes": 10770,
+      "native_pair_thread_model_updates": [],
+      "prompt_response_keys": [
+        "sections",
+        "totalBytes",
+        "approxTokens",
+        "note"
+      ],
+      "peer_and_approval_settings_preserved": true
+    },
+    {
+      "role": "workflow-steward",
+      "bot_id": "84b8a991-1927-46b9-a7e0-14b54f697db9",
+      "model": {
+        "instanceId": "codex",
+        "model": "gpt-6.1-sol",
+        "effort": "medium"
+      },
+      "before_soul_sha256": "a9f1339f8492a3974de4372f77c90ab6481af0909f0c99241671d83ca00810d8",
+      "after_soul_sha256": "88f744e7973b02564528ea73775b968f6d0023868cab53075a64fb4fba29ade2",
+      "skills": {
+        "radiology-case-workup": "4838be8d1674a09e42137f70003a9bc7d0d28adee14e279581f50224bf3283c0"
+      },
+      "native_profile_readback": true,
+      "native_skills_readback": true,
+      "full_procedures_in_native_standing_prompt": true,
+      "soul_bytes": 5289,
+      "native_pair_thread_model_updates": [],
+      "prompt_response_keys": [
+        "sections",
+        "totalBytes",
+        "approxTokens",
+        "note"
+      ],
+      "peer_and_approval_settings_preserved": true
+    }
+  ]
+}
