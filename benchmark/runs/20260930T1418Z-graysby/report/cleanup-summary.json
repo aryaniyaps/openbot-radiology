@@ -1,0 +1,18 @@
+{
+  "time_unix": 1790822493.8613806,
+  "own_server_pid": 1103456,
+  "own_server_exited": true,
+  "own_container_id": "b17a21cb78990b211feb9fe3975721e159f44e6d3ef0842d84ecef358f69b03b",
+  "own_container_running": false,
+  "protected_server_pid3135347_alive": true,
+  "foreign_GPU_pid92991_alive": true,
+  "original_bundle_sha256_before": "3a28458ca421e2245bbbf77774846e58d42acc96685471611f295ccf7d7869a5",
+  "original_bundle_sha256_after": "3a28458ca421e2245bbbf77774846e58d42acc96685471611f295ccf7d7869a5",
+  "shared_cua_socket_inode_unchanged": true,
+  "removed_owned_credential_clones": [
+    "private/provider/auth.json",
+    "private/hf-token"
+  ],
+  "original_account_auth_and_Brave_session_untouched": true,
+  "retained": "Pinned sources/weights, original diagnostic outputs/traces and audit evidence. No shared socket/container/service cleanup."
+}

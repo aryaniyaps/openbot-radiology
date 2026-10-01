@@ -1,0 +1,242 @@
+[
+  {
+    "case_id": "CT-EVALUATION-001",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CT-EVALUATION-001",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-001",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-001",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CT-EVALUATION-002",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-002",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-002",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-002",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CT-EVALUATION-003",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-003",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CT-EVALUATION-003",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CT-EVALUATION-003",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": false,
+    "labels_identical": null
+  },
+  {
+    "case_id": "CXR-EVALUATION-001",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-001",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-001",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-001",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-011",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-011",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-011",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-011",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-021",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "CXR-EVALUATION-021",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-021",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-021",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-041",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-041",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-041",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-041",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-042",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-042",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-042",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "CXR-EVALUATION-042",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "MR-EVALUATION-001",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "MR-EVALUATION-001",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "MR-EVALUATION-001",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": false
+  },
+  {
+    "case_id": "MR-EVALUATION-001",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": false,
+    "labels_identical": null
+  },
+  {
+    "case_id": "MR-EVALUATION-002",
+    "model": "gpt-6-luna",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "MR-EVALUATION-002",
+    "model": "gpt-6.1-sol",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "MR-EVALUATION-002",
+    "model": "gpt-6-astra",
+    "both_valid": true,
+    "labels_identical": true
+  },
+  {
+    "case_id": "MR-EVALUATION-002",
+    "model": "google/medgemma-1.5-4b-it",
+    "both_valid": true,
+    "labels_identical": true
+  }
+]

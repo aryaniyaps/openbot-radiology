@@ -1,0 +1,3 @@
+# Preserve checksum-covered generated CSV and SVG bytes.
+*.csv whitespace=cr-at-eol
+*.svg -whitespace

@@ -1,0 +1,6 @@
+{
+  "tokensUsed": 5452545,
+  "timeUsedSeconds": 37516,
+  "elapsed": "10h25m16s",
+  "scope": "Orchestrator goal counter, separate from diagnostic case/provider ledgers; no input/output/cache split or currency allocation. Counter scopes are not established as additive, and these figures are not a billing total."
+}

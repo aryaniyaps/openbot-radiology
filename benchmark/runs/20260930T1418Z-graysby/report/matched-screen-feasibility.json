@@ -1,0 +1,95 @@
+{
+  "candidate_rule": "First frozen paired study per modality/model; full screenshot byte sequence only; no outcome-driven screen selection; at most four attachments",
+  "candidates": [
+    {
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "first_frozen_case": "CXR-EVALUATION-001",
+      "actual_delivered_screenshots": 2,
+      "source_status": "completed",
+      "feasibility": "technically eligible",
+      "auxiliary_dispatched": true,
+      "unexecuted_reason": null
+    },
+    {
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "first_frozen_case": "CXR-EVALUATION-001",
+      "actual_delivered_screenshots": 6,
+      "source_status": "completed",
+      "feasibility": "more than four model-delivered screenshots",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "more than four model-delivered screenshots"
+    },
+    {
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "first_frozen_case": "CXR-EVALUATION-001",
+      "actual_delivered_screenshots": 3,
+      "source_status": "completed",
+      "feasibility": "technically eligible",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "no remaining extra assignment allowance: 31 development + 970 frozen + 1 auxiliary = 1002 (prospective correction of self-imposed conversation cap; original frozen cap1000)"
+    },
+    {
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "first_frozen_case": "CT-EVALUATION-001",
+      "actual_delivered_screenshots": 12,
+      "source_status": "context_contamination",
+      "feasibility": "source context contaminated",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "source context contaminated"
+    },
+    {
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "first_frozen_case": "CT-EVALUATION-001",
+      "actual_delivered_screenshots": 12,
+      "source_status": "context_contamination",
+      "feasibility": "source context contaminated",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "source context contaminated"
+    },
+    {
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "first_frozen_case": "CT-EVALUATION-001",
+      "actual_delivered_screenshots": 12,
+      "source_status": "context_contamination",
+      "feasibility": "source context contaminated",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "source context contaminated"
+    },
+    {
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "first_frozen_case": "MR-EVALUATION-001",
+      "actual_delivered_screenshots": 13,
+      "source_status": "budget_exhausted",
+      "feasibility": "source read lacks qualified response",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "source read lacks qualified response"
+    },
+    {
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "first_frozen_case": "MR-EVALUATION-001",
+      "actual_delivered_screenshots": 11,
+      "source_status": "completed",
+      "feasibility": "more than four model-delivered screenshots",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "more than four model-delivered screenshots"
+    },
+    {
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "first_frozen_case": "MR-EVALUATION-001",
+      "actual_delivered_screenshots": 11,
+      "source_status": "completed",
+      "feasibility": "more than four model-delivered screenshots",
+      "auxiliary_dispatched": false,
+      "unexecuted_reason": "more than four model-delivered screenshots"
+    }
+  ]
+}

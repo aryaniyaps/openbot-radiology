@@ -1,0 +1,13 @@
+# Reading and reproducing this investigation
+
+Start with [DECISION-REPORT.md](DECISION-REPORT.md). It contains the decision summary, uncertainty, workflow comparisons and the complete technical appendix. [REQUIREMENT-AUDIT.md](REQUIREMENT-AUDIT.md) maps the requested responsibilities to evidence and explicit gaps. A negative diagnostic finding is a completed research result; response completion is a separate engineering measure.
+
+The report directory contains assignment/task CSV and JSON tables, paired comparisons, self-review controls, specialist transitions, role component costs, repeatability, input/response coverage and standalone PNG/SVG figures. Final delivery consistency is recorded in report/final-acceptance.json; the independent source, arithmetic and native-boundary audits are under evidence/audit. PROTOCOL.json is the unchanged frozen design; evidence/protocol-deviations.jsonl and ATTEMPTS.md retain deviations and recoveries. delivery-checksums.sha256 covers the curated report package, not credentials or source patient data.
+
+To regenerate local reports without diagnostic inference, run `/usr/bin/python3 scripts/build_report.py`, then `/usr/bin/python3 scripts/plot_report.py`, from this retained run with the existing curator permission to read protected references. These commands do not rerun cases. The diagnostic scripts contact account and local services and must not be used merely to regenerate tables. Source reacquisition requires the documented dataset permissions and access; results concern the exact pinned data and configurations.
+
+Raw doctors' reports, protected scoring references, model weights, private account state and full native traces remain separate from the curated report package. Their local retention supports auditability; this delivery does not authorize redistribution of source data or credentials. Original diagnostic outputs, including failures and quarantines, remain preserved rather than repaired. The published reports provide the reference assertions; no live doctors adjudicated the model outputs.
+
+Final delivery: 2026-10-01 08:14 Asia/Kolkata. All 970 assignments recorded; final consistency and independent audits passed. Benchmark-owned diagnostic services are stopped and temporary credential clones removed; original services/session preserved. report/cleanup-summary.json records ownership checks. Regenerating report tables remains a local curator operation; diagnostic execution would require a newly authorized study and account setup.
+
+Tracked orchestration work:10h25m16s and5,452,545 aggregate goal-counter tokens (report/orchestration-usage.json). This counter is separate from diagnostic provider usage; scopes are not established as additive and no billing total is inferred.

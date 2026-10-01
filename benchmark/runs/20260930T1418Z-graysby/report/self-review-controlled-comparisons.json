@@ -1,0 +1,2253 @@
+{
+  "updated_unix": 1790822016.219758,
+  "scope": "Same ten prespecified control studies, self-review versus each specialist condition; no new diagnostic condition, score change, or model invocation.",
+  "analysis_status": "Exploratory audit refinement added during execution, not a preregistered confirmatory analysis.",
+  "limitations": "Ten controls overall, fewer reference-supported studies per modality/task. Do not compare40-study specialist results against10-study self-review as if cohorts match. OpenI study IDs are patient proxies. Zero discordance is not equivalence.",
+  "records": [
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 2,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "cardiomegaly",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 2,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 1,
+      "neither_success": 1,
+      "b_minus_a": 0.25,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.75
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "cardiomegaly",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 2,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "focal_consolidation",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 0,
+      "reference_negative": 4,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "focal_consolidation",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 0,
+      "reference_negative": 4,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "pneumothorax",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-011",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-luna",
+      "task": "pneumothorax",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-011",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 2,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "cardiomegaly",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 2,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 2,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "cardiomegaly",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 2,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "focal_consolidation",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 0,
+      "reference_negative": 4,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "focal_consolidation",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 0,
+      "reference_negative": 4,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "pneumothorax",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-011",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6.1-sol",
+      "task": "pneumothorax",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-011",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 2,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "cardiomegaly",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 2,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 2,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "cardiomegaly",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 2,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "focal_consolidation",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 0,
+      "reference_negative": 4,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "focal_consolidation",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 0,
+      "reference_negative": 4,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 4,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-001",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "pneumothorax",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-011",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 4,
+      "both_success": 3,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CXR",
+      "model": "gpt-6-astra",
+      "task": "pneumothorax",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 5,
+      "reference_positive": 1,
+      "reference_negative": 3,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CXR-EVALUATION-011",
+        "CXR-EVALUATION-021",
+        "CXR-EVALUATION-041",
+        "CXR-EVALUATION-042"
+      ],
+      "zero_discordance_exact_upper_probability": 0.5271291954984121,
+      "conservative_zero_discordance_difference_interval": [
+        -0.5271291954984121,
+        0.5271291954984121
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "consolidation",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 1,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "consolidation",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 1,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "emphysema",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-002"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "emphysema",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-002"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 2,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-001",
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.7763932022500211,
+      "conservative_zero_discordance_difference_interval": [
+        -0.7763932022500211,
+        0.7763932022500211
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 2,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-001",
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.7763932022500211,
+      "conservative_zero_discordance_difference_interval": [
+        -0.7763932022500211,
+        0.7763932022500211
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "pulmonary_nodule",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-luna",
+      "task": "pulmonary_nodule",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "consolidation",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 1,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "consolidation",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 1,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "emphysema",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-002"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "emphysema",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-002"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 2,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-001",
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.7763932022500211,
+      "conservative_zero_discordance_difference_interval": [
+        -0.7763932022500211,
+        0.7763932022500211
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 2,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-001",
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.7763932022500211,
+      "conservative_zero_discordance_difference_interval": [
+        -0.7763932022500211,
+        0.7763932022500211
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "pulmonary_nodule",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6.1-sol",
+      "task": "pulmonary_nodule",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "consolidation",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 1,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "consolidation",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 1,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "emphysema",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-002"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "emphysema",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-002"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 2,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-001",
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.7763932022500211,
+      "conservative_zero_discordance_difference_interval": [
+        -0.7763932022500211,
+        0.7763932022500211
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 2,
+      "both_success": 2,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "pleural_effusion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 0,
+      "reference_negative": 2,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-001",
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.7763932022500211,
+      "conservative_zero_discordance_difference_interval": [
+        -0.7763932022500211,
+        0.7763932022500211
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "pulmonary_nodule",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "CT",
+      "model": "gpt-6-astra",
+      "task": "pulmonary_nodule",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 3,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "CT-EVALUATION-003"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 0,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": null,
+      "exact_mcnemar_p": null,
+      "ci_for_difference": null,
+      "inference_status": "Not estimable: no reference-supported control assertions.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "atrophy",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 0,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": []
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 0,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": null,
+      "exact_mcnemar_p": null,
+      "ci_for_difference": null,
+      "inference_status": "Not estimable: no reference-supported control assertions.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "atrophy",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 0,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": []
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "chronic_infarction",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "chronic_infarction",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "mass_lesion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "mass_lesion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "white_matter_signal_abnormality",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-luna",
+      "task": "white_matter_signal_abnormality",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 0,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": null,
+      "exact_mcnemar_p": null,
+      "ci_for_difference": null,
+      "inference_status": "Not estimable: no reference-supported control assertions.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "atrophy",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 0,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": []
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 0,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": null,
+      "exact_mcnemar_p": null,
+      "ci_for_difference": null,
+      "inference_status": "Not estimable: no reference-supported control assertions.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "atrophy",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 0,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": []
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "chronic_infarction",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "chronic_infarction",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "mass_lesion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "mass_lesion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "white_matter_signal_abnormality",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6.1-sol",
+      "task": "white_matter_signal_abnormality",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 0,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": null,
+      "exact_mcnemar_p": null,
+      "ci_for_difference": null,
+      "inference_status": "Not estimable: no reference-supported control assertions.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "atrophy",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 0,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": []
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 0,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": null,
+      "exact_mcnemar_p": null,
+      "ci_for_difference": null,
+      "inference_status": "Not estimable: no reference-supported control assertions.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "atrophy",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 0,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": []
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "chronic_infarction",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "chronic_infarction",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "mass_lesion",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 0,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 1,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "mass_lesion",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "white_matter_signal_abnormality",
+      "comparison": "self-review-vs-delegated",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    },
+    {
+      "endpoint": "all-assigned paired end-to-end label success",
+      "paired_patients": 1,
+      "both_success": 1,
+      "a_only_success": 0,
+      "b_only_success": 0,
+      "neither_success": 0,
+      "b_minus_a": 0.0,
+      "exact_mcnemar_p": 1.0,
+      "ci_for_difference": [
+        0.0,
+        0.0
+      ],
+      "inference_status": "Exploratory same-study paired bootstrap5000; control cases prespecified, added comparison during audit; no multiplicity adjustment or confirmatory claim.",
+      "modality": "MR",
+      "model": "gpt-6-astra",
+      "task": "white_matter_signal_abnormality",
+      "comparison": "self-review-vs-second-reader",
+      "planned_control_studies": 2,
+      "reference_positive": 1,
+      "reference_negative": 0,
+      "pending_pairs": 0,
+      "case_ids": [
+        "MR-EVALUATION-001"
+      ],
+      "zero_discordance_exact_upper_probability": 0.95,
+      "conservative_zero_discordance_difference_interval": [
+        -0.95,
+        0.95
+      ]
+    }
+  ]
+}

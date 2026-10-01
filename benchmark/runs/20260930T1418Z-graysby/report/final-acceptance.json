@@ -1,0 +1,37 @@
+{
+  "updated_unix": 1790822329.0566857,
+  "passed": true,
+  "checks": {
+    "frozen_assignment_count_970": true,
+    "exact_assignment_set": true,
+    "no_pending_assignments": true,
+    "every_terminal_result_preserved": true,
+    "qualified_GPT_identity_and_context": true,
+    "context_quarantine_18": true,
+    "observed_diagnostic_token_and_conversation_ceiling": true,
+    "credit_balance_unchanged": true,
+    "authorized_free_reset_receipt": true,
+    "frozen_critical_assets_and_prompts": true,
+    "own_workspace_idle": true,
+    "latest_batch_finished_without_safety_stop": true,
+    "reports_and_figures_present": true
+  },
+  "assignment_status_counts": {
+    "completed": 916,
+    "invalid_output": 20,
+    "context_contamination": 18,
+    "budget_exhausted": 10,
+    "timeout": 3,
+    "abstained": 3
+  },
+  "diagnostic_assignments_created": 1002,
+  "original_conversation_cap": 1000,
+  "corrected_conversation_cap": 1002,
+  "observed_input_tokens": 66787136,
+  "observed_output_tokens": 484565,
+  "missing_results": [],
+  "unclosed_results": [],
+  "qualified_identity_failures": [],
+  "busy_own_bots": [],
+  "scope": "Delivery consistency, identity, frozen inputs and budget checks; independent audit and clinical limitations remain separate. Token sums are observed subtotals, not whole investigation cost."
+}

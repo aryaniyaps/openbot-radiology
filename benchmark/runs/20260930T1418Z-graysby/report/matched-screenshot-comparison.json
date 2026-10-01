@@ -1,0 +1,98 @@
+{
+  "underlying_case_id": "CXR-EVALUATION-001",
+  "auxiliary_case_id": "CXR-MATCHED-001",
+  "model": "gpt-6-luna",
+  "actual_native_image_bytes_equal_A_screenshots": true,
+  "native_image_sha256": [
+    "15382c2752e75fb2bf3da96290731b6c11a4c0ca44a847f0d597ad3f289991fd",
+    "662f9b5da38197f41647f31cc3f3301c2afea9cef66c7f180bd127b36b080f3b"
+  ],
+  "independent_patient_count": 1,
+  "primary_sample_increment": 0,
+  "native_identity_status": "verified",
+  "unexpected_prior_context": false,
+  "interpretation": "Single technical sensitivity comparison; different instructions/tool affordances and budgets remain. No general superiority or equivalence inference.",
+  "comparisons": [
+    {
+      "task": "pleural_effusion",
+      "explicit_reference": "present",
+      "conditions": {
+        "A viewer": {
+          "state": "uncertain",
+          "correct_explicit_report_assertion": null,
+          "status": "succeeded",
+          "duration_ms": 38856,
+          "result_path": "evidence/evaluation/A/gpt-6-luna/CXR-EVALUATION-001/result.json"
+        },
+        "B original images": {
+          "state": "absent",
+          "correct_explicit_report_assertion": false,
+          "status": "succeeded",
+          "duration_ms": 7393,
+          "result_path": "evidence/evaluation/B/gpt-6-luna/CXR-EVALUATION-001/result.json"
+        },
+        "B exact screenshots": {
+          "state": "present",
+          "correct_explicit_report_assertion": true,
+          "status": "succeeded",
+          "duration_ms": 8791,
+          "result_path": "evidence/evaluation/B/gpt-6-luna/CXR-MATCHED-001/result.json"
+        }
+      }
+    },
+    {
+      "task": "cardiomegaly",
+      "explicit_reference": "present",
+      "conditions": {
+        "A viewer": {
+          "state": "uncertain",
+          "correct_explicit_report_assertion": null,
+          "status": "succeeded",
+          "duration_ms": 38856,
+          "result_path": "evidence/evaluation/A/gpt-6-luna/CXR-EVALUATION-001/result.json"
+        },
+        "B original images": {
+          "state": "absent",
+          "correct_explicit_report_assertion": false,
+          "status": "succeeded",
+          "duration_ms": 7393,
+          "result_path": "evidence/evaluation/B/gpt-6-luna/CXR-EVALUATION-001/result.json"
+        },
+        "B exact screenshots": {
+          "state": "uncertain",
+          "correct_explicit_report_assertion": null,
+          "status": "succeeded",
+          "duration_ms": 8791,
+          "result_path": "evidence/evaluation/B/gpt-6-luna/CXR-MATCHED-001/result.json"
+        }
+      }
+    },
+    {
+      "task": "focal_consolidation",
+      "explicit_reference": "absent",
+      "conditions": {
+        "A viewer": {
+          "state": "absent",
+          "correct_explicit_report_assertion": true,
+          "status": "succeeded",
+          "duration_ms": 38856,
+          "result_path": "evidence/evaluation/A/gpt-6-luna/CXR-EVALUATION-001/result.json"
+        },
+        "B original images": {
+          "state": "absent",
+          "correct_explicit_report_assertion": true,
+          "status": "succeeded",
+          "duration_ms": 7393,
+          "result_path": "evidence/evaluation/B/gpt-6-luna/CXR-EVALUATION-001/result.json"
+        },
+        "B exact screenshots": {
+          "state": "absent",
+          "correct_explicit_report_assertion": true,
+          "status": "succeeded",
+          "duration_ms": 8791,
+          "result_path": "evidence/evaluation/B/gpt-6-luna/CXR-MATCHED-001/result.json"
+        }
+      }
+    }
+  ]
+}

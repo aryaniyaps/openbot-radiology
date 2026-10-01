@@ -1,0 +1,43 @@
+[
+  {
+    "modality": "CXR",
+    "selected_studies": {
+      "development": 10,
+      "evaluation": 60,
+      "fresh-validation": 10
+    },
+    "main_reference_target_assertions": {
+      "present": 51,
+      "ambiguous": 14,
+      "absent": 128,
+      "unscorable": 47
+    }
+  },
+  {
+    "modality": "CT",
+    "selected_studies": {
+      "evaluation": 40,
+      "fresh-validation": 10,
+      "development": 5
+    },
+    "main_reference_target_assertions": {
+      "absent": 24,
+      "ambiguous": 7,
+      "unscorable": 90,
+      "present": 39
+    }
+  },
+  {
+    "modality": "MR",
+    "selected_studies": {
+      "development": 5,
+      "evaluation": 20,
+      "fresh-validation": 10
+    },
+    "main_reference_target_assertions": {
+      "present": 8,
+      "unscorable": 69,
+      "ambiguous": 3
+    }
+  }
+]

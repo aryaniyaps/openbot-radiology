@@ -1,0 +1,2853 @@
+[
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 4,
+      "denominator": 10,
+      "estimate": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "context_contamination": 6,
+      "completed": 4
+    },
+    "valid_structured": {
+      "numerator": 4,
+      "denominator": 10,
+      "estimate": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 133.44,
+    "p95_seconds": 175.071,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 6318849,
+    "cached_input_tokens_observed_subtotal": 5944576,
+    "output_tokens_observed_subtotal": 16778,
+    "median_confidence": 0.77
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 10,
+      "estimate": 0.2,
+      "ci95": [
+        0.05668215145437519,
+        0.5098375284633583
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "context_contamination": 6,
+      "budget_exhausted": 2,
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 10,
+      "estimate": 0.2,
+      "ci95": [
+        0.05668215145437519,
+        0.5098375284633583
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 92.545,
+    "p95_seconds": 114.43,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 6095237,
+    "cached_input_tokens_observed_subtotal": 5639680,
+    "output_tokens_observed_subtotal": 16804,
+    "median_confidence": 0.85
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 4,
+      "denominator": 10,
+      "estimate": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "context_contamination": 6,
+      "completed": 4
+    },
+    "valid_structured": {
+      "numerator": 4,
+      "denominator": 10,
+      "estimate": 0.4,
+      "ci95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 140.976,
+    "p95_seconds": 168.982,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 5922659,
+    "cached_input_tokens_observed_subtotal": 5519104,
+    "output_tokens_observed_subtotal": 19503,
+    "median_confidence": 0.77
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 30.572000000000003,
+    "p95_seconds": 34.689,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 519295,
+    "cached_input_tokens_observed_subtotal": 281984,
+    "output_tokens_observed_subtotal": 5148,
+    "median_confidence": 0.87
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 20.457,
+    "p95_seconds": 35.849,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 773089,
+    "cached_input_tokens_observed_subtotal": 543104,
+    "output_tokens_observed_subtotal": 3576,
+    "median_confidence": 0.81
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 30.356,
+    "p95_seconds": 35.083,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 520666,
+    "cached_input_tokens_observed_subtotal": 296960,
+    "output_tokens_observed_subtotal": 5401,
+    "median_confidence": 0.875
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "",
+    "assigned": 40,
+    "first_attempt_setup_failure_count": 21,
+    "setup_recovered_count": 21,
+    "first_attempt_qualified_response": {
+      "numerator": 14,
+      "denominator": 40,
+      "estimate": 0.35,
+      "ci95": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 32,
+      "invalid_output": 8
+    },
+    "valid_structured": {
+      "numerator": 32,
+      "denominator": 40,
+      "estimate": 0.8,
+      "ci95": [
+        0.652426936536005,
+        0.895000102745623
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 24.292,
+    "p95_seconds": 130.325,
+    "latency_measured_count": 40,
+    "token_usage_measured_count": 40,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 57240,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 21359,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "repeat1",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 3,
+    "setup_recovered_count": 3,
+    "first_attempt_qualified_response": {
+      "numerator": 0,
+      "denominator": 3,
+      "estimate": 0.0,
+      "ci95": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2,
+      "invalid_output": 1
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 3,
+      "estimate": 0.6666666666666666,
+      "ci95": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 22.531,
+    "p95_seconds": 127.678,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 4293,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 2097,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 40,
+    "first_attempt_setup_failure_count": 26,
+    "setup_recovered_count": 26,
+    "first_attempt_qualified_response": {
+      "numerator": 14,
+      "denominator": 40,
+      "estimate": 0.35,
+      "ci95": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 40
+    },
+    "valid_structured": {
+      "numerator": 40,
+      "denominator": 40,
+      "estimate": 1.0,
+      "ci95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 20.948,
+    "p95_seconds": 26.238,
+    "latency_measured_count": 40,
+    "token_usage_measured_count": 40,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 1019606,
+    "cached_input_tokens_observed_subtotal": 202112,
+    "output_tokens_observed_subtotal": 14953,
+    "median_confidence": 0.865
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "repeat1",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 3
+    },
+    "valid_structured": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 21.267,
+    "p95_seconds": 22.358,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 75702,
+    "cached_input_tokens_observed_subtotal": 13312,
+    "output_tokens_observed_subtotal": 1284,
+    "median_confidence": 0.86
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 40,
+    "first_attempt_setup_failure_count": 25,
+    "setup_recovered_count": 25,
+    "first_attempt_qualified_response": {
+      "numerator": 15,
+      "denominator": 40,
+      "estimate": 0.375,
+      "ci95": [
+        0.24222979167233266,
+        0.5296756086269889
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 40
+    },
+    "valid_structured": {
+      "numerator": 40,
+      "denominator": 40,
+      "estimate": 1.0,
+      "ci95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 14.638,
+    "p95_seconds": 21.452,
+    "latency_measured_count": 40,
+    "token_usage_measured_count": 40,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 994575,
+    "cached_input_tokens_observed_subtotal": 197376,
+    "output_tokens_observed_subtotal": 12844,
+    "median_confidence": 0.82
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "repeat1",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 3
+    },
+    "valid_structured": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 17.65,
+    "p95_seconds": 18.104,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 73834,
+    "cached_input_tokens_observed_subtotal": 17664,
+    "output_tokens_observed_subtotal": 752,
+    "median_confidence": 0.78
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 40,
+    "first_attempt_setup_failure_count": 26,
+    "setup_recovered_count": 26,
+    "first_attempt_qualified_response": {
+      "numerator": 14,
+      "denominator": 40,
+      "estimate": 0.35,
+      "ci95": [
+        0.2213452887317629,
+        0.5049411916274231
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 40
+    },
+    "valid_structured": {
+      "numerator": 40,
+      "denominator": 40,
+      "estimate": 1.0,
+      "ci95": [
+        0.9123783988027135,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 24.082,
+    "p95_seconds": 32.214,
+    "latency_measured_count": 40,
+    "token_usage_measured_count": 40,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 1022191,
+    "cached_input_tokens_observed_subtotal": 88192,
+    "output_tokens_observed_subtotal": 16117,
+    "median_confidence": 0.875
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "repeat1",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 3
+    },
+    "valid_structured": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 23.3,
+    "p95_seconds": 24.037,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 75898,
+    "cached_input_tokens_observed_subtotal": 20352,
+    "output_tokens_observed_subtotal": 1189,
+    "median_confidence": 0.88
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 18.791,
+    "p95_seconds": 20.483,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 261728,
+    "cached_input_tokens_observed_subtotal": 53248,
+    "output_tokens_observed_subtotal": 3063,
+    "median_confidence": 0.88
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 14.562000000000001,
+    "p95_seconds": 19.418,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 254901,
+    "cached_input_tokens_observed_subtotal": 58880,
+    "output_tokens_observed_subtotal": 2856,
+    "median_confidence": 0.82
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 19.908,
+    "p95_seconds": 23.037,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 262250,
+    "cached_input_tokens_observed_subtotal": 61056,
+    "output_tokens_observed_subtotal": 3285,
+    "median_confidence": 0.865
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 3
+    },
+    "valid_structured": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 14.63,
+    "p95_seconds": 21.089,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 76755,
+    "cached_input_tokens_observed_subtotal": 13312,
+    "output_tokens_observed_subtotal": 821,
+    "median_confidence": 0.9
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 3
+    },
+    "valid_structured": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 14.48,
+    "p95_seconds": 20.705,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 74729,
+    "cached_input_tokens_observed_subtotal": 17664,
+    "output_tokens_observed_subtotal": 954,
+    "median_confidence": 0.78
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 3,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 3
+    },
+    "valid_structured": {
+      "numerator": 3,
+      "denominator": 3,
+      "estimate": 1.0,
+      "ci95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 17.414,
+    "p95_seconds": 19.121,
+    "latency_measured_count": 3,
+    "token_usage_measured_count": 3,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 76950,
+    "cached_input_tokens_observed_subtotal": 20352,
+    "output_tokens_observed_subtotal": 861,
+    "median_confidence": 0.86
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 65.32,
+    "p95_seconds": 77.465,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 4543841,
+    "cached_input_tokens_observed_subtotal": 4058752,
+    "output_tokens_observed_subtotal": 17823,
+    "median_confidence": 0.915
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 33.943,
+    "p95_seconds": 45.928,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 3336020,
+    "cached_input_tokens_observed_subtotal": 2837120,
+    "output_tokens_observed_subtotal": 16140,
+    "median_confidence": 0.88
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 19,
+      "denominator": 20,
+      "estimate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 19,
+      "timeout": 1
+    },
+    "valid_structured": {
+      "numerator": 19,
+      "denominator": 20,
+      "estimate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 66.4705,
+    "p95_seconds": 107.457,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 4713348,
+    "cached_input_tokens_observed_subtotal": 4204416,
+    "output_tokens_observed_subtotal": 20219,
+    "median_confidence": 0.92
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 1,
+    "setup_recovered_count": 1,
+    "first_attempt_qualified_response": {
+      "numerator": 19,
+      "denominator": 20,
+      "estimate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 21.936,
+    "p95_seconds": 28.725,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 628597,
+    "cached_input_tokens_observed_subtotal": 375808,
+    "output_tokens_observed_subtotal": 7850,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 3,
+    "setup_recovered_count": 3,
+    "first_attempt_qualified_response": {
+      "numerator": 17,
+      "denominator": 20,
+      "estimate": 0.85,
+      "ci95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 14.952,
+    "p95_seconds": 19.322,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 971147,
+    "cached_input_tokens_observed_subtotal": 716288,
+    "output_tokens_observed_subtotal": 6262,
+    "median_confidence": 0.87
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 2,
+    "setup_recovered_count": 2,
+    "first_attempt_qualified_response": {
+      "numerator": 18,
+      "denominator": 20,
+      "estimate": 0.9,
+      "ci95": [
+        0.6989663547715128,
+        0.9721335187862319
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 21.509999999999998,
+    "p95_seconds": 28.997,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 631399,
+    "cached_input_tokens_observed_subtotal": 383488,
+    "output_tokens_observed_subtotal": 8214,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "",
+    "assigned": 60,
+    "first_attempt_setup_failure_count": 59,
+    "setup_recovered_count": 59,
+    "first_attempt_qualified_response": {
+      "numerator": 1,
+      "denominator": 60,
+      "estimate": 0.016666666666666666,
+      "ci95": [
+        0.0029481597947862495,
+        0.08855129727590061
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 60
+    },
+    "valid_structured": {
+      "numerator": 60,
+      "denominator": 60,
+      "estimate": 1.0,
+      "ci95": [
+        0.93982814785791,
+        0.9999999999999998
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 18.6475,
+    "p95_seconds": 21.784,
+    "latency_measured_count": 60,
+    "token_usage_measured_count": 60,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 52378,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 14993,
+    "median_confidence": 0.9
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "repeat1",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 4,
+    "setup_recovered_count": 4,
+    "first_attempt_qualified_response": {
+      "numerator": 1,
+      "denominator": 5,
+      "estimate": 0.2,
+      "ci95": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 18.509,
+    "p95_seconds": 21.268,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 4520,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 1218,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 60,
+    "first_attempt_setup_failure_count": 2,
+    "setup_recovered_count": 2,
+    "first_attempt_qualified_response": {
+      "numerator": 58,
+      "denominator": 60,
+      "estimate": 0.9666666666666667,
+      "ci95": [
+        0.886362257256914,
+        0.9908106807438021
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 60
+    },
+    "valid_structured": {
+      "numerator": 60,
+      "denominator": 60,
+      "estimate": 1.0,
+      "ci95": [
+        0.93982814785791,
+        0.9999999999999998
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 13.613499999999998,
+    "p95_seconds": 18.342,
+    "latency_measured_count": 60,
+    "token_usage_measured_count": 60,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 917313,
+    "cached_input_tokens_observed_subtotal": 306176,
+    "output_tokens_observed_subtotal": 16938,
+    "median_confidence": 0.915
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "repeat1",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 14.713,
+    "p95_seconds": 16.159,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 76711,
+    "cached_input_tokens_observed_subtotal": 26624,
+    "output_tokens_observed_subtotal": 1344,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 60,
+    "first_attempt_setup_failure_count": 3,
+    "setup_recovered_count": 3,
+    "first_attempt_qualified_response": {
+      "numerator": 57,
+      "denominator": 60,
+      "estimate": 0.95,
+      "ci95": [
+        0.8629948352365147,
+        0.9828504978356043
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 60
+    },
+    "valid_structured": {
+      "numerator": 60,
+      "denominator": 60,
+      "estimate": 1.0,
+      "ci95": [
+        0.93982814785791,
+        0.9999999999999998
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 9.403500000000001,
+    "p95_seconds": 15.807,
+    "latency_measured_count": 60,
+    "token_usage_measured_count": 60,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 879933,
+    "cached_input_tokens_observed_subtotal": 361600,
+    "output_tokens_observed_subtotal": 13894,
+    "median_confidence": 0.83
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "repeat1",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 9.789,
+    "p95_seconds": 21.389,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 73511,
+    "cached_input_tokens_observed_subtotal": 29440,
+    "output_tokens_observed_subtotal": 1142,
+    "median_confidence": 0.87
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 60,
+    "first_attempt_setup_failure_count": 3,
+    "setup_recovered_count": 3,
+    "first_attempt_qualified_response": {
+      "numerator": 57,
+      "denominator": 60,
+      "estimate": 0.95,
+      "ci95": [
+        0.8629948352365147,
+        0.9828504978356043
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 60
+    },
+    "valid_structured": {
+      "numerator": 60,
+      "denominator": 60,
+      "estimate": 1.0,
+      "ci95": [
+        0.93982814785791,
+        0.9999999999999998
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 15.4145,
+    "p95_seconds": 22.101,
+    "latency_measured_count": 60,
+    "token_usage_measured_count": 60,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 921092,
+    "cached_input_tokens_observed_subtotal": 325632,
+    "output_tokens_observed_subtotal": 18841,
+    "median_confidence": 0.905
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "repeat1",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 13.719,
+    "p95_seconds": 18.774,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 76962,
+    "cached_input_tokens_observed_subtotal": 20352,
+    "output_tokens_observed_subtotal": 1471,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 12.715,
+    "p95_seconds": 20.336,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 316289,
+    "cached_input_tokens_observed_subtotal": 106496,
+    "output_tokens_observed_subtotal": 4404,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 9.059,
+    "p95_seconds": 12.618,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 303606,
+    "cached_input_tokens_observed_subtotal": 111872,
+    "output_tokens_observed_subtotal": 4098,
+    "median_confidence": 0.85
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 13.2395,
+    "p95_seconds": 19.538,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 317759,
+    "cached_input_tokens_observed_subtotal": 101760,
+    "output_tokens_observed_subtotal": 4816,
+    "median_confidence": 0.9299999999999999
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 11.928,
+    "p95_seconds": 15.957,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 78284,
+    "cached_input_tokens_observed_subtotal": 26624,
+    "output_tokens_observed_subtotal": 934,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 10.696,
+    "p95_seconds": 12.157,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 75093,
+    "cached_input_tokens_observed_subtotal": 29440,
+    "output_tokens_observed_subtotal": 1190,
+    "median_confidence": 0.86
+  },
+  {
+    "stage": "evaluation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 5,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 5
+    },
+    "valid_structured": {
+      "numerator": 5,
+      "denominator": 5,
+      "estimate": 1.0,
+      "ci95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 12.914,
+    "p95_seconds": 13.501,
+    "latency_measured_count": 5,
+    "token_usage_measured_count": 5,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 78616,
+    "cached_input_tokens_observed_subtotal": 33920,
+    "output_tokens_observed_subtotal": 1047,
+    "median_confidence": 0.94
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 140.61,
+    "p95_seconds": 171.386,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 6191396,
+    "cached_input_tokens_observed_subtotal": 5842816,
+    "output_tokens_observed_subtotal": 17263,
+    "median_confidence": 0.71
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 0,
+      "denominator": 10,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "budget_exhausted": 8,
+      "timeout": 2
+    },
+    "valid_structured": {
+      "numerator": 0,
+      "denominator": 10,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 91.386,
+    "p95_seconds": 124.278,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 4965904,
+    "cached_input_tokens_observed_subtotal": 4551936,
+    "output_tokens_observed_subtotal": 17667,
+    "median_confidence": null
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "A",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 7,
+      "abstained": 3
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 115.3895,
+    "p95_seconds": 147.588,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 4516808,
+    "cached_input_tokens_observed_subtotal": 4069120,
+    "output_tokens_observed_subtotal": 18651,
+    "median_confidence": 0.69
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 29.9795,
+    "p95_seconds": 38.835,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 546243,
+    "cached_input_tokens_observed_subtotal": 315136,
+    "output_tokens_observed_subtotal": 5988,
+    "median_confidence": 0.865
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 22.985500000000002,
+    "p95_seconds": 30.933,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 833344,
+    "cached_input_tokens_observed_subtotal": 583168,
+    "output_tokens_observed_subtotal": 3737,
+    "median_confidence": 0.78
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "delegated",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 33.08,
+    "p95_seconds": 46.816,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 547745,
+    "cached_input_tokens_observed_subtotal": 316928,
+    "output_tokens_observed_subtotal": 6419,
+    "median_confidence": 0.81
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 20,
+    "setup_recovered_count": 20,
+    "first_attempt_qualified_response": {
+      "numerator": 0,
+      "denominator": 20,
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.16112515805281938
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "invalid_output": 3,
+      "completed": 17
+    },
+    "valid_structured": {
+      "numerator": 17,
+      "denominator": 20,
+      "estimate": 0.85,
+      "ci95": [
+        0.6395811352592431,
+        0.9476312541037835
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 22.749499999999998,
+    "p95_seconds": 126.017,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 28780,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 9359,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "repeat1",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 1,
+      "denominator": 2,
+      "estimate": 0.5,
+      "ci95": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "invalid_output": 1,
+      "completed": 1
+    },
+    "valid_structured": {
+      "numerator": 1,
+      "denominator": 2,
+      "estimate": 0.5,
+      "ci95": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 74.859,
+    "p95_seconds": 126.722,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 2878,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 1870,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 21.9685,
+    "p95_seconds": 26.23,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 533086,
+    "cached_input_tokens_observed_subtotal": 119808,
+    "output_tokens_observed_subtotal": 8829,
+    "median_confidence": 0.84
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-astra",
+    "attempt": "repeat1",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 23.46,
+    "p95_seconds": 26.387,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 53289,
+    "cached_input_tokens_observed_subtotal": 13312,
+    "output_tokens_observed_subtotal": 831,
+    "median_confidence": 0.8999999999999999
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 16.334,
+    "p95_seconds": 20.105,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 520511,
+    "cached_input_tokens_observed_subtotal": 113664,
+    "output_tokens_observed_subtotal": 6669,
+    "median_confidence": 0.78
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6-luna",
+    "attempt": "repeat1",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 16.3535,
+    "p95_seconds": 20.476,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 52041,
+    "cached_input_tokens_observed_subtotal": 11776,
+    "output_tokens_observed_subtotal": 660,
+    "median_confidence": 0.845
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 20,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 20
+    },
+    "valid_structured": {
+      "numerator": 20,
+      "denominator": 20,
+      "estimate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 27.5275,
+    "p95_seconds": 32.062,
+    "latency_measured_count": 20,
+    "token_usage_measured_count": 20,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 534241,
+    "cached_input_tokens_observed_subtotal": 115328,
+    "output_tokens_observed_subtotal": 10114,
+    "median_confidence": 0.82
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "repeat1",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 29.7205,
+    "p95_seconds": 34.969,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 53408,
+    "cached_input_tokens_observed_subtotal": 6784,
+    "output_tokens_observed_subtotal": 995,
+    "median_confidence": 0.8899999999999999
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 22.89,
+    "p95_seconds": 26.452,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 275285,
+    "cached_input_tokens_observed_subtotal": 46592,
+    "output_tokens_observed_subtotal": 3810,
+    "median_confidence": 0.815
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 13.1795,
+    "p95_seconds": 20.09,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 268586,
+    "cached_input_tokens_observed_subtotal": 58880,
+    "output_tokens_observed_subtotal": 2439,
+    "median_confidence": 0.8
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "second-reader",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 22.57,
+    "p95_seconds": 32.006,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 275913,
+    "cached_input_tokens_observed_subtotal": 33920,
+    "output_tokens_observed_subtotal": 4191,
+    "median_confidence": 0.795
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6-astra",
+    "attempt": "",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 20.3405,
+    "p95_seconds": 24.298,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 54227,
+    "cached_input_tokens_observed_subtotal": 13312,
+    "output_tokens_observed_subtotal": 800,
+    "median_confidence": 0.8799999999999999
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6-luna",
+    "attempt": "",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 16.179,
+    "p95_seconds": 17.362,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 52838,
+    "cached_input_tokens_observed_subtotal": 5888,
+    "output_tokens_observed_subtotal": 461,
+    "median_confidence": 0.85
+  },
+  {
+    "stage": "evaluation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "self-review",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 2,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 2
+    },
+    "valid_structured": {
+      "numerator": 2,
+      "denominator": 2,
+      "estimate": 1.0,
+      "ci95": [
+        0.34238022750665303,
+        1.0
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 22.6145,
+    "p95_seconds": 22.63,
+    "latency_measured_count": 2,
+    "token_usage_measured_count": 2,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 54357,
+    "cached_input_tokens_observed_subtotal": 13568,
+    "output_tokens_observed_subtotal": 870,
+    "median_confidence": 0.865
+  },
+  {
+    "stage": "fresh-validation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 6,
+      "denominator": 10,
+      "estimate": 0.6,
+      "ci95": [
+        0.31267376973365824,
+        0.8318196702937638
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "invalid_output": 4,
+      "completed": 6
+    },
+    "valid_structured": {
+      "numerator": 6,
+      "denominator": 10,
+      "estimate": 0.6,
+      "ci95": [
+        0.31267376973365824,
+        0.8318196702937638
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 74.155,
+    "p95_seconds": 127.247,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 14300,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 9314,
+    "median_confidence": 0.9
+  },
+  {
+    "stage": "fresh-validation",
+    "modality": "CT",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 21.752000000000002,
+    "p95_seconds": 29.269,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 253135,
+    "cached_input_tokens_observed_subtotal": 40704,
+    "output_tokens_observed_subtotal": 3971,
+    "median_confidence": 0.88
+  },
+  {
+    "stage": "fresh-validation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 16.377,
+    "p95_seconds": 20.874,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 7966,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 2281,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "fresh-validation",
+    "modality": "CXR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 16.7435,
+    "p95_seconds": 19.356,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 152448,
+    "cached_input_tokens_observed_subtotal": 27136,
+    "output_tokens_observed_subtotal": 3057,
+    "median_confidence": 0.895
+  },
+  {
+    "stage": "fresh-validation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "google/medgemma-1.5-4b-it",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 7,
+      "denominator": 10,
+      "estimate": 0.7,
+      "ci95": [
+        0.39677814746114537,
+        0.8922087325936989
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "invalid_output": 3,
+      "completed": 7
+    },
+    "valid_structured": {
+      "numerator": 7,
+      "denominator": 10,
+      "estimate": 0.7,
+      "ci95": [
+        0.39677814746114537,
+        0.8922087325936989
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 26.941000000000003,
+    "p95_seconds": 126.654,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 14380,
+    "cached_input_tokens_observed_subtotal": null,
+    "output_tokens_observed_subtotal": 7837,
+    "median_confidence": 0.95
+  },
+  {
+    "stage": "fresh-validation",
+    "modality": "MR",
+    "arm": "B",
+    "configuration": "primary",
+    "model": "gpt-6.1-sol",
+    "attempt": "",
+    "assigned": 10,
+    "first_attempt_setup_failure_count": 0,
+    "setup_recovered_count": 0,
+    "first_attempt_qualified_response": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "status_counts": {
+      "completed": 10
+    },
+    "valid_structured": {
+      "numerator": 10,
+      "denominator": 10,
+      "estimate": 1.0,
+      "ci95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ],
+      "method": "Wilson two-sided 95%"
+    },
+    "median_seconds": 26.5395,
+    "p95_seconds": 37.151,
+    "latency_measured_count": 10,
+    "token_usage_measured_count": 10,
+    "token_usage_missing_count": 0,
+    "input_tokens_observed_subtotal": 267089,
+    "cached_input_tokens_observed_subtotal": 54272,
+    "output_tokens_observed_subtotal": 4993,
+    "median_confidence": 0.795
+  }
+]

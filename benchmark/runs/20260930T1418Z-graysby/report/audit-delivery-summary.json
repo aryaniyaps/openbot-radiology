@@ -1,0 +1,40 @@
+{
+  "audit_unix": 1790821693.5910852,
+  "checks": {
+    "all48_primary_tables_and_deterministic_examples": true,
+    "all24_fresh_tables_and_sources": true,
+    "same27control_cost_groups_and_final_six_rows": true,
+    "MG160_once_ledger_and_stop": true,
+    "all_five_MCP_setup_recoveries_closed_with_provenance": true,
+    "all_steps_succeeded": true,
+    "exact_frozen_role_partition": true,
+    "all_completed_native_boundaries": true,
+    "all_cost_components": true,
+    "all_three_way_transitions": true,
+    "all270_source_assignments": true,
+    "all72_same_control_calculations": true,
+    "no_new_physical_specialist_inference": true,
+    "all270_roles_terminal": true,
+    "all_supported_control_cells_terminal": true
+  },
+  "complete": true,
+  "terminal_role_count": 270,
+  "native_audited_count": 270,
+  "control_state_counts": {
+    "complete": 66,
+    "unsupported": 6
+  },
+  "scope": "270role assignments; all actual completed native contexts/tools/input/cache provenance; all role source scoring, component costs/three-way patterns;72exploratory same-study control cells. No image clinical adjudication, causal/equivalence claim, inference, repair, or service actions.",
+  "receipt_path": "evidence/audit/audit-results-final-role-audit.json",
+  "receipt_sha256": "64db0a108f34a7142bdfc22bca78ba9081bc90acc0416b4af4edf2ff74d41b8d",
+  "additional_reference_audits": [
+    {
+      "path": "evidence/audit/audit-results-pivotal-reference-provenance.json",
+      "sha256": "27ea2672d85a7c42b92dcccdf81bf5e03bc3d363398a1cef033908089fed1139"
+    },
+    {
+      "path": "evidence/audit/audit-results-fresh-interpretation.json",
+      "sha256": "e5e7ece50d5ef39d348b189eb801eb7d87d94972f4e2486862c43e6f0ae71a47"
+    }
+  ]
+}

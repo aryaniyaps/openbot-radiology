@@ -21,3 +21,7 @@ Before import, sign in to Codex and select **GPT-6.1-Sol / medium** as the defau
 To refresh the portable backup, run `sudo -n python3 scripts/operations/export-openmausbot-backup.py`, then review the diff before committing. It uses the private native operator pairing and redacts known local credentials.
 
 The encrypted nightly Restic backup described in the operations guide is the full-machine restore, including VM disk, provider authentication and browser state. Its encryption key, credentials, raw exports, source clones and recordings are excluded from Git. Historical local source and media are preserved outside this checkout; the VM continues serving all demonstrations.
+
+## Completed imaging benchmark
+
+Read the [decision report](benchmark/runs/20260930T1418Z-graysby/DECISION-REPORT.md) and [requirement audit](benchmark/runs/20260930T1418Z-graysby/REQUIREMENT-AUDIT.md). The [delivery guide](benchmark/README.md) explains the curated artifacts, integrity checks and locally retained evidence.
